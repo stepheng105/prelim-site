@@ -1,1 +1,1415 @@
-[]
+[
+  {
+    "id": "A Characterization of L1 on Finite Measure Spaces",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2020"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Lebesgue integration",
+      "Measurable functions"
+    ],
+    "theorems": [
+      "Monotone Convergence Theorem"
+    ],
+    "writer": [
+      "Monard"
+    ],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma, \\mu)$ be a measure space with $\\mu(X)<\\infty$. Let $f:X\\rightarrow \\R$ be measurable and, for each $k=0,1,2,\\cdots$, set\n$$\nE_k = \\{x\\in X:k\\leq |f(x)| < k+1\\}.\n$$\n(a) Show that $f\\in L^1(X)$ if and only if \n$$\n\\sum_{k=1}^\\infty k \\mu(E_k)<\\infty.\n$$\n(b) Give an example of a Lebesgue measurable function $f:\\R\\rightarrow \\R$ such that $f\\not\\in L^1(\\R)$ while $\\sum_{k=1}^\\infty k \\mu(E_k)<\\infty$."
+  },
+  {
+    "id": "A Scheffé-Type L1 Convergence Criterion",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2021"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Lebesgue integration",
+      "L1 convergence",
+      "Almost everywhere convergence"
+    ],
+    "theorems": [
+      "Dominated Convergence Theorem"
+    ],
+    "writer": [
+      "Monard"
+    ],
+    "finished": true,
+    "statement": "Let $f_1,f_2,\\cdots$ and $g$ be functions in $L^1(\\R)$ (with the Lebesgue measure $\\lambda$), and let\n$$\nE_n :=\\{x\\in \\R: \\abs{f_n(x)}>\\abs{g(x)}\\}.\n$$\nSuppose that $f_n\\rightarrow g$ almoset everywhere and that \n$$\n\\lim_{n\\rightarrow \\infty}\\int_{E_n}\\abs{f_n}\\, d\\lambda = 0.\n$$\nProve that\n$$\n\\lim_{n\\rightarrow \\infty} \\int_\\R \\abs{f_n-g}\\, d\\lambda =0.\n$$"
+  },
+  {
+    "id": "Absolutely Continuous Functions That Have Derivative 0 Lebesgue-a.e are Constant",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2025"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Absolute continuity (functions)",
+      "Lebesgue integration",
+      "Lebesgue measure"
+    ],
+    "theorems": [
+      "Fundamental Theorem of Calculus"
+    ],
+    "writer": [
+      "Qing"
+    ],
+    "finished": true,
+    "statement": "Let $m$ be the Lebesgue measure on the reals.\n\n(a) Prove that, if $f$ is absolutely continuous and $f'=0$ $m$-a.e., on $[a,b]$, then $f$ is identically a constant on $[a,b]$.\n(b) Give an example of a continuous function that is differentiable $m$-a.e. with vanishing derivative $m$-a.e., but is not identically a constant."
+  },
+  {
+    "id": "Almost-Everywhere Convergence and Boundedness Implies Weak Convergence in Lp",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2016"
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Lp spaces",
+      "Almost everywhere convergence",
+      "Weak convergence",
+      "Uniform Convergence"
+    ],
+    "theorems": [
+      "Riesz Representation Theorem",
+      "Egorov's Theorem",
+      "Holder's Inequality"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $p\\in (1,\\infty)$. Let $(f_n)$ be a sequence of functions in $L^p([0,1])$ with $\\norm{f_n}_p \\leq 1$ for each $n\\in\\N$ such that $f_n(x)\\rightarrow 0$ almost everywhere. Prove that $f_n\\rightarrow 0$ weakly in $L^p$."
+  },
+  {
+    "id": "An ε-δ Characterization of Absolute Continuity",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2022"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Absolute continuity (measures)",
+      "Abstract measure"
+    ],
+    "theorems": [
+      "Continuity from Above"
+    ],
+    "writer": [
+      "Monard"
+    ],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma)$ be a measurable space. A positive measure $\\nu$ on $(X,\\Sigma$) is called absolutely continuous with respect to another positive measure $\\mu$ on $(X,\\Sigma)$, often denoted $\\nu \\ll \\mu$, if for all $E\\in\\Sigma$, $\\mu(E)=0$ implies $\\nu(E)=0$.\n\n(a) Let $\\nu$ and $\\mu$ be positive measures on a finite $(X,\\Sigma)$, and suppose that $\\nu(X)<\\infty$. Show that the following are equivalent:\n* $\\nu \\ll \\mu$.\n* For each $\\varepsilon>0$, there exists $\\delta>0$ such that $\\mu(E)<\\delta$ implies that $\\nu(E)<\\varepsilon$. \n\n(b) Give an example of part (a) not being true if $\\nu(X)$ is not assumed to be finite.\n(c) Let $\\mu$ be a positive measure on $(X,\\Sigma)$, and let $\\{\\nu_n\\}_{n\\in\\N}$ be a countable family of positive measures on $(X,\\Sigma)$. Show that if $\\nu_n\\ll\\mu$ for each $n\\in\\N$, then the measure $\\nu_\\infty$ defined by\n$$\n\\nu_\\infty(E) = \\sum_{n=1}^\\infty \\nu_n(E)\n$$\nis a measure and satisfies $\\nu_\\infty \\ll \\mu$."
+  },
+  {
+    "id": "Approximating Outer Measure Using Borel Sets",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2025"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Lebesgue measure",
+      "Sigma-algebra",
+      "Measurable sets",
+      "Borel sets",
+      "Outer measure"
+    ],
+    "theorems": [
+      "Completeness of Lebesgue measure"
+    ],
+    "writer": [
+      "Qing"
+    ],
+    "finished": true,
+    "statement": "Let $E$ be a subset of the reals. \n\n(a) Prove that there exists a Borel set $G$ such that $E\\subseteq G$ and \n$$\nm^*(G)=m^*(E),\n$$\nwhere $m^*$ is the Lebesgue outer measure.\n(b) Prove that, if $E$ is not Lebesgue, measurable, then\n$$\nm^*(G\\backslash E)>0.\n$$"
+  },
+  {
+    "id": "Approximation of Integrable Functions by Step Functions",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2023"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "L1 convergence",
+      "Lebesgue integration",
+      "Lp spaces"
+    ],
+    "theorems": [
+      "Density of Simple Functions",
+      "Lebesgue differentiation theorem"
+    ],
+    "writer": [
+      "Lin"
+    ],
+    "finished": false,
+    "statement": "Suppose that $f:[0,1]\\rightarrow \\R$ is in $L^1$. For each $n\\in\\N$, define\n$$\nf_1(x):= \\sum_{k=0}^{n-1}n\\chi_{[\\frac{k}{n}, \\frac{k+1}{n})}(x)\\int_{\\frac{k}{n}}^{\\frac{k+1}{n}} f(y)\\, dy\n$$\nwhere $\\chi_{[\\frac{k}{n}, \\frac{k+1}{n})}(x)$ is the characteristic function on the interval $\\left[\\frac{k}{n}, \\frac{k+1}{n}\\right)$. Prove that $f_n\\rightarrow f$ in $L^1$."
+  },
+  {
+    "id": "Asymptotics of an Integral Under Pointwise Concentration",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2020"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Lebesgue integration",
+      "Almost everywhere convergence"
+    ],
+    "theorems": [
+      "Dominated Convergence Theorem"
+    ],
+    "writer": [
+      "Monard"
+    ],
+    "finished": true,
+    "statement": "Let $f[0,1]\\rightarrow \\R$ be continuous, and let $g:[0,1]\\rightarrow [0,1]$. Show that the limit\n$$\n\\lim_{n\\rightarrow \\infty} \\int_0^1 f\\left(g(x)^n\\right)\\, dx\n$$\nexists and compute it."
+  },
+  {
+    "id": "Characterizing Measures with Densities With Respect to Counting Measure on an Interval",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2026"
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Absolute continuity (measures)",
+      "Abstract measure",
+      "Sigma-algebra"
+    ],
+    "theorems": [
+      "Radon-Nikodym theorem"
+    ],
+    "writer": [
+      "Gharakhloo"
+    ],
+    "finished": false,
+    "statement": "Let $\\Sigma$ be the Lebesgue $\\sigma$-algebra on $X=[0,1]$, let $\\lambda$ be the Lebesgue measure on $(X,\\Sigma)$, and let $\\mu$ be the counting measure on $\\Sigma$. \n\n(a) Prove that $\\lambda \\ll \\mu$, but that there is no nonnegative measurable function $f:X\\rightarrow [0,\\infty]$ such that $\\lambda(E)=\\int_E f\\, d\\mu$ for all $E\\in\\Sigma$. Explain why this does not contradict the Radon-Nikodym theorem.\n(b) Let $\\nu$ be an arbitrary measure on $(X,\\Sigma)$. Prove that the following are equivalent:\n* There exists a nonnegative measurable function $f:X\\rightarrow [0,\\infty]$ such that\n$$\n\\nu(E)=\\int_E f\\, d\\mu\n$$\nfor all $E\\in\\Sigma$.\n* There exists a countable set $F\\in\\Sigma$ such that $\\nu(X\\backslash F)=0$.\n\nWhen either of the two above conditions old, determine a possible density function $f$."
+  },
+  {
+    "id": "Characterizing Scale-Invariant Absolutely Continuous Measures",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2013"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Absolute continuity (measures)",
+      "Lebesgue measure"
+    ],
+    "theorems": [
+      "Radon-Nikodym theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "Let $\\lambda$ denote the Lebesgue measure on $(0,\\infty)$ and let $\\mu$ be a measure such that $\\mu \\ll \\lambda$ and $\\mu(E)=\\alpha \\mu(\\alpha E)$ for all $\\alpha \\in (0,\\infty)$ and $E$ measurable. Show that\n$$\n\\frac{d\\mu}{d\\lambda}(x) = \\frac{c}{x^2}\n$$\n$\\lambda$-almost everywhere for some $c\\geq 0$."
+  },
+  {
+    "id": "Condition for Swapping the Sum and the Integral for a Sequence of Functions",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2024"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Lebesgue integration"
+    ],
+    "theorems": [
+      "Monotone Convergence Theorem",
+      "Dominated Convergence Theorem"
+    ],
+    "writer": [
+      "Qing"
+    ],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma,\\mu)$ be a measure space. Suppose that $(f_n)_{n=1}^\\infty$ is a sequence of measurable functions such that\n$$\n\\sum_{n=1}^\\infty \\int_X |f_n|\\, d\\mu < \\infty.\n$$\nShow that $g(x)= \\sum_{n=1}^\\infty |f_n(x)|$ is integrable and that\n$$\n\\int_X \\sum_{n=1}^\\infty f_n\\, d\\mu = \\sum_{n=1}^\\infty \\int_X f_n\\, d\\mu.\n$$"
+  },
+  {
+    "id": "Connection Between L1 Distance and Integration of Superlevel-Sets",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2023"
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Lebesgue measure",
+      "Abstract measure",
+      "Measurable functions",
+      "Sigma-finite measures"
+    ],
+    "theorems": [
+      "Tonelli's theorem"
+    ],
+    "writer": [
+      "Lin"
+    ],
+    "finished": false,
+    "statement": "Let $f,g$ be real-valued integrable functions on a (not necessarily $\\sigma$-finite) measure space $(X,\\Sigma, \\mu)$. For each $t\\in \\R$, define\n$$\nF_t := \\{x\\in X:f(x)>t\\}, \\qquad G_t:= \\{x\\in X:g(x)>t\\}.\n$$\nProve that\n$$\n\\int_X \\abs{f-g}\\, d\\mu = \\int_{-\\infty}^\\infty \\mu(F_t\\Delta G_t)\\, dt,\n$$\nwhere $F_t\\Delta G_t:= \\left(F_t\\backslash G_t \\right)\\cup\\left(G_t\\backslash F_t \\right)$."
+  },
+  {
+    "id": "Constructing Absolutely Continuous Measures from Weighted Sets",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2022",
+      "Winter 2019"
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Absolute continuity (measures)",
+      "Abstract measure"
+    ],
+    "theorems": [
+      "Radon-Nikodym theorem"
+    ],
+    "writer": [
+      "Mishra",
+      "Monard"
+    ],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma, \\mu)$ be a finite measure space, let $E_1,\\cdots, E_n \\in \\Sigma$, and let $c_1,\\cdots, c_n\\in \\R$. For each $E\\in \\Sigma$, define\n$$\n\\nu(E):= \\sum_{k=1}^n c_k \\mu(E\\cap E_k).\n$$\n\n(a) Show that $\\nu$ is a (possible signed) measure and that $\\nu\\ll \\mu$.\n(b) Find the Radon-Nikodym derivative $\\frac{d\\nu}{d\\mu}$."
+  },
+  {
+    "id": "Constructing Dominating Measures from a Sequence of Measures",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2012"
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Abstract measure",
+      "Absolute continuity (measures)",
+      "Sigma-algebra"
+    ],
+    "theorems": [
+      "Tonelli's theorem"
+    ],
+    "writer": [
+      "Qing"
+    ],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma)$ be a measurable space, and $\\mu_n$ be a sequence of positive measures on $(X,\\Sigma)$, and let $a_n$ be a sequence of strictly positive numbers. Show that, for $E\\in \\Sigma$, the function\n$$\n\\mu(E):=\\sum_{n=1}^\\infty a_n\\mu_n(E)\n$$\ndefines a measure on $(X,\\Sigma)$ such that $\\mu_n \\ll \\mu$ for each $n\\in\\N$ (here, $a_n>0$ for each $n\\in\\N$)."
+  },
+  {
+    "id": "Continuity from Above and Below",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2013",
+      "Winter 2013"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Abstract measure",
+      "Sigma-algebra"
+    ],
+    "theorems": [
+      "Continuity from Above",
+      "Continuity from below"
+    ],
+    "writer": [
+      "Schonbek"
+    ],
+    "finished": false,
+    "statement": "Let $(X,\\Sigma,\\mu)$ be a measure space.\n\n(a) Suppose that $A_1\\subseteq A_2 \\subseteq \\cdots$ are measurable sets. Show that\n$$\n\\lim_{n\\rightarrow \\infty} \\mu(A_n) = \\mu\\left(\\bigcup_{n=1}^\\infty A_n\\right).\n$$\n(b) Suppose that $B_1\\supseteq B_2\\supseteq \\cdots$ are measurable sets. Is it the case that\n$$\n\\lim_{n\\rightarrow \\infty} \\mu(B_n) = \\mu\\left(\\bigcap_{n=1}^\\infty B_n \\right)?\n$$\nIf so, give a proof. If not, find a counterexample, and find (and prove the validity of) a condition on $X$ that would the statement true."
+  },
+  {
+    "id": "Convergence Almost Everywhere in a Finite Measure Space Implies Convergence in Measure",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "North Dakota State University",
+    "terms": [
+      "Winter 2022"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Convergence in measure",
+      "Almost everywhere convergence"
+    ],
+    "theorems": [
+      "Continuity from Above"
+    ],
+    "writer": [
+      "Unknown"
+    ],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma, \\mu)$ be a measure space, and let $(f_n)$ be a sequence of measurable functions.\n\n(a) State the definition for $(f_n)$ to converge in measure to a function $f$.\n(b) Suppose that $\\mu(X)<\\infty$. Suppose also that $(f_n)$ converges pointwise $\\mu$-almost everywhere to a function $f$. Show that $(f_n)$ converges to $f$ in measure.\n(c) Show that (b) is not true if we do not assume $\\mu(X)<\\infty$."
+  },
+  {
+    "id": "Convergence in measure via a bounded transform",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2021",
+      "Spring 2010"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Convergence in measure",
+      "L1 convergence"
+    ],
+    "theorems": [],
+    "writer": [
+      "Ehrhardt",
+      "Monard"
+    ],
+    "finished": true,
+    "statement": "Let $(f_n)$ be a sequence of Lebesgue measurable functions defined on a set $E\\subseteq \\R$ of finite Lebesgue measure (let $\\lambda$ denote Lebesgue measure). Show that $f_n$ converges to 0 in measure if and only if\n$$\n\\lim_{n\\rightarrow \\infty}\\int_E \\frac{\\abs{f_n}}{1+\\abs{f_n}}\\, d\\lambda=0.\n$$"
+  },
+  {
+    "id": "Decay at infinity for uniformly continuous L1 functions",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2018"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Lebesgue integration",
+      "Uniform Continuity"
+    ],
+    "theorems": [],
+    "writer": [
+      "Monard"
+    ],
+    "finished": false,
+    "statement": "Let $f \\in L^1(\\R)$. \n\n(a) If $f$ is uniformly continuous, show that\n$$\n\\lim_{x\\rightarrow \\infty} f(x)=0.\n$$\n(b) Does this conclusion still hold if $f$ is assumed only to be continuous? Justify your answer."
+  },
+  {
+    "id": "Differentiability of Moment Functions",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2011"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Lebesgue integration",
+      "Abstract measure"
+    ],
+    "theorems": [
+      "Dominated Convergence Theorem"
+    ],
+    "writer": [
+      "Qing"
+    ],
+    "finished": false,
+    "statement": "Let $\\mu$ be a measure on the measurable space $(\\R_+,\\mathcal{B})$, where $\\R_+= (0,\\infty)$ and $\\mathcal{B}$ is the collection of Borel sets on $\\R_+$. Assume that, for each $x\\geq 0$, \n$$\nf(x):= \\int_{0}^\\infty t^x\\, d\\mu(t) < \\infty.\n$$\nShow that $f$ is differentiable on $(0,\\infty)$ and continuous at $x=0$."
+  },
+  {
+    "id": "Distribution Functions and Measure Bisection of a Set",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2021",
+      "Fall 2018"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Lebesgue measure",
+      "Measurable sets"
+    ],
+    "theorems": [
+      "Continuity from Above",
+      "Continuity from below",
+      "Intermediate Value Theorem"
+    ],
+    "writer": [
+      "Monard"
+    ],
+    "finished": true,
+    "statement": "Let $\\lambda$ denote the Lebsegue measure on $\\R$, and let $A\\subseteq \\R$ be a measurable set with $\\lambda(A) < \\infty$.\n\n(a) Show that the function $\\phi:\\R\\rightarrow [0,\\infty)$ defined by $\\phi(x)=\\lambda(A\\cap (-\\infty, x])$ is continuous.\n(b) Prove that there exists $x\\in\\R$ such that $\\lambda(A\\cap (-\\infty, x)) = \\lambda(A\\cap(x,\\infty))$."
+  },
+  {
+    "id": "Dominated Convergence UCSC Fall 2021",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2021"
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Lebesgue integration",
+      "Almost everywhere convergence"
+    ],
+    "theorems": [
+      "Dominated Convergence Theorem"
+    ],
+    "writer": [
+      "Monard"
+    ],
+    "finished": true,
+    "statement": "Compute the limit\n$$\n\\lim_{n\\rightarrow \\infty} \\int_0^1 \\frac{n}{(1+nx)^2(1+x+x^2)}\\, dx.\n$$\nJustify your calculations."
+  },
+  {
+    "id": "Dominated Convergence UCSC Fall 2022",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2022"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Lebesgue integration",
+      "Almost everywhere convergence"
+    ],
+    "theorems": [
+      "Dominated Convergence Theorem"
+    ],
+    "writer": [
+      "Monard"
+    ],
+    "finished": true,
+    "statement": "Use convergence theorems to study the limit as $n\\rightarrow \\infty$ of the following integrals:\n$$\n(a)\\quad I_n=\\int_0^{\\infty} (1+x)^{-2n} \\cos(x)\\,dx, \\qquad (b) \\quad J_n=n\\int_0^\\infty (1+x)^{-2n}\\cos(x)\\,dx.\n$$"
+  },
+  {
+    "id": "Dominated Convergence UCSC Spring 2022",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2022"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Lebesgue integration",
+      "Almost everywhere convergence"
+    ],
+    "theorems": [
+      "Dominated Convergence Theorem"
+    ],
+    "writer": [
+      "Monard"
+    ],
+    "finished": true,
+    "statement": "Compute the following limit:\n$$\n\\lim_{n\\rightarrow \\infty} \\sqrt{n}\\int_0^1 (1+nx^2)(1+x^2)^{-n}\\, dx.\n$$\nExpress your answer in terms of the Gamma function \n$$\n\\Gamma(x) = \\int_0^\\infty t^{x-1} e^{-t}\\, dt.\n$$"
+  },
+  {
+    "id": "Equivalent Characterizations of L1-Convergence Under Almost-Everywhere Convergence in a Finite Measure Space",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2015"
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Uniform integrability",
+      "L1 convergence",
+      "Almost everywhere convergence",
+      "Convergence in measure"
+    ],
+    "theorems": [
+      "Vitali Convergence Theorem",
+      "Scheffe's Lemma",
+      "Dominated Convergence Theorem"
+    ],
+    "writer": [
+      "Lin"
+    ],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma, \\mu)$ be a finite measure space, let $(f_n)$ be a sequence of $L^1(\\mu)$ functions, and let $f\\in L^1(\\mu)$. Suppose that $f_n\\rightarrow f$ $\\mu$ almost everywhere. Show that the following are equivalent:\n* The set $\\{f_n\\}_{n\\in \\N}$ is uniformly integrable. I.e., for all $\\varepsilon>0$, there exists $\\delta>0$ such that for each $n\\in\\N$,\n$$\n\\int_{\\{x\\in X:\\abs{f_n(x)}\\geq \\delta\\}} \\abs{f_n}\\, d\\mu < \\varepsilon\n$$\n* $f_n\\rightarrow f$ in $L^1(\\mu)$. I.e., $$\\lim_{n\\rightarrow \\infty}\\int \\abs{f_n-f}\\, d\\mu =0$$\n* $\\displaystyle \\lim_{n\\rightarrow \\infty} \\int \\abs{f_n} \\,d\\mu =\\int\\abs{f}\\, d\\mu$."
+  },
+  {
+    "id": "Equivalent Characterizations of L1-Convergence Under Almost-Everywhere Convergence in a σ-Finite Measure",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2010"
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "L1 convergence",
+      "Almost everywhere convergence"
+    ],
+    "theorems": [
+      "Scheffe's Lemma",
+      "Dominated Convergence Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma, \\mu)$ be a $\\sigma$-finite measure space, let $(f_n)$ be a sequence of measurable functions, and let $f\\in L^1(\\mu)$. Suppose that $f_n\\rightarrow f$ $\\mu$ almost everywhere. Show that the following are equivalent:\n* $f_n\\rightarrow f$ in $L^1(\\mu)$. I.e., $$\\lim_{n\\rightarrow \\infty}\\int \\abs{f_n-f}\\, d\\mu =0$$\n* $\\displaystyle \\lim_{n\\rightarrow \\infty} \\int \\abs{f_n} \\,d\\mu =\\int\\abs{f}\\, d\\mu$."
+  },
+  {
+    "id": "Every Function of Bounded Variation is the Difference of Monotone Increasing Functions",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2016"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Bounded variation"
+    ],
+    "theorems": [
+      "Hahn Decomposition Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "(a) Give the definition of what it means for a function $f:[a,b]\\rightarrow \\R$ is said to be of bounded variation.\n(b) Prove that every function $f:[a,b]\\rightarrow \\R$ if bounded variation is the difference of two monotonically increasing functions."
+  },
+  {
+    "id": "Every Positive-Measure Set has a Point of Positive Local Measure",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2011"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Lebesgue measure",
+      "Measurable sets"
+    ],
+    "theorems": [],
+    "writer": [
+      "Qing"
+    ],
+    "finished": false,
+    "statement": "Let $\\lambda$ denote the Lebesgue measure on $\\R^n$. Suppose that $A\\subseteq \\R^n$ be Lebesgue measurable with $\\lambda(A)>0$. Show that there exists $x\\in A$ such that, for each $\\delta>0$ \n$$\n\\lambda \\big(A\\cap B_{\\delta}(x)\\big)>0,\n$$\nwhere $B_\\delta(x)$ is the open ball of radius $\\delta$ centered at $x$ in $\\R^n$."
+  },
+  {
+    "id": "Full-Measure Subsets of an Interval are Dense",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2013",
+      "Winter 2015"
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Lebesgue measure"
+    ],
+    "theorems": [],
+    "writer": [
+      "Schonbek",
+      "Lin"
+    ],
+    "finished": false,
+    "statement": "Let $E$ be a subset of $[0,1]$ of Lebesgue measure 1. Show that $E$ is dense in $[0,1]$."
+  },
+  {
+    "id": "Functions of Bounded Variation are Exactly Those with Monotone Increment Bounds",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2010"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Bounded variation"
+    ],
+    "theorems": [],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "Show that a function $f:\\R\\rightarrow \\R$ is of bounded variation if and only if there exists a monotone increasing function $g:\\R\\rightarrow \\R$ such that, for all $x<y$, \n$$\nf(y)-f(x) \\leq g(y)-g(x).\n$$"
+  },
+  {
+    "id": "Functions of Bounded Variation on a Closed Interval Have At Most Countable Discontinuities",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2014"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Bounded variation"
+    ],
+    "theorems": [
+      "Hahn Decomposition Theorem"
+    ],
+    "writer": [
+      "Schonbek"
+    ],
+    "finished": false,
+    "statement": "Let $f$ be a real valued function of bounded variation on $[0,1]$. Show that the only discontinuities of $f$ are jump discontinuities, and that $f$ has at most countably many of them."
+  },
+  {
+    "id": "If the Sum of the Measures of a Sequence of Sets is Finite, the Measure of the Set of Infinite Occurances is 0",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2020"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Abstract measure",
+      "Sigma-algebra"
+    ],
+    "theorems": [
+      "Continuity from Above",
+      "Borel-Cantelli Lemma"
+    ],
+    "writer": [
+      "Monard"
+    ],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma, \\mu)$ be a measure space where $\\mu$ is nonnegative. Suppose that a sequence of sets $(E_n)\\subseteq \\Sigma$ satisfies\n$$\n\\sum_{n=1}^\\infty \\mu(E_n)<\\infty.\n$$\nLet\n$$\nE:= \\{x\\in X: x\\in E_n \\text{ for infinitely many } n\\in\\N\\}.\n$$\n\n(a) Show that $E\\in \\Sigma$.\n(b) Show that $\\mu(E)=0$."
+  },
+  {
+    "id": "Indefinite Integrals of Integrable Functions are Absolutely Continuous",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2012"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Absolute continuity (functions)",
+      "Lebesgue integration"
+    ],
+    "theorems": [],
+    "writer": [
+      "Qing"
+    ],
+    "finished": false,
+    "statement": "Let $f:[0,1]\\rightarrow \\R$ be Lebesgue interable. Show that the function $F:[0,1]\\rightarrow \\R$ defined by\n$$\nF(x):= \\int_0^x f(t)\\,dt\n$$\nis absolutely continuous."
+  },
+  {
+    "id": "Integrals of an L1 Function on Small Sets are Small",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2024",
+      "Fall 2013"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Lebesgue integration",
+      "L1 convergence"
+    ],
+    "theorems": [
+      "Dominated Convergence Theorem",
+      "Density of Simple Functions"
+    ],
+    "writer": [
+      "Schonbek",
+      "Qing"
+    ],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma, \\mu)$ be a measure space. Suppose that $f:X\\rightarrow \\R$ is a measurable function such that $\\int_X \\abs{f}\\, d\\mu<\\infty$. Show that, for all $\\varepsilon>0$, there exists $\\delta>0$ such that\n$$\n\\int_A \\abs{f}\\, d\\mu<\\varepsilon\n$$\nfor any measurable subset $A\\subseteq X$ such that $\\mu(A)<\\delta$. TESTING!"
+  },
+  {
+    "id": "Interchanging Differentiation and Integration",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2014"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Lebesgue integration",
+      "Differentiation"
+    ],
+    "theorems": [
+      "Dominated Convergence Theorem",
+      "Mean Value Theorem"
+    ],
+    "writer": [
+      "Schonbek"
+    ],
+    "finished": true,
+    "statement": "Let $f:[0,1]^2\\rightarrow \\R$ be a function such that $f(x,y)$ is integrable in $x$ for each fixed $y\\in [0,1]$, and is differentiable in $y$ for each fixed $x\\in [0,1]$. Assume that there exists a Lebesgue integrable function $g(x)$ such that\n$$\n\\abs{\\frac{\\partial f}{\\partial y} (x,y)} \\leq g(x)\n$$\nfor each $x,y\\in [0,1]$. Show that the function $\\psi(y):= \\int_0^1 f(x,y)\\, dx$ is differentiable and satisfies\n$$\n\\psi'(y) = \\int_0^1 \\frac{\\partial f}{\\partial y}(x,y)\\, dx.\n$$"
+  },
+  {
+    "id": "Interpolation of Lp norms between Lr and Ls",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2012"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Lp spaces"
+    ],
+    "theorems": [
+      "Holder's Inequality"
+    ],
+    "writer": [
+      "Qing"
+    ],
+    "finished": false,
+    "statement": "Suppose that $(X,\\Sigma, \\mu)$ is a measure space. For each $0<r<p<s<\\infty$, let $f\\in L^r(\\mu) \\cap L^s(\\mu)$. Show that $f\\in L^p(\\mu)$ and\n$$\n\\norm{f}_p \\leq \\norm{f}_r^\\theta \\cdot \\norm{f}_s^{1-\\theta}\n$$\nwhere \n$$\n\\frac{1}{p} = \\frac{\\theta}{r}+ \\frac{1-\\theta}{s}.\n$$"
+  },
+  {
+    "id": "L1 Convergence from Convergence in Measure and Domination by a L1 Function",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2018",
+      "Winter 2018"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Convergence in measure",
+      "L1 convergence",
+      "Lebesgue integration"
+    ],
+    "theorems": [
+      "Dominated Convergence Theorem"
+    ],
+    "writer": [
+      "Monard"
+    ],
+    "finished": false,
+    "statement": "Let $\\lambda$ denote Lebesgue measure on $\\R$. Let $f_n:\\R\\rightarrow \\R\\cup\\{+\\infty\\}$ be a sequence of measurable functions such that $f_n\\rightarrow f$ in measure. Suppose that there exists a function $g\\in L^1(\\R)$ such that $\\abs{f_n(x)}\\leq g(x)$ for a.e. $x\\in \\R$.\n\n(a) Show that $\\abs{f(x)}\\leq g(x)$ for a.e. $x\\in\\R$.\n(b) Show that $\\displaystyle \\lim_{n\\rightarrow \\infty} \\int_\\R \\abs{f_n-f}\\, d\\lambda =0$."
+  },
+  {
+    "id": "Limits of Measurable Functions Are Measurable",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2022",
+      "Fall 2018",
+      "Spring 2014"
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Measurable functions",
+      "Sigma-algebra"
+    ],
+    "theorems": [],
+    "writer": [
+      "Schonbek",
+      "Monard"
+    ],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma)$ be a measurable space, and suppose $f_n:X\\rightarrow [-\\infty, \\infty]$ is measurable for each $n\\in\\N$.\n\n(a) Show that $\\displaystyle \\limsup_{n\\rightarrow \\infty} f_n(x)$ is a measurable function.\n(b) Show that if $(f_n)_{n=1}^\\infty$ converges pointwise to a function $f(x)$, then $f$ is measurable."
+  },
+  {
+    "id": "Lipschitz Images of Lebesgue Measure-Zero Sets",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2019"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Lebesgue measure"
+    ],
+    "theorems": [],
+    "writer": [
+      "Mishra"
+    ],
+    "finished": false,
+    "statement": "(a) Prove that if $f:\\R\\rightarrow \\R$ is Lipschitz continuous and $E\\subseteq\\ R$ has Lebesgue measure 0, then $f(E)$ also has Lebesgue measure 0. \n(b) For which $n,m\\in\\N$ is it the case that if $f:\\R^n\\rightarrow \\R^m$ is Lipschitz and $E\\subseteq\\R$ has Lebesgue measure 0, then $f(E)$ also has Lebesgue measure 0? Give a proof for the pairs $(n,m)$ that this is true, and give a counterexample for the pairs $(n,m)$ that this is false."
+  },
+  {
+    "id": "Local Comparison of Absolutely Continuous Measures",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2019"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Absolute continuity (measures)",
+      "Sigma-finite measures"
+    ],
+    "theorems": [
+      "Hahn Decomposition Theorem",
+      "Radon-Nikodym theorem"
+    ],
+    "writer": [
+      "Mishra"
+    ],
+    "finished": false,
+    "statement": "Let $\\mu, \\nu$ be two $\\sigma$-finite measures on a measurable space $(X,\\Sigma)$ such that $\\nu \\ll \\mu$ and $\\nu \\neq 0$. Show that there exists a set $E\\in \\Sigma$ with and $n\\in\\N$ such that $\\nu(E)>0$ and, for all $A\\subseteq E$ with $A\\in \\Sigma$, \n$$\n\\frac{1}{n}\\mu(A) \\leq \\nu(A) \\leq n \\mu(A).\n$$"
+  },
+  {
+    "id": "Measurable Level Sets Do Not Imply Measurability",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2015"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Measurable sets",
+      "Measurable functions"
+    ],
+    "theorems": [],
+    "writer": [
+      "Lin"
+    ],
+    "finished": false,
+    "statement": "Construct a function $f:\\R\\rightarrow \\R$ such that each set $\\{x\\in \\R:f(x)=\\alpha\\}$ is measurable for all $\\alpha \\in \\R$, but $f$ itself is not measurable."
+  },
+  {
+    "id": "Measure of Shrinking Neighborhoods of a Compact Set",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2021"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Lebesgue measure",
+      "Compactness"
+    ],
+    "theorems": [
+      "Continuity from Above"
+    ],
+    "writer": [
+      "Monard"
+    ],
+    "finished": true,
+    "statement": "For all $E\\subseteq\\R$, let $O_n:=\\{x:d(x,E)<\\frac{1}{n}\\}$. Let $m$ denote the Lebesgue measure.\n\n(a) Show that if $E$ is compact, then $\\displaystyle\\lim_{n\\rightarrow\\infty} m(O_n)=m(E)$.\n(b) Show that the conclusion in part (a) is false if we assume $E$ is closed and unbounded, or $E$ is open and bounded."
+  },
+  {
+    "id": "Monotone Sequenced Converging in Measure Converge Pointwise on Finite Measure Spaces",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2017"
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Convergence in measure",
+      "Almost everywhere convergence"
+    ],
+    "theorems": [
+      "Continuity from Above",
+      "Continuity from below"
+    ],
+    "writer": [
+      "Qing"
+    ],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma, \\mu)$ be a finite complete measure space, and let $(f_n)$ be a sequence of measurable, $\\mu$-a.e. finite functions such that $f_n(x)\\leq f_{n+1}(x)$ for each $n\\in\\N$. Show that if $f_n$ converges in measure to some measurable function $f$, then $f_n$ converges to $f$ pointwise $\\mu$-almost everywhere."
+  },
+  {
+    "id": "Necessity of Nonnegativity in Fatou's Lemma",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2014"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Lebesgue integration"
+    ],
+    "theorems": [
+      "Fatou's Lemma"
+    ],
+    "writer": [
+      "Schonbek"
+    ],
+    "finished": false,
+    "statement": "(a) State Fatou's lemma.\n(b) Show that the conclusion of Fatou's lemma fails if we do not assume the functions are nonnegative. \n(c) Show that the conclusion still holds if there exists an integrable function $g$ such that $\\abs{f_n}\\leq g$ for each $n\\in\\N$."
+  },
+  {
+    "id": "Pointwise Convergence Implies Uniform Convergence on Full Measure Subsets",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2018"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Almost everywhere convergence",
+      "Uniform Convergence",
+      "Sigma-finite measures"
+    ],
+    "theorems": [
+      "Egorov's Theorem"
+    ],
+    "writer": [
+      "Monard"
+    ],
+    "finished": false,
+    "statement": "Let $(f_n)$ be a sequence of measurable functions on a $\\sigma$-finite measure space $(X,\\Sigma, \\mu)$, and let $f$ be a function such that $f_n\\rightarrow f$ $\\mu$-almost everywhere. Show that there exists a sequence of measurable sets $(E_n)\\subseteq \\Sigma$ such that $f_n\\rightarrow f$ uniformly on $E_n$ for each $n\\in\\N$, and\n$$\n\\mu \\left(X\\backslash \\left(\\bigcap_{k=1}^\\infty E_k\\right) \\right)=0.\n$$"
+  },
+  {
+    "id": "Products of Absolutely Continuous Functions are Absolutely Continuous",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2022",
+      "Winter 2019",
+      "Winter 2011"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Absolute continuity (functions)",
+      "Uniform Continuity"
+    ],
+    "theorems": [],
+    "writer": [
+      "Qing",
+      "Mishra",
+      "Monard"
+    ],
+    "finished": false,
+    "statement": "(a) Let $f,g:[0,1]\\rightarrow \\R$ be absolutely continuous. Show that their product $fg$ is also absolutely continuous.\n(b) Give and example of a function on from $[0,1]$ to $\\R$ that is uniformly continuous but not absolutely continuous."
+  },
+  {
+    "id": "Proof of Chebyshev’s Inequality",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2024"
+    ],
+    "difficulty": 1,
+    "concepts": [
+      "Lp spaces"
+    ],
+    "theorems": [
+      "Chebyshev's Inequality"
+    ],
+    "writer": [
+      "Qing"
+    ],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma,\\mu)$ be a measure space and let $p\\geq 1$. Suppose that $f:X\\rightarrow \\R$ is a measurable function such that $\\int_X|f|^p\\, d\\mu < \\infty$. Show that, for all $\\alpha > 0$,\n$$\n\\mu\\{x\\in X:|f(x)|>\\alpha\\}\\leq \\frac{1}{\\alpha^p} \\int_X |f|^p\\, d\\mu.\n$$"
+  },
+  {
+    "id": "Proof of a Generalized Hölder Inequality for Finite Measure Spaces",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2026"
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Lp spaces"
+    ],
+    "theorems": [
+      "Holder's Inequality"
+    ],
+    "writer": [
+      "Gharakhloo"
+    ],
+    "finished": false,
+    "statement": "Let $(X,\\Sigma, \\mu)$ be a finite measure space, and let $p>r\\geq 1$. Prove that if $f\\in L^p(X)$, then $f\\in L^r(X)$, and \n$$\n\\norm{f}_r \\leq \\mu(X)^{\\frac{1}{r}-\\frac{1}{p}} \\norm{f}_p.\n$$"
+  },
+  {
+    "id": "Proof of the Generalized Hölder Inequality",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2012"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Lp spaces"
+    ],
+    "theorems": [
+      "Holder's Inequality"
+    ],
+    "writer": [
+      "Qing"
+    ],
+    "finished": false,
+    "statement": "Prove the generalized Hölder inequality: \n\nLet $(X,\\Sigma, \\mu)$ be a measure space, and let $p_1, \\cdots, p_n, r >0$ such that\n$$\n\\sum_{k=1}^n \\frac{1}{p_k} = \\frac{1}{r}.\n$$\nLet $f_1,\\cdots, f_n$ be functions such that $f_k\\in L^{p_k}(\\mu)$. Then $\\prod_{k=1}^n f_k\\in L^{r}(\\mu)$, and\n$$\n\\norm{\\prod_{k=1}^n f_k}_r \\leq \\prod_{k=1}^n \\norm{f_k}_{p_k}.\n$$\nHere, for each $p>0$, \n\n$$\n\\norm{f}_p := \\left(\\int_X \\abs{f}^p \\, d\\mu \\right)^{\\frac{1}{p}}.\n$$"
+  },
+  {
+    "id": "Radon–Nikodym Derivatives Between Weighted Measures",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2019"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Absolute continuity (measures)"
+    ],
+    "theorems": [
+      "Radon-Nikodym theorem"
+    ],
+    "writer": [
+      "Mishra"
+    ],
+    "finished": false,
+    "statement": "Let $(X,\\Sigma, \\mu)$, and let $f,g$ be two strictly positive measurable functions on $X$. Define the measures $\\nu, \\eta$ on $(X,\\Sigma)$ by \n$$\n\\nu(E)= \\int_E f\\, d\\mu, \\qquad \\eta(E) = \\int_E g\\, \\mu.\n$$\n\n(a) Is $\\nu \\ll \\eta$? If so, find the Radon-Nikodym derivative $\\frac{d\\nu}{d\\eta}$. \n(b) Is $\\eta \\ll \\nu$? If so, find the Radon-Nikodym derivative $\\frac{d\\eta}{d\\nu}$."
+  },
+  {
+    "id": "Recovery of the L1 Norm from Local Averages",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2023"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Lebesgue integration",
+      "L1 convergence"
+    ],
+    "theorems": [
+      "Dominated Convergence Theorem"
+    ],
+    "writer": [
+      "Lin"
+    ],
+    "finished": false,
+    "statement": "Let $f\\in L^1(\\R)$. Show that\n$$\n\\lim_{n\\rightarrow \\infty} \\sum_{k=-n^2}^{n^2} \\left|\\int_{\\frac{k}{n}}^{\\frac{k+1}{n}} f(x)\\, dx \\right| = \\int_{-\\infty}^\\infty |f(x)|\\,dx.\n$$"
+  },
+  {
+    "id": "Relationship Between Function Convergence and Integral Convergence",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2014"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Lp spaces",
+      "Almost everywhere convergence",
+      "Uniform Convergence"
+    ],
+    "theorems": [],
+    "writer": [
+      "Schonbek"
+    ],
+    "finished": false,
+    "statement": "Prove or disprove the following:\n\n(a) Convergence in $L^2([0,1])$ implies pointwise convergence almost everywhere. \n(b) If $(f_n)$ is a sequence of measurable functions on $[0,\\infty)$ which converge uniformly to 0, then\n$$\n\\lim_{n\\rightarrow \\infty} \\int_0^{\\infty} f_n\\, dx =0.\n$$"
+  },
+  {
+    "id": "Specific Case of the Borel-Cantelli Lemma",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2025",
+      "Spring 2024",
+      "Fall 2019",
+      "Winter 2013"
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Abstract measure",
+      "Sigma-algebra"
+    ],
+    "theorems": [
+      "Borel-Cantelli Lemma"
+    ],
+    "writer": [
+      "Schonbek",
+      "Mishra",
+      "Qing"
+    ],
+    "finished": true,
+    "statement": "Suppose that $\\{A_i\\}$ is a sequence of measurable sets in a measure space $(X,\\Sigma, \\mu)$ such that\n$$\n\\mu(A_i)\\leq 2^{-i}\n$$\nfor all $i\\in \\N$. Show that\n$$\n\\mu\\left(\\bigcap_{n=1}^\\infty \\bigcup_{i=n}^\\infty A_i\\right)=0.\n$$"
+  },
+  {
+    "id": "Swapping the Liminf and Limsup Given an L1-Bounded Sequence",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2025",
+      "Winter 2020",
+      "Fall 2012",
+      "Winter 2015"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Lebesgue integration"
+    ],
+    "theorems": [
+      "Fatou's Lemma"
+    ],
+    "writer": [
+      "Qing",
+      "Monard",
+      "Lin"
+    ],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma, \\mu)$ be a measure space, and let $g\\in L^1(X)$. Suppose that $f_n$ is a sequence of measurable functions such that $\\abs{f_n}\\leq g$ $\\mu$-a.e. for all $n\\in \\N$. Show that, for all measurable $E\\subseteq X$,\n$$\n\\int_E \\liminf_{n\\rightarrow \\infty} f_n\\, d\\mu \\leq \\liminf_{n\\rightarrow \\infty} \\int_E f_n\\, d\\mu \\leq \\limsup_{n\\rightarrow \\infty} \\int_{E} f_n\\, d\\mu \\leq \\int_E \\limsup_{n\\rightarrow \\infty} f_n\\,d\\mu.\n$$"
+  },
+  {
+    "id": "Tail Control for Almost Everywhere Finite Measurable Functions",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2020",
+      "Fall 2017"
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Abstract measure",
+      "Measurable functions"
+    ],
+    "theorems": [
+      "Continuity from Above"
+    ],
+    "writer": [
+      "Qing",
+      "Monard"
+    ],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma, \\mu)$ be a finite measure space, and let $f:X\\rightarrow \\R\\cup \\{+\\infty\\}$ be a measurable and finite $\\mu$-a.e. function. Show that, for all $\\varepsilon>0$, there exists $M>0$ such that \n$$\n\\mu\\big(\\left\\{x\\in X: \\abs{f(x)}>M\\right\\}\\big) < \\varepsilon.\n$$"
+  },
+  {
+    "id": "The Borel σ-Algebra on Rn is Generated by Compact Subsets",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2013"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Borel sets",
+      "Sigma-algebra",
+      "Compactness"
+    ],
+    "theorems": [],
+    "writer": [
+      "Schonbek"
+    ],
+    "finished": false,
+    "statement": "Show that the Borel $\\sigma$-algebra of $\\R^n$ is equal to the $\\sigma$-algebra generated by the compact subsets of $\\R^n$."
+  },
+  {
+    "id": "The Derivative of a Monotone Function is Measurable and has Bounded Integral",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2016"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Lebesgue measure"
+    ],
+    "theorems": [
+      "Lebesgue differentiation theorem",
+      "Fatou's Lemma"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "Let $\\lambda$ denote the Lebesgue measure. Let $f:[a,b]\\rightarrow \\R$ be monotonically increasing. Lebesgue's Theorem tells us that $f(x)$ is differentiable almost everywhere. Prove that $f'(x)$ is Lebesgue measurable, nonnegative, and satisfies \n$$\n\\int_a^b f'\\, d\\lambda \\leq f(b)-f(a).\n$$"
+  },
+  {
+    "id": "The General Dominated Convergence Theorem",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2011"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Lebesgue integration",
+      "Almost everywhere convergence"
+    ],
+    "theorems": [
+      "Fatou's Lemma"
+    ],
+    "writer": [
+      "Qing"
+    ],
+    "finished": false,
+    "statement": "Let $(X,\\Sigma, \\mu)$ be a measure space, and let $(f_n), (g_n)$ be two sequences of measurable functions such that $\\abs{f_n(x)}\\leq g_n(x)$ almost everywhere for each $n\\in\\N$. Assume that $f$ is a measurable function such that $f_n\\rightarrow f$ pointwise almost everywhere, and that $g$ is an integrable function such that $g_n\\rightarrow g$ almost everywhere and\n$$\n\\lim_{n\\rightarrow \\infty} \\int g_n\\, d\\mu = \\int g\\, d\\mu.\n$$\nShow that\n$$\n\\lim_{n\\rightarrow \\infty} \\int f_n\\, d\\mu=\\int f\\, d\\mu.\n$$"
+  },
+  {
+    "id": "The Integral of a Tail Average",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2020"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Lebesgue integration",
+      "Product measure"
+    ],
+    "theorems": [
+      "Tonelli's theorem",
+      "Fubini's theorem"
+    ],
+    "writer": [
+      "Monard"
+    ],
+    "finished": true,
+    "statement": "Suppose $f$ is integrable on $[0,1]$. Define the function \n$$\ng(x) := \\int_x^1 \\frac{f(t)}{t}\\, dt\n$$\nfor all $x\\in [0,1]$. Prove that $g$ is integrable on $[0,1]$ and that\n$$\n\\int_0^1 g(x)\\, dx = \\int_0^1 \\, f(t)\\, dt.\n$$"
+  },
+  {
+    "id": "The Limit of a Sequence of Increasing Measures is a Measure",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2010"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Abstract measure",
+      "Absolute continuity (measures)",
+      "Sigma-algebra"
+    ],
+    "theorems": [
+      "Radon-Nikodym theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "Let $(X,\\Sigma)$ be a measurable space, and let $\\mu_n$ be a sequence of (positive) measures such that, for each $E\\in\\Sigma$ and $n\\in\\N$, $\\mu_{n+1}(E)\\geq \\mu_n(E)$. \n\n(a) Show that the function $\\mu$ on $\\Sigma$ defined by\n$$\n\\mu(E) := \\lim_{n\\rightarrow \\infty} \\mu_n(E)\n$$\nis a measure.\n(b) For each $n\\in\\N$, show that $\\mu_n \\ll \\mu$ and find the Radon-Nikodym Derivative $\\frac{d\\mu_n}{d\\mu}$."
+  },
+  {
+    "id": "The Radon-Nikodym Derivative With Respect To the Sum of Two Measures",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2014"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Absolute continuity (measures)"
+    ],
+    "theorems": [
+      "Radon-Nikodym theorem"
+    ],
+    "writer": [
+      "Schonbek"
+    ],
+    "finished": false,
+    "statement": "Let $\\mu,\\nu$ be finite nonnegative measures on a measurable space $(X,\\Sigma)$ such that $\\nu \\ll \\mu$. \n\n(a) Show that $\\mu+\\nu$ is a measure such that $\\nu \\ll \\mu+\\nu$.\n(b) Let $\\frac{d\\nu}{d(\\mu+\\nu)}$ be the Radon-Nikodym derivative of $\\nu$ with respect to $\\mu+\\nu$. Show that\n$$\n0<\\frac{d\\nu}{d(\\mu+\\nu)} < 1\n$$\n$\\mu$-almost everywhere."
+  },
+  {
+    "id": "The product measure on σ-finite spaces is unique",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2012"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Product measure",
+      "Sigma-algebra"
+    ],
+    "theorems": [],
+    "writer": [
+      "Qing"
+    ],
+    "finished": false,
+    "statement": "Let $(X_1, \\Sigma_1, \\mu_1), (X_2, \\Sigma_2, \\mu_2)$ be two $\\sigma$-finite measure spaces. Let $X=X_1\\times X_2$ and $\\Sigma$ be the $\\sigma$-algebra generated by the set\n$$\n\\mathcal{B}=\\{A\\times B\\subseteq X\\times Y:A\\in \\Sigma_1, B\\in\\Sigma_2\\}.\n$$\nSuppose that $\\Phi,\\Psi$ are two measures defined on $\\Sigma$ such that\n$$\n\\Phi(A\\times B) = \\Psi(A\\times B) = \\mu_1(A)\\mu_2(B)\n$$\nfor all $A\\in \\Sigma_1, B\\in \\Sigma_2$. Show that $\\Phi=\\Psi$."
+  },
+  {
+    "id": "The σ-Algebra of Countable and Co-Countable Sets",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2021",
+      "Winter 2016"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Sigma-algebra",
+      "Abstract measure"
+    ],
+    "theorems": [],
+    "writer": [
+      "Ehrhardt",
+      "Monard"
+    ],
+    "finished": true,
+    "statement": "Let $X$ be an uncountable set, and let\n$$\n\\Sigma := \\{ E\\subseteq X : E \\text{ or } X\\backslash E \\text{ is at most countable}\\}.\n$$\n\n(a) Prove that $\\Sigma$ is a $\\sigma$-algebra, and that it is the $\\sigma$-algebra generated by $\\mathcal{E} = \\{\\{x\\}:x\\in X\\}$, the collection of all singleton sets.\n(b) Define $\\mu:\\Sigma\\rightarrow [0,\\infty]$ by \n$$\n\\mu(E) = \\begin{cases} 0, & E \\text{ is at most countable}, \\\\\n1, & X\\backslash E \\text{ is at most countable}.\n\\end{cases}\n$$\nShow that $\\mu$ is a measure on $(X,\\Sigma)$."
+  },
+  {
+    "id": "Uniform Convergence of Convolutions with Almost-Everywhere Vanishing Factors",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2023"
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Lebesgue integration",
+      "Almost everywhere convergence",
+      "Uniform Convergence"
+    ],
+    "theorems": [
+      "Dominated Convergence Theorem",
+      "Egorov's Theorem"
+    ],
+    "writer": [
+      "Lin"
+    ],
+    "finished": false,
+    "statement": "Let $g_n$ be a sequence of measurable functions on $\\R^d$ such that $|g_n(x)|\\leq 1$ for all $x\\in \\R^d$, and assume that $g_n\\rightarrow 0$ almost everywhere. Let $f\\in L^1(\\R^d)$. Show that the sequence\n$$\nf*g_n(x):=\\int_{\\R^d} f(x-y) g_n(y)\\, dy\\rightarrow 0\n$$\nuniformly on every compact subset of $\\R^d$ as $n\\rightarrow \\infty$."
+  }
+]
