@@ -165,6 +165,43 @@ function renderBarChart(container, rows) {
 
 
 // ------------------------------------------------------------
+// KaTeX macros, mirroring the vault's preamble.sty.
+//
+// KaTeX macro strings support #1, #2, ... argument placeholders
+// directly (no special numArgs wrapper needed) — the number of
+// arguments is inferred from the highest #N used.
+//
+// NOTE: \null is already a built-in KaTeX/TeX primitive (an
+// invisible zero-width box). Redefining it here shadows that
+// primitive rather than adding a new command — this matches
+// the vault's preamble as written, but is worth knowing about
+// if \null is ever needed in its original TeX sense.
+//
+// This object is created once and reused across every
+// katex render call, per KaTeX's own guidance for macro
+// persistence (see katex.org/docs/api).
+// ------------------------------------------------------------
+
+const KATEX_MACROS = {
+    "\\norm": "\\left\\vert\\left\\vert #1 \\right\\vert\\right\\vert",
+    "\\inp": "\\langle #1, #2 \\rangle",
+    "\\Res": "\\operatorname{Res}\\left( #1, #2 \\right)",
+    "\\spn": "\\operatorname{Span}\\left(#1 \\right)",
+    "\\null": "\\operatorname{Null}\\left(#1 \\right)",
+    "\\abs": "\\left|#1 \\right|",
+    "\\R": "\\mathbb{R}",
+    "\\Q": "\\mathbb{Q}",
+    "\\C": "\\mathbb{C}",
+    "\\F": "\\mathbb{F}",
+    "\\N": "\\mathbb{N}",
+    "\\Z": "\\mathbb{Z}",
+    "\\T": "\\mathbb{T}",
+    "\\D": "\\mathbb{D}",
+    "\\contradiction": "\\Rightarrow\\!\\Leftarrow"
+};
+
+
+// ------------------------------------------------------------
 // Statement modal: shows a question's metadata + public
 // problem statement (Markdown-ish text with LaTeX). Renders
 // math via KaTeX auto-render if it's loaded on the page.
@@ -226,7 +263,9 @@ function openStatementModal(question) {
             delimiters: [
                 { left: "$$", right: "$$", display: true },
                 { left: "$", right: "$", display: false }
-            ]
+            ],
+            macros: KATEX_MACROS,
+            throwOnError: false
         });
     }
 }
