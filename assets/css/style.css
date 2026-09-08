@@ -215,10 +215,11 @@ button:hover { background: var(--accent-faint); }
 
 .modal-box {
     background: #fff;
-    max-width: 600px;
-    width: 90%;
-    max-height: 80vh;
+    max-width: 800px;
+    width: 92%;
+    max-height: 85vh;
     overflow-y: auto;
+    overflow-x: auto;
     border-radius: 8px;
     padding: 24px;
     position: relative;
