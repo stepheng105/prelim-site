@@ -1,0 +1,1345 @@
+[
+  {
+    "id": "A Compact Diagonal Operator and a Noncompact Nilpotent Operator on ℓp",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2013"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Compact operator",
+      "Lp spaces"
+    ],
+    "theorems": [],
+    "writer": [
+      "Qing"
+    ],
+    "finished": false,
+    "statement": "For $p\\in [1,\\infty)$, let\n$$\n\\ell^p = \\left\\{(x_n)_{n=1}^\\infty : x_i \\in \\R, \\sum_{i=1}^\\infty \\abs{x_i}^p <\\infty\\right\\}\n$$\nand\n$$\n\\ell^\\infty = \\left\\{(x_n)_{n=1}^\\infty : x_i\\in \\R, \\sup_{n\\in\\N} \\abs{x_n}<\\infty \\right\\}\n$$\nwith their standard norms. \n\n(a) Let $T:\\ell^2\\rightarrow \\ell^2$ be defined by\n$$\nT(x_1, x_2, x_3, \\cdots) = \\left(x_1, \\frac{1}{2}x_2, \\frac{1}{3}x_3, \\right).\n$$\nProve that $T$ is compact.\n(b) For $p \\in [1,\\infty]$, let $U:\\ell^p\\rightarrow \\ell^p$ be defined by\n$$\nU(x_1,x_2,x_3,\\cdots) = (0, x_1, 0, x_3, \\cdots).\n$$\nShow that $U^2=0$, but $U$ is not compact."
+  },
+  {
+    "id": "A Fréchet Space of Continuous Real-Valued Functions on Open Domains",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2014"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Frechet space"
+    ],
+    "theorems": [],
+    "writer": [
+      "Ehrhardt",
+      "Normed linear space",
+      "Compactness"
+    ],
+    "finished": false,
+    "statement": "Let $\\Omega$ be an open domain in the Euclidian space $\\R^n$, and let $C(\\Omega)$ denote the set of all continuous real-valued functions on $\\Omega$. Define a topology on $C(\\Omega)$ for which it becomes a Fréchet space."
+  },
+  {
+    "id": "A Linear Operator Between Normed Spaces is Continuous If and Only If it is Bounded",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2024",
+      "Spring 2014",
+      "Spring 2011",
+      "Winter 2020"
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Normed linear space",
+      "Linear operators",
+      "Bounded linear operators",
+      "Continuity"
+    ],
+    "theorems": [],
+    "writer": [
+      "Tromba",
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X$ and $Y$ be normed space, and suppose $T:X\\rightarrow Y$ is a linear operator. Show that $T$ is continuous if and only if $T$ is bounded."
+  },
+  {
+    "id": "A Survey of Linear Functionals on the Space of Continuously Differentiable Functions",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2021"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Normed linear space",
+      "Linear functionals",
+      "Bounded linear operators",
+      "Continuity"
+    ],
+    "theorems": [],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X$ be the set of all continuously differentiable functions $f:[-1, 1]\\rightarrow \\R$. Because $X\\subseteq C([-1,1])$, $X$ is a normed space with\n$$\n\\norm{f} = \\max_{x\\in [-1, 1]}\\abs{f(x)}.\n$$\nDecide which of the following linear functionals on $X$ are bounded. For the ones that are bounded, find their norm.\n$$\n\\phi_1(f)=f(0),\\qquad \\phi_2(f)=\\int_{-1}^1 \\operatorname{sign}(f(x))f(x)\\, dx, \\qquad \\phi_3(f)= f'(0), \\qquad \\phi_4(f)=\\sum_{n=1}^\\infty \\frac{1}{2^n} f\\left( \\frac{1}{n}\\right)\n$$"
+  },
+  {
+    "id": "A Uniform Operator Norm Bound from a Weak Dual Bound",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2023"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Banach space",
+      "Bounded linear operators",
+      "Weak topology"
+    ],
+    "theorems": [
+      "Uniform Boundedness Theorem",
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $\\{A_\\omega\\}_{\\omega\\in\\Omega}$ be a family of bounded linear operators $A_\\omega:X\\rightarrow Y$ where $X,Y$ are Banach spaces. Suppose that for each $x\\in X, \\phi\\in Y^*$, \n$$\n\\sup_{\\omega\\in\\Omega} \\abs{\\phi(A_\\omega(x))}<\\infty.\n$$\nShow that\n$$\n\\sup_{\\omega\\in\\Omega} \\norm{A_\\omega}<\\infty.\n$$"
+  },
+  {
+    "id": "A Unit Vector Separated from a Proper Closed Subspace",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2010"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Banach space",
+      "Linear functionals"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "Let $X$ be a Banach space and let $M\\neq X$ be a closed linear subspace of $X$. Show that there exists $x_0\\in X$ such that $\\norm{x_0}=1$ and\n$$\nd(x_0, M) := \\inf_{z\\in M} d(x_0, z) \\geq \\frac{1}{2}.\n$$"
+  },
+  {
+    "id": "An Operator is Invertible If and Only If It and its Adjoint are Bounded Below",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2019"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Banach space",
+      "Bounded linear operators",
+      "Linear functionals",
+      "Adjoint operator"
+    ],
+    "theorems": [
+      "Open Mapping Theorem",
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "Let $X$ be a Banach space and let $A\\in \\mathcal{L}(X)$ be a bounded linear operator. Show that there exists $B\\in \\mathcal{L}(X)$ such that $AB=BA=I$ if and only if there exists $\\gamma >0$ such that\n$$\n\\norm{x} \\leq \\gamma \\norm{A(x)} \\quad \\text{and} \\quad \\norm{\\phi} \\leq \\gamma \\norm{A^*(\\phi)}\n$$\nfor all $x\\in X, \\phi \\in X^*$. Here, $A^*$ denotes the Banach space adjoint of $A$ and $I$ denotes the identity operator on $X$."
+  },
+  {
+    "id": "Bounded Projections onto Codimension-One Subspaces",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2023"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Banach space",
+      "Bounded linear operators"
+    ],
+    "theorems": [
+      "Closed Graph Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X$ be a Banach space which is the direct sum $X=X_1\\oplus \\spn{x_0}$ where $X_1$ is a subspace of codimension 1 and $x_0$ is some nonzero element in $X$. Show that the projection operator $P:X\\rightarrow X_1$ is bounded if and only if $X_1$ is closed in $X$."
+  },
+  {
+    "id": "Characterization of Multiplication Operators on ℓ2",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2022"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Bounded linear operators",
+      "Lp spaces"
+    ],
+    "theorems": [
+      "Closed Graph Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $a=\\{a_n\\}_{n=1}^\\infty$ be a sequence of points. On the space of all sequences, define the function $M_a$ by\n$$\nM_a((x_n))=(a_nx_n)_{n=1}^\\infty.\n$$\nSuppose that $a$ is chosen such that for each $(x_n)\\in \\ell^2$, $M_a((x_n))\\in \\ell^2$. \n\n(a) Prove that the linear operator $M_a$ is bounded on $\\ell^2$.\n(b) Prove that $a\\in\\ell^\\infty$."
+  },
+  {
+    "id": "Characterizing Closed Subspaces by Annihilating Functionals",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2014"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Normed linear space",
+      "Linear functionals"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "Suppose that $X$ is a normed space and that $W$ is a closed subspace of $X$. Show that\n$$\nW = \\{x\\in X : \\phi(x) = 0 \\text{ for all } \\phi\\in X^* \\text{ with } W\\subseteq \\null{\\phi} \\}.\n$$"
+  },
+  {
+    "id": "Closed Range of I+K for Compact Operators K",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2018",
+      "Spring 2011"
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Compact operator",
+      "Banach space",
+      "Fredholm operator"
+    ],
+    "theorems": [
+      "Fredholm Alternative"
+    ],
+    "writer": [
+      "Tromba",
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "Let $X$ be a Banach space and let $K\\in\\mathcal{L}(X)$ be a compact operator on $X$. Show that $R(I+K)$ is closed."
+  },
+  {
+    "id": "Closed Subspaces of Reflexive Spaces are Reflexive",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2021",
+      "Spring 2015",
+      "Spring 2019"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Banach space",
+      "Reflexive space",
+      "Weak topology"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem",
+      "Banach-Alaoglu theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Show that every closed linear subspace of a reflexive Banach space is reflexive."
+  },
+  {
+    "id": "Computing the Adjoint of the Volterra Integral Operator",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2012"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Hilbert space",
+      "Adjoint operator"
+    ],
+    "theorems": [],
+    "writer": [
+      "Schonbek"
+    ],
+    "finished": false,
+    "statement": "Let $H=L^2([0,1])$ and $T:H\\rightarrow H$ be the Volterra integral operator\n$$\n(T(f))(x) = \\int_0^x f(t)\\, dt.\n$$\n\n(a) Show that $T$ has no nonzero eigenvalues.\n(b) Compute the adjoint of $T$."
+  },
+  {
+    "id": "Computing the Spectrum of the an Integral Operator",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2013"
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Compact operator",
+      "Spectrum"
+    ],
+    "theorems": [
+      "Spectrum of a compact operator",
+      "Fredholm Alternative"
+    ],
+    "writer": [
+      "Qing"
+    ],
+    "finished": false,
+    "statement": "(a) Let $T$ be a compact operator on a Banach space $X$. Show that any nonzero element of the spectrum of $T$ is contained in the point spectrum of $T$.\n(b) Let $C([0,1])$ be the space of continuous complex-valued functions on $[0,1]$ with the supremum norm. Show that the map $T:C([0,1])\\rightarrow C([0,1])$ defined by\n\n$$\nT(f)(x) := \\int_0^x f(t)\\, dt\n$$\nis a compact linear operator, and find the spectrum of $T$."
+  },
+  {
+    "id": "Convergence Against All Square Summable Sequences Implies Square Summability",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2017"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Hilbert space",
+      "Linear functionals",
+      "Lp spaces"
+    ],
+    "theorems": [
+      "Uniform Boundedness Theorem",
+      "Riesz Representation Theorem"
+    ],
+    "writer": [
+      "Lin"
+    ],
+    "finished": false,
+    "statement": "Let $(\\alpha_n)$ be a sequence of real numbers, and assume that the series\n$$\n\\sum_{n=1}^\\infty \\alpha_n x_n\n$$\nconverges for each $(x_n)\\in \\ell^2$, where $\\ell^2$ is the space of real square summable sequences. Show that $(\\alpha_n)\\in \\ell^2$."
+  },
+  {
+    "id": "Correspondence Between Bounded Bilinear Forms and Operators into the Dual Space",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2022"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Banach space",
+      "Linear functionals",
+      "Bounded linear operators"
+    ],
+    "theorems": [],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X,Y$ be complex Banach spaces, A map $B:X\\times Y \\rightarrow \\C$ is called a **bilinear form** if $B(x,y)$ is linear in $x$ for all $y\\in Y$ and linear in $y$ for all $x\\in X$. It is called **bounded** if there exists a constant $M>0$ such that\n$$\n|B(x,y)| \\leq M \\norm{x}\\norm{y}\n$$\nfor all $x\\in X,y\\in Y$. \n\nShow that there exists a bijective correspondence between the set of bounded bilinear forms $B:X\\times Y\\rightarrow \\C$ and the set of bounded linear operators $A:X\\rightarrow Y^*$, where $Y^*$ is the dual space of $Y$."
+  },
+  {
+    "id": "Determining the Norm and Spectrum of an Integration Operator",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2022"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Spectrum",
+      "Bounded linear operators",
+      "Compact operator"
+    ],
+    "theorems": [
+      "Spectrum of a compact operator"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X=C([0,1])$ be the Banach sace of all continuous complex-valued function with the maximum norm. Consider the linear operator $A:X\\rightarrow X$ defined by\n$$\nA(f)(x)= x \\int_0^1 f(y)\\, dy.\n$$\n\n(a) Show that $A$ is bounded and determine its operator norm.\n(b) Determine the spectrum of the operator $A$."
+  },
+  {
+    "id": "Determining the Spectrums of a Multiplication by x Operator",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2017"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Bounded linear operators",
+      "Spectrum"
+    ],
+    "theorems": [],
+    "writer": [
+      "Lin"
+    ],
+    "finished": false,
+    "statement": "Let $X:=C([0,1])$ be th space of continuous complex valued functions with the supremum norm\n$$\n\\norm{f}_\\infty = \\sup_{x\\in [0,1]}\\abs{f(x)}.\n$$\nDefine $T:X\\rightarrow X$ by\n$$\nT(f)(x)= xf(x)\n$$\nfor all $f\\in X, x\\in [0,1]$. Determine the spectrum $\\sigma(T)$, the point spectrum $\\sigma_p(T)$, the residual spectrum $\\sigma_r(T)$, and the continuous spectrum $\\sigma_c(T)$."
+  },
+  {
+    "id": "Eigenvalues and Eigenspaces of the Left Shift Operator on ℓ∞",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2012"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Bounded linear operators",
+      "Spectrum",
+      "Lp spaces"
+    ],
+    "theorems": [],
+    "writer": [
+      "Schonbek"
+    ],
+    "finished": false,
+    "statement": "Let $T:\\ell^\\infty \\rightarrow \\ell^\\infty$ be defined by\n$$\nT((a_1,a_2,\\cdots))= (a_2, a_3, \\cdots).\n$$\n\n(a) Show that $T$ is a bounded linear operator on $\\ell^\\infty$.\n(b) Show that $\\lambda I-T$ is invertible for each $\\lambda \\in \\R\\backslash[-1,1]$.\n(c) Show that each $\\lambda \\in [-1, 1]$ is an eigenvalue of $T$.\n(d) Find the eigenspace for each $\\lambda \\in [-1, 1]$."
+  },
+  {
+    "id": "Equivalence of Complete Norms Under a One-Sided Bound",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2015",
+      "Winter 2015"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Banach space",
+      "Bounded linear operators"
+    ],
+    "theorems": [
+      "Open Mapping Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "Let $X$ be a Banach space with norm $\\norm{\\cdot}_1$. Assume that there exists a second norm $\\norm{\\cdot}_2$ on $X$ under which $X$ is also complete and that there exists $M>0$ such that for all $x\\in X$, $\\norm{x}_1\\leq M\\norm{x}_2$. Show that there exists $c>0$ such that $\\norm{x}_2 \\leq c\\norm{x}_1$ for all $x\\in X$."
+  },
+  {
+    "id": "Equivalent conditions for bounded invertibility in Banach spaces",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2020"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Banach space",
+      "Bounded linear operators"
+    ],
+    "theorems": [
+      "Open Mapping Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X$ be a Banach space and let $A$ be a bounded linear operator on $X$. let $N(A)$ denote the nullspace of $A$ and $R(A)$ denote the range of $A$. Suppose that $R(A)$ is dense in $X$. Show that the following are equivalent:\n* There exists a bounded linear operator $B$ on $X$ such that $AB=BA=I$.\n* There exists $C>0$ such that $\\norm{x}\\leq C\\norm{A(x)}$ for all $x\\in X$.\n* $N(A)=\\{0\\}$ and $R(A)$ is closed."
+  },
+  {
+    "id": "Every Nonzero Vector Admits a Norm-Attaining Functional",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2013"
+    ],
+    "difficulty": 1,
+    "concepts": [
+      "Normed linear space",
+      "Linear functionals"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Qing"
+    ],
+    "finished": false,
+    "statement": "Let $X$ be a normed space and let $x_0\\neq 0$ be an element in $X$. Show that there exists $T\\in X^*$ such that $\\norm{T}=1$ and $T(x_0) = \\norm{x_0}$."
+  },
+  {
+    "id": "Every One-Dimensional Subspace of a Banach Space is a Direct Summand of the Whole Space",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2020",
+      "Winter 2022",
+      "Fall 2014"
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Banach space",
+      "Linear functionals"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X$ be a Banach space, and let $X_0$ be subspace of dimension 1. Show that there exists a closed subspace $X_1$ of $X$ such that $X=X_1\\oplus X_0$."
+  },
+  {
+    "id": "If an Operator T is Bounded When Composed with Any Bounded Functional, then T is Bounded",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2024",
+      "Winter 2018"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Banach space",
+      "Bounded linear operators",
+      "Linear functionals"
+    ],
+    "theorems": [
+      "Closed Graph Theorem",
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X$ and $Y$ be Banach spaces. Suppose that $T:X\\rightarrow Y$ is a linear map such that $\\phi\\circ T \\in X^*$ for all $\\phi\\in Y^*$. Show that $T$ is bounded."
+  },
+  {
+    "id": "If the Image of a Set Under All Bounded Functionals Is Bounded, then the Set Is Bounded",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2025"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Normed linear space",
+      "Linear functionals",
+      "Weak topology"
+    ],
+    "theorems": [
+      "Uniform Boundedness Theorem",
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $A$ be a subset in a normed space $V$. Suppose that\n$$\n\\sup_{x\\in A}|\\phi(x)|<\\infty\n$$\nfor all $\\phi\\in V^*$, where $V^*$ denotes the dual space of $V$. Prove that\n$$\n\\sup_{x\\in A}\\norm{x}<\\infty.\n$$"
+  },
+  {
+    "id": "Injective Operators with Closed Range Are Bounded Below",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2026",
+      "Fall 2021",
+      "Spring 2010"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Banach space",
+      "Bounded linear operators"
+    ],
+    "theorems": [
+      "Open Mapping Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X,Y$ be Banach spaces and $A:X\\rightarrow Y$ be a bounded linear operator. Show that the following are equivalent:\n* $A$ is injective and the range of $A$ is closed.\n* There exists a constant $M>0$ such that \n$$\n\\norm{x} \\leq M \\norm{A(x)}\n$$\nfor all $x\\in X$.\n* There exists a bounded linear operator $B:R(A)\\rightarrow X$ such that $BA=I_X$."
+  },
+  {
+    "id": "Norms Defined by Inner Products",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2016",
+      "Winter 2011"
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Hilbert space",
+      "Inner product"
+    ],
+    "theorems": [
+      "Cauchy-Schwarz Inequality"
+    ],
+    "writer": [
+      "Tromba",
+      "Lin"
+    ],
+    "finished": false,
+    "statement": "Let $H$ be a vector space with inner product $\\inp{\\cdot}{\\cdot}$.\n\n(a) Prove the Cauchy-Schwarz inequality.\n(b) Show that $\\norm{x}:= \\sqrt{\\inp{x}{x}}$ defines a norm on $H$."
+  },
+  {
+    "id": "Operator Properties from ⟨x,Ax⟩",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2022"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Hilbert space",
+      "Inner product",
+      "Bounded linear operators"
+    ],
+    "theorems": [
+      "Cauchy-Schwarz Inequality"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $H$ be a Hilbert space, and let $A$ be a bounded linear operator on $H$.\n\n(a) Show that if $\\abs{\\inp{x}{A(x)}}\\geq \\norm{x}^2$ for all $x\\in H$, then $A$ is injective and has a closed range.\n(b) Assume that $H$ is a complex Hilbert space. Show that if $\\inp{x}{A(x)}=0$ for all $x\\in H$, then $A=0$.\n(c) Give an example showing that (b) is not true if we do not assume $H$ is a complex Hilbert space."
+  },
+  {
+    "id": "Pointwise Limits of Bounded Operators on a Banach Space are Bounded",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2019"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Banach space",
+      "Bounded linear operators"
+    ],
+    "theorems": [
+      "Uniform Boundedness Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "Let $X$ be Banach, and let $(A_n)$ be a sequence of bounded linear operators on $X$ that converge pointwise to a function $A:X\\rightarrow X$. \n\n(a) Show that $A$ is a bounded linear operator on $X$. \n(b) Is part (a) still true if we only assume $X$ is a normed space?"
+  },
+  {
+    "id": "Projection Operators are Bounded If and Only If their Image and Kernel are Closed",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2021",
+      "Fall 2014",
+      "Spring 2010"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Banach space",
+      "Bounded linear operators"
+    ],
+    "theorems": [
+      "Closed Graph Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X$ be a Banach space which decomposes as a direct sum of two subspace $X=X_1\\oplus X_2$. Let $P:X\\rightarrow X$ be the projection function onto $X_1$. I.e., $P(x_1+x_2)=x_1$ for all $x_1\\in X_1, x_2\\in X_2$. \n\n(a) Show that $P$ is a linear operator satisfying $P^2=P$.\n(b) Show that $P$ is bounded if and only if $X_1,X_2$ are closed subspaces of $X$."
+  },
+  {
+    "id": "Proof of the Neumann Series Theorem",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2012"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Banach space",
+      "Bounded linear operators"
+    ],
+    "theorems": [
+      "Neumann Series"
+    ],
+    "writer": [
+      "Schonbek"
+    ],
+    "finished": false,
+    "statement": "Suppose that $A\\in \\mathcal{L}(X)$ is a bounded linear operator on a Banach space $X$ such that $\\norm{A}<1$. Show that \n$$\nB:= \\sum_{n=0}^\\infty A^k\n$$\nis a well defined and bounded linear operator such that $AB=BA=I$."
+  },
+  {
+    "id": "Proof of the Open Mapping Theorem Via the Closed Graph Theorem",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2013"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Banach space",
+      "Bounded linear operators"
+    ],
+    "theorems": [
+      "Closed Graph Theorem"
+    ],
+    "writer": [
+      "Qing"
+    ],
+    "finished": true,
+    "statement": "Use the closed graph theorem to prove the following (you may NOT use the open mapping theorem):\n\n(a) Suppose $X,Y$ are Banach spaces and $T:X\\rightarrow Y$ is a bijective bounded linear operator. Show that $T^{-1}$ is also bounded.\n(b) Suppose that $X,Y$ are Banach spaces and $T$ is a bounded surjective linear operator. Show that $T$ is open."
+  },
+  {
+    "id": "Quotients of Banach Spaces are Banach",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2024"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Normed linear space",
+      "Banach space"
+    ],
+    "theorems": [],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X$ be a normed space with norm $\\norm{\\cdot}$, and let $M$ be a closed subspace of $X$. Consider the quotient space $X/M$, i.e., the set of all $[x]:= x+M$ for $x\\in X$.\n\n(a) Prove that $\\norm{\\cdot}_*:X/M\\rightarrow \\R$ defined by \n$$\n\\norm{[x]}_* = \\inf \\{ \\norm{x+z}:z\\in M\\}\n$$\ndefines a norm on $X/M$.\n(b) Prove that if $X$ is a Banach space, then so is $X/M$.\n(c) Is it the case that if $X/M$ is a Banach space, then so is $X$? Give either a proof or a counterexample."
+  },
+  {
+    "id": "Rank-One Projections in Infinite-Dimensional Spaces",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2025"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Linear functionals",
+      "Bounded linear operators",
+      "Normed linear space"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X$ be an infinite dimensional normed space. A linear operator $P:X\\rightarrow X$ is called a rank one projection on $X$ if $P^2=P$ and $\\dim(P(X))=1$. \n\n(a) Prove that $P$ is a rank one projection if and only if there exists some linear functional $\\phi_0$ on $X$ and some $x_0\\in X$ such that $\\phi(x_0)=1$ and $P(x)=\\phi_0(x)x_0$ for all $x\\in X$.\n(b) Show that there exists a bounded rank one projection on $X$.\n(c) Show that there exists an unbounded rank one projection on $X$."
+  },
+  {
+    "id": "Reflexive Spaces Are Weakly Sequentially Complete",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2020"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Weak topology",
+      "Reflexive space",
+      "Banach space"
+    ],
+    "theorems": [
+      "Uniform Boundedness Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X$ be a Banach space with dual space $X^*$. A sequence $(x_n)\\subseteq X$ is said to converge weakly if for every $\\phi \\in X^*$, the sequence $\\phi(x_n)$ converges. We say that $(x_n)$ converges weakly to $x\\in X$ if for every $\\phi \\in X^*$, $\\phi(x_n)$ converges to $\\phi(x)$. \n\n(a) Show that if $X$ is reflexive, then every weakly convergent sequence converges weakly to some $x\\in X$. \n(b) Show that (a) is not necessarily true if we do not assume $X$ is reflexive."
+  },
+  {
+    "id": "Reflexivity of V* Implies Reflexivity of V",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2018"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Reflexive space",
+      "Banach space",
+      "Weak topology"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "Let $V$ be a normed space.\n\n(a) What does it mean for $V$ to be reflexive?\n(b) Suppose that $V$ is a Banach space. Show that if $V^*$ is reflexive, then $V$ is reflexive."
+  },
+  {
+    "id": "Separating a Point from a Convex Set by a Continuous Linear Functional",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2012"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Normed linear space",
+      "Linear functionals",
+      "Convexity"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Schonbek"
+    ],
+    "finished": false,
+    "statement": "Let $C$ be a convex set in. a real normed linear space $X$ such that $0\\in C$. Show that for each $x_0\\not\\in C$, there exists a continuous linear functional $F:X\\rightarrow \\R$ such that $F(x)\\leq F(x_0)$ for all $x\\in C$."
+  },
+  {
+    "id": "Stability of Operators Bounded Below",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2025"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Bounded linear operators",
+      "Banach space"
+    ],
+    "theorems": [],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $A\\in \\mathcal{L}(X,Y)$ be a bounded linear operator between Banach spaces $X$ and $Y$ such that for some $M\\geq 0$,\n$$\n\\norm{x}_X \\leq M \\norm{A(x)}_Y\n$$\nfor all $x\\in X$. Show that there exists $\\varepsilon >0$ such that for every bounded linear operator $B\\in \\mathcal{L}(X,Y)$ with $\\norm{B}<\\varepsilon$, the operator $A+B$ has a trivial nullspace and a closed range."
+  },
+  {
+    "id": "Studying the Set of Extensions of the Limit Map on ℓ∞",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2020"
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Lp spaces",
+      "Linear functionals"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $\\ell^\\infty$ be the Banach space of all sequences $(x_n)\\subseteq\\F$ (where $\\F$ is either $\\R$ or $\\C$) with norm\n$$\n\\norm{(x_n)}_\\infty = \\sup_{n\\in\\N} \\abs{x_n}.\n$$\n\n(a) Show that there exists a bounded linear functional $\\phi$ on $\\ell^\\infty$ with the property that\n$$\n\\phi((x_n))=\\lim_{n\\rightarrow \\infty} x_n\n$$\n  whenever the sequence $(x_n)$ is convergent in $\\F$. \n(b) Let $E$ denote the set of all bounded linear functionals with the property from part (a). Explicitly find \n$$\n\\{\\norm{\\phi} : \\phi \\in E\\}.\n$$"
+  },
+  {
+    "id": "Symmetric Operators Are Bounded",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2024"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Hilbert space",
+      "Bounded linear operators",
+      "Adjoint operator"
+    ],
+    "theorems": [
+      "Closed Graph Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $A:H\\rightarrow H$ be a linear operator on a Hilbert space $H$ satisfying $\\inp{A(x)}{y} = \\inp{x}{A(y)}$ for all $x,y\\in H$. Show that $A$ is a bounded operator."
+  },
+  {
+    "id": "The Annihilator of the Null Space of the Adjoint is Equal to the Range when the Range is Closed",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2013"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Bounded linear operators",
+      "Adjoint operator",
+      "Linear functionals"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Qing"
+    ],
+    "finished": false,
+    "statement": "Suppose $X,Y$ are Banach spaces and $T:X\\rightarrow Y$ is a bounded linear operator. Show that if $R(T)$ is closed, then $R(T)=N(T^*)^\\perp$."
+  },
+  {
+    "id": "The Backward Shift Operator on the Weighted ℓ1 Sequence Space",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2025"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Lp spaces",
+      "Bounded linear operators"
+    ],
+    "theorems": [
+      "Closed Graph Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "For a sequence $\\alpha =(\\alpha_n)_{n=1}^\\infty$ of positive numbers, let $X=\\ell^1(a)$ stand for the Banach space of all sequences $x=(x_n)_{n=1}^\\infty$ (where $x_n\\in \\C$) for which\n$$\n\\norm{x}_X=\\sum_{n=1}^\\infty |x_n|\\alpha_n < \\infty.\n$$\nYou may take for granted that $X$ is a Banach space. Consider the backward shift operator $B$ defined by\n$$\nB((x_n)_{n=1}^\\infty)=(x_{n+1})_{n=1}^\\infty.\n$$\nProve that the following are equivalent:\n(a) $B(x)\\in X$ for all $x\\in X$.\n(b) $B$ is a bounded linear operator from $X$ to $X$.\n(c) $\\displaystyle \\sup_{n\\geq 1} \\frac{a_n}{a_{n+1}}<\\infty$."
+  },
+  {
+    "id": "The Banach Space Adjoint",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2018",
+      "Winter 2016"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Adjoint operator",
+      "Bounded linear operators",
+      "Linear functionals"
+    ],
+    "theorems": [],
+    "writer": [
+      "Ehrhardt",
+      "Lin"
+    ],
+    "finished": false,
+    "statement": "Let $A:X\\rightarrow Y$ be a bounded lienear operator between Banach spaces $X,Y$. \n\n(a) Define the Banach space adjoint operator $A^*$. \n(b) Show that $A^*$ is well defined and bounded, with $\\norm{A^*}=\\norm{A}$."
+  },
+  {
+    "id": "The Closed Unit Ball in the Dual Space is Weak*-Compact",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2012"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Weak topology",
+      "Normed linear space"
+    ],
+    "theorems": [],
+    "writer": [
+      "Schonbek"
+    ],
+    "finished": false,
+    "statement": "Suppose $X$ is a Banach space. Show that the unit ball $B^* = \\{\\phi \\in X^* : \\norm{\\phi}\\leq 1\\}$ is closed in the weak*-topology."
+  },
+  {
+    "id": "The Closed Unit Ball is Weakly Closed",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2019"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Weak topology",
+      "Reflexive space",
+      "Banach space"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem",
+      "Banach-Alaoglu theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "Let $X$ be a Banach space, and let $B= \\{x\\in X:\\norm{x}\\leq 1\\}$ be the closed unit ball. \n\n(a) Show that $B$ is closed with respect to the weak topology. \n(b) Is it the case that $B$ is compact with respect to the weak topology? If not, give a counterexample and find (and prove the validity of) a condition on $X$ that makes this statement true."
+  },
+  {
+    "id": "The Dual Space of a Normed Space is Banach",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2023"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Banach space",
+      "Linear functionals",
+      "Normed linear space"
+    ],
+    "theorems": [],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X$ be a normed space. Show that the dual space $X^*$ is a Banach Space."
+  },
+  {
+    "id": "The Embedding of V into its Double Dual is an Isometry",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2016",
+      "Winter 2011"
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Normed linear space",
+      "Reflexive space",
+      "Linear functionals"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Tromba",
+      "Lin"
+    ],
+    "finished": false,
+    "statement": "Let $V$ be a normed space. \n\n(a) Give the definition of the natural embedding $\\tau$ of $V$ into its second dual $V^{**}$. \n(b) Show that $\\tau$ is an isometry."
+  },
+  {
+    "id": "The Kernel of a Bounded Operator is Closed",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2015"
+    ],
+    "difficulty": 1,
+    "concepts": [
+      "Bounded linear operators",
+      "Continuity"
+    ],
+    "theorems": [],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "Let $X$ and $Y$ be normed spaces, and suppose $T:X\\rightarrow Y$ is a bounded linear operator. Show that $T$ has a closed kernel."
+  },
+  {
+    "id": "The Left Shift Operator on ℓ2 is Fredholm",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2010"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Bounded linear operators",
+      "Fredholm operator",
+      "Lp spaces"
+    ],
+    "theorems": [
+      "Fredholm Alternative"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "Let $T:\\ell^2 \\rightarrow \\ell^2$ be defined by\n$$\nT((a_1,a_2,\\cdots))= (a_2, a_3, \\cdots).\n$$\n\n(a) Show that $T$ is a bounded linear operator on $\\ell^2$.\n(b) Show that $T$ is Fredholm of index 1."
+  },
+  {
+    "id": "The Norm of the Limit of a Weak-Limit is Bounded Above by the LimInf of the Norms of the Sequence",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2018"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Weak topology",
+      "Normed linear space"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "Let $X$ be a normed space. Show that if the sequence $(x_n)\\subseteq X$ is weakly convergent to $x_0\\in X$, then\n$$\n\\liminf_{n\\rightarrow \\infty}\\norm{x_n}\\geq \\norm{x_0}. \n$$"
+  },
+  {
+    "id": "The Set of Invertible Operators is Open, and the Inversion Function is Continuous 1",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2022"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Bounded linear operators",
+      "Banach space"
+    ],
+    "theorems": [
+      "Neumann Series"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X,Y$ be Banach spaces, and let $\\mathcal{L}(X,Y)$ stand for the set of all bounded linear operators from $X$ to $Y$, which is itself a Banach space with the operator norm. Let $T_0\\in \\mathcal{L}(X,Y)$ such that $T_0$ has a bounded inverse $T_0^{-1}\\in \\mathcal{L}(Y,X)$. Show that there exists $\\varepsilon>0$ such that, given the set\n$$\nU_\\varepsilon = \\{T\\in \\mathcal{L}(X,Y): \\norm{T-T_0}<\\varepsilon\\},\n$$\nthe function $\\iota:U_\\varepsilon \\rightarrow \\mathcal{L}(Y,X)$ defined by $\\iota(T)=T^{-1}$ is well defined and continuous."
+  },
+  {
+    "id": "The Set of Invertible Operators is Open, and the Inversion Function is Continuous 2",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Winter 2016",
+      "Spring 2020",
+      "Spring 2014"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Bounded linear operators",
+      "Banach space"
+    ],
+    "theorems": [
+      "Neumann Series"
+    ],
+    "writer": [
+      "Ehrhardt",
+      "Lin"
+    ],
+    "finished": true,
+    "statement": "Let $X,Y$ be Banach spaces. Let $\\mathcal{L}(X,Y)$ be the space of bounded linear operators from $X$ to $Y$, which is itself a Banach space with the operator norm. Let\n$$\nU = \\{A\\in \\mathcal{L}(X,Y) : A \\text{ has a bounded inverse} \\}\n$$\nShow that $U$ is open in $\\mathcal{L}(X,Y)$."
+  },
+  {
+    "id": "The Space of Operators Between Normed Spaces is Banach if and only if the Codomain is Banach",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2026",
+      "Spring 2020"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Bounded linear operators",
+      "Banach space",
+      "Normed linear space"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X$ and $Y$ be normed spaces with $X\\neq \\{0\\}$, and consider the space of bounded linear operators $\\mathcal{L}(X,Y)$ with the standard operator norm. Show that $\\mathcal{L}(X,Y)$ is Banach if and only if $Y$ is Banach."
+  },
+  {
+    "id": "The Spectrum of an Operator is Compact and Nonempty",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2019",
+      "Winter 2019"
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Spectrum",
+      "Bounded linear operators",
+      "Banach space"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem",
+      "Uniform Boundedness Theorem",
+      "Neumann Series"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": false,
+    "statement": "Let $A$ be a bounded linear operator on a complex Banach space $X$. Recall that the spectrum of $A$ is\n$$\n\\sigma(A) = \\{\\lambda \\in \\C : A-\\lambda I \\text{ is not invertible}\\}.\n$$\n\n(a) Show that $\\sigma(A)$ is a compact and nonempty subset of $\\C$.\n(b) If $X$ is instead a real Banach space, is it the case that \n$$\n\\{\\lambda \\in \\R: A-\\lambda I \\text{ is not invertible}\\}\n$$\nis a compact and nonempty subset of $\\R$?"
+  },
+  {
+    "id": "The Spectrum of the Right Shift Operator on ℓ2",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2012"
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Spectrum",
+      "Bounded linear operators",
+      "Adjoint operator"
+    ],
+    "theorems": [
+      "Neumann Series"
+    ],
+    "writer": [
+      "Schonbek"
+    ],
+    "finished": false,
+    "statement": "Let $T:\\ell^2 \\rightarrow \\ell^2$ be the right shift operator defined by \n$$\nT((x_1,x_2,\\cdots))= (0,x_1,\\cdots).\n$$\n\n(a) Show that $T$ is a bounded linear operator on $\\ell^2$.\n(b) Show that $T$ has no eigenvalues.\n(c) Show that $\\sigma(T)=\\{\\lambda \\in \\C:\\abs{\\lambda}\\leq 1\\}$.\n(d) Determine all $\\lambda \\in \\sigma(T)$ for which the range of $T-\\lambda I$ is not dense in $\\ell^2$."
+  },
+  {
+    "id": "The Weak* Unit Sphere Is Not Closed in an Infinite Dimensional Space",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2023"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Weak topology",
+      "Normed linear space",
+      "Linear functionals"
+    ],
+    "theorems": [
+      "Banach-Alaoglu theorem",
+      "Hahn-Banach Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X$ be an infinite dimensional Banach space and consider the unit sphere\n$$\nS=\\{\\phi \\in X^*: \\norm{\\phi}=1\\}\n$$\nin the dual space $X^*$. Show that $S$ is not closed in the weak\\*-topology of $X^{*}$."
+  },
+  {
+    "id": "Weak Convergence and Convergence of Norms Implies Strong Convergence in a Hilbert Space",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2013"
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Hilbert space",
+      "Weak topology",
+      "Inner product"
+    ],
+    "theorems": [],
+    "writer": [
+      "Qing"
+    ],
+    "finished": false,
+    "statement": "Suppose $H$ is a Hilbert space. Show that if a sequence $x_n\\rightarrow x$ weakly in $H$ and $\\norm{x_n}\\rightarrow \\norm{x}$, then $x_n\\rightarrow x$ strongly in $H$."
+  },
+  {
+    "id": "Weak Operator Convergence Implies Uniform Boundedness of Norms",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Spring 2021",
+      "Spring 2018"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Bounded linear operators",
+      "Weak topology",
+      "Banach space"
+    ],
+    "theorems": [
+      "Uniform Boundedness Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $X$ and $Y$ be two Banach spaces. A sequence of bounded linear operators $A_n\\in\\mathcal{L}(X,Y)$ is said to converge weakly to a linear operator $A:X\\rightarrow Y$ if for all $x\\in X$ and $\\phi \\in Y^*$, the sequence $\\phi(A_n(x))$ converges to $\\phi(A(x))$. \n\nSuppose that $(A_n)\\subseteq \\mathcal{L}(X,Y)$ converges weakly to $A:X\\rightarrow Y$. \n(a) Show that \n$$\n\\sup_{n\\geq 1} \\norm{A_n} < \\infty.\n$$\n(b) Show that $A$ is bounded."
+  },
+  {
+    "id": "Weak Operator Convergence vs Norm Convergence",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "university": "University of California, Santa Cruz",
+    "terms": [
+      "Fall 2021"
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Hilbert space",
+      "Bounded linear operators",
+      "Weak topology"
+    ],
+    "theorems": [
+      "Uniform Boundedness Theorem",
+      "Riesz Representation Theorem"
+    ],
+    "writer": [
+      "Ehrhardt"
+    ],
+    "finished": true,
+    "statement": "Let $H$ be a Hilbert space with inner product $\\inp{\\cdot}{\\cdot}$, and let $A_n$ be a sequence of bounded linear operators on $H$. Assume that for every $x,y\\in H$, we have\n$$\n\\lim_{n\\rightarrow \\infty} \\inp{y}{A_n(x)}=0.\n$$\n\n(a) Does it follow that $\\displaystyle \\lim_{n\\rightarrow \\infty} \\norm{A_n}=0$?\n(b) Does it follow that $\\displaystyle \\sup_{n\\geq 1} \\norm{A_n} < \\infty$?\nProvide either counterexamples or proofs."
+  }
+]
