@@ -235,6 +235,14 @@ button:hover { background: var(--accent-faint); }
     color: var(--text-muted);
 }
 
+.statement-parts {
+    margin: 8px 0;
+}
+
+.statement-part {
+    margin: 2px 0 2px 20px;
+}
+
 .modal-meta {
     font-size: 0.85em;
     color: var(--text-muted);

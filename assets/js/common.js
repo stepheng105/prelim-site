@@ -200,6 +200,78 @@ const KATEX_MACROS = {
     "\\contradiction": "\\Rightarrow\\!\\Leftarrow"
 };
 
+// ------------------------------------------------------------
+// Renders a statement's text, grouping consecutive "part"
+// lines — (a), (b), 1., i., etc. — into a tightly-spaced
+// block instead of full paragraphs, regardless of whether the
+// source separated them with blank lines or plain newlines.
+// ------------------------------------------------------------
+
+function renderStatementBody(container, rawText) {
+
+    const PART_MARKER = /^\s*\(?[a-zA-Z0-9]+[\.\)]\s+/;
+
+    const lines = rawText.split("\n");
+
+    let currentParagraph = [];
+    const blocks = [];
+
+    function flushParagraph() {
+        if (currentParagraph.length > 0) {
+            blocks.push({ type: "paragraph", text: currentParagraph.join(" ").trim() });
+            currentParagraph = [];
+        }
+    }
+
+    for (const line of lines) {
+
+        const trimmed = line.trim();
+
+        if (trimmed === "") {
+            flushParagraph();
+            continue;
+        }
+
+        if (PART_MARKER.test(trimmed)) {
+            flushParagraph();
+            blocks.push({ type: "part", text: trimmed });
+            continue;
+        }
+
+        currentParagraph.push(trimmed);
+    }
+
+    flushParagraph();
+
+    let i = 0;
+
+    while (i < blocks.length) {
+
+        if (blocks[i].type === "part") {
+
+            const partsGroup = document.createElement("div");
+            partsGroup.className = "statement-parts";
+
+            while (i < blocks.length && blocks[i].type === "part") {
+                const partEl = document.createElement("p");
+                partEl.className = "statement-part";
+                partEl.textContent = blocks[i].text;
+                partsGroup.appendChild(partEl);
+                i++;
+            }
+
+            container.appendChild(partsGroup);
+
+        } else {
+
+            const p = document.createElement("p");
+            p.textContent = blocks[i].text;
+            container.appendChild(p);
+            i++;
+        }
+    }
+}
+
 
 // ------------------------------------------------------------
 // Statement modal: shows a question's metadata + public
@@ -235,15 +307,7 @@ function openStatementModal(question) {
     const statement = document.createElement("div");
     statement.className = "statement-body";
 
-    // Minimal paragraph-splitting; the statement text itself
-    // is left otherwise as-is (LaTeX delimiters preserved for
-    // KaTeX to pick up).
-    const paragraphs = question.statement.split(/\n\s*\n/);
-    for (const p of paragraphs) {
-        const pEl = document.createElement("p");
-        pEl.textContent = p.trim();
-        statement.appendChild(pEl);
-    }
+    renderStatementBody(statement, question.statement);
 
     box.appendChild(closeBtn);
     box.appendChild(title);
