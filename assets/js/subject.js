@@ -307,6 +307,8 @@
     const genResult = document.createElement("div");
     genContainer.appendChild(genResult);
 
+    renderGeneratorInstructions(genContainer);
+
     function getMatchingQuestions() {
 
         const selectedConcepts = genConceptCheckboxes.filter(c => c.checked).map(c => c.value);

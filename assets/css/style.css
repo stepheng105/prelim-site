@@ -244,6 +244,21 @@ button:hover { background: var(--accent-faint); }
     margin: 2px 0 2px 20px;
 }
 
+.instructions-block {
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    font-size: 0.9em;
+}
+
+.instructions-block details {
+    margin-top: 8px;
+}
+
+.instructions-block ul ul {
+    margin-top: 4px;
+}
+
 .modal-meta {
     font-size: 0.85em;
     color: var(--text-muted);

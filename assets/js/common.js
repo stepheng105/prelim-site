@@ -201,6 +201,69 @@ const KATEX_MACROS = {
 };
 
 // ------------------------------------------------------------
+// Static usage instructions for the random question generator.
+// Same content on every subject page.
+// ------------------------------------------------------------
+
+function renderGeneratorInstructions(container) {
+
+    const wrapper = document.createElement("div");
+    wrapper.className = "instructions-block";
+
+    wrapper.innerHTML = `
+        <h3>Instructions for Random Question Generator</h3>
+
+        <p><strong>TLDR:</strong></p>
+        <ul>
+            <li>Choose concepts and theorems and it will find question(s) that have at least one of those concepts/theorems.</li>
+            <li>Author, difficulty, and written solution constraints will force the question to have the requested author, difficulty, and solution status.</li>
+        </ul>
+
+        <details>
+            <summary><strong>Full Instructions</strong></summary>
+            <ul>
+                <li><strong>Select Concepts / Select Theorems:</strong>
+                    <ul>
+                        <li>These sections are dropdowns to a large number of tick boxes. If you select no tick boxes in either section, no filter is applied (i.e., it just picks a random question).</li>
+                        <li>If you select some tick boxes (e.g. "Metric Spaces" and "Connectedness" under concepts, and "Baire Category Theorem" under theorems), it will find a question with at least one of those concepts OR theorems.</li>
+                        <li>These dropdowns also have "Select All" and "Clear All" buttons, useful if you have only a few topics you DON'T want to study, or want to clear all filters at once.</li>
+                    </ul>
+                </li>
+                <li><strong>Select Author:</strong>
+                    <ul>
+                        <li>Lets you filter by author. Choose "Any Author," or a specific author of that portion of the exams.</li>
+                        <li>This forces all results to have been written by that specific author.</li>
+                        <li>Some authors have only written a few exams, so filtering by them may yield only a couple results.</li>
+                    </ul>
+                </li>
+                <li><strong>Select Difficulty:</strong>
+                    <ul>
+                        <li>Two pieces: a dropdown for "Equal to," "At least," or "At most," and a numerical input between 1 and 5 (1 = easiest, 5 = hardest). This forces all generated questions to satisfy the constraint.</li>
+                        <li>Example: selecting "At least" and entering 3 generates only questions with difficulty ≥ 3.</li>
+                        <li>Leaving the input box empty applies no difficulty filter.</li>
+                    </ul>
+                </li>
+                <li><strong>Question has Written Solution:</strong>
+                    <ul>
+                        <li>Lets you filter by solution status. "Any" applies no filter; "Full Solution" generates only questions with a written solution; "Incomplete Solution" generates only questions without one.</li>
+                    </ul>
+                </li>
+                <li><strong>Number of questions:</strong>
+                    <ul>
+                        <li>Generates multiple distinct questions at once (minimum 1).</li>
+                        <li>Entering 1 generates a single question; entering 5 generates 5 distinct questions, as long as 5 match your filters.</li>
+                        <li>If you request more than the number of matching questions, you'll get all available matches.</li>
+                    </ul>
+                </li>
+            </ul>
+        </details>
+    `;
+
+    container.appendChild(wrapper);
+}
+
+
+// ------------------------------------------------------------
 // Renders a statement's text, grouping consecutive "part"
 // lines — (a), (b), 1., i., etc. — into a tightly-spaced
 // block instead of full paragraphs, regardless of whether the
