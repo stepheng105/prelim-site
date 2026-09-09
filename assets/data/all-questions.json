@@ -2092,7 +2092,7 @@
       "Qing"
     ],
     "finished": true,
-    "statement": "Let $(X,\\Sigma, \\mu)$ be a measure space. Suppose that $f:X\\rightarrow \\R$ is a measurable function such that $\\int_X \\abs{f}\\, d\\mu<\\infty$. Show that, for all $\\varepsilon>0$, there exists $\\delta>0$ such that\n$$\n\\int_A \\abs{f}\\, d\\mu<\\varepsilon\n$$\nfor any measurable subset $A\\subseteq X$ such that $\\mu(A)<\\delta$. TESTING!"
+    "statement": "Let $(X,\\Sigma, \\mu)$ be a measure space. Suppose that $f:X\\rightarrow \\R$ is a measurable function such that $\\int_X \\abs{f}\\, d\\mu<\\infty$. Show that, for all $\\varepsilon>0$, there exists $\\delta>0$ such that\n$$\n\\int_A \\abs{f}\\, d\\mu<\\varepsilon\n$$\nfor any measurable subset $A\\subseteq X$ such that $\\mu(A)<\\delta$."
   },
   {
     "id": "Interchanging Differentiation and Integration",
@@ -3030,8 +3030,8 @@
     "writer": [
       "Gharakhloo"
     ],
-    "finished": false,
-    "statement": "Let $\\sqrt[pr]{w}$ denote the principle branch of $w^\\frac{1}{2}$ corresponding to \n$$\n-\\pi < \\arg(w)<\\pi.\n$$\nLet\n$$\n\\Omega_L = \\{z\\in \\C : \\Re(z)<0\\}\\backslash[-1, 0), \\quad \\Omega_R = \\{z\\in \\C : \\Re(z)>0\\}\\backslash(0, 1].\n$$\nDefine\n$$\nf(z) := \\sqrt[pr]{z-1}\\sqrt[pr]{z+1} \\quad \\text{ and } \\quad g(z):= \\sqrt[pr]{z^2-1}\n$$\nwherever the respective expressions are defined. \n(a) Prove that for all $z\\in\\Omega_R$, $f(z)=g(z)$.\n(b) Prove that for all $z\\in \\Omega_L$, $f(z)=-g(z)$.\n(c) What can you say when $z\\in i\\R$?"
+    "finished": true,
+    "statement": "Let $\\sqrt[pr]{w}$ denote the principle branch of $w^\\frac{1}{2}$ corresponding to \n$$\n-\\pi < \\arg(w)\\leq \\pi.\n$$\nLet\n$$\n\\Omega_L = \\{z\\in \\C : \\Re(z)<0\\}\\backslash[-1, 0), \\quad \\Omega_R = \\{z\\in \\C : \\Re(z)>0\\}\\backslash(0, 1].\n$$\nDefine\n$$\nf(z) := \\sqrt[pr]{z-1}\\sqrt[pr]{z+1} \\quad \\text{ and } \\quad g(z):= \\sqrt[pr]{z^2-1}\n$$\nwherever the respective expressions are defined. \n(a) Prove that for all $z\\in\\Omega_R$, $f(z)=g(z)$.\n(b) Prove that for all $z\\in \\Omega_L$, $f(z)=-g(z)$.\n(c) What can you say when $z\\in i\\R$?"
   },
   {
     "id": "Comparing z and 1-exp(z) on the disk",
@@ -3074,7 +3074,7 @@
       "Unknown"
     ],
     "finished": true,
-    "statement": "Let $\\Omega=\\{z\\in \\C:0<\\Im(z)<1\\}$.\n\n(a) Find an analytic function $f(z)$ that maps $\\Omega$ ont-to-one onto the unit disk. \n(b) show that, for any two points $a_1,a_2 \\in \\Omega$, there exists a one-to-one conformal map from $\\Omega$ onto itself such that $\\phi(a_1)=a_2$."
+    "statement": "Let $\\Omega=\\{z\\in \\C:0<\\Im(z)<1\\}$.\n\n(a) Find an analytic function $f(z)$ that maps $\\Omega$ one-to-one onto the unit disk. \n(b) show that, for any two points $a_1,a_2 \\in \\Omega$, there exists a one-to-one conformal map from $\\Omega$ onto itself such that $\\phi(a_1)=a_2$."
   },
   {
     "id": "Constructing a Conformal Map from a Slit Quadrant to the Unit Disk",

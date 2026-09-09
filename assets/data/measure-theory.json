@@ -742,7 +742,7 @@
       "Qing"
     ],
     "finished": true,
-    "statement": "Let $(X,\\Sigma, \\mu)$ be a measure space. Suppose that $f:X\\rightarrow \\R$ is a measurable function such that $\\int_X \\abs{f}\\, d\\mu<\\infty$. Show that, for all $\\varepsilon>0$, there exists $\\delta>0$ such that\n$$\n\\int_A \\abs{f}\\, d\\mu<\\varepsilon\n$$\nfor any measurable subset $A\\subseteq X$ such that $\\mu(A)<\\delta$. TESTING!"
+    "statement": "Let $(X,\\Sigma, \\mu)$ be a measure space. Suppose that $f:X\\rightarrow \\R$ is a measurable function such that $\\int_X \\abs{f}\\, d\\mu<\\infty$. Show that, for all $\\varepsilon>0$, there exists $\\delta>0$ such that\n$$\n\\int_A \\abs{f}\\, d\\mu<\\varepsilon\n$$\nfor any measurable subset $A\\subseteq X$ such that $\\mu(A)<\\delta$."
   },
   {
     "id": "Interchanging Differentiation and Integration",
