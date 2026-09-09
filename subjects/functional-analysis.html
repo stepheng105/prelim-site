@@ -15,33 +15,67 @@
     <a href="../index.html">Home</a>
     <a href="basic-analysis-topology.html">Basic Analysis &amp; Topology</a>
     <a href="measure-theory.html">Measure Theory</a>
-    <a href="complex-analysis.html">Complex Analysis</a>
     <a href="functional-analysis.html">Functional Analysis</a>
+    <a href="complex-analysis.html">Complex Analysis</a>
+    <a href="../qa.html">Q&amp;A</a>
 </nav>
 
 <h1>Functional Analysis</h1>
 <p class="muted-italic">Banach and Hilbert spaces, bounded operators, spectral theory.</p>
 
 <section>
-    <h2>Concept Coverage</h2>
-    <div id="concept-chart"></div>
+    <details open>
+        <summary><h2 style="display: inline; margin: 0;">Topic Coverage</h2></summary>
+        <p>UCSC gives a generic list of topics that "could" be covered by the exam. They are as follows:</p>
+        <strong>Functional Analysis</strong>
+        <ul>
+            <li>Normal linear space, Banach space</li>
+            <li>Linear functional, linear operator, continuity and boundedness</li>
+            <li>Hahn-Banach theorem</li>
+            <li>Uniform boundedness theorem</li>
+            <li>Open mapping and closed graph theorems</li>
+            <li>Weak and weak* topology, reflexive space, Banach-Alaoglu theorem</li>
+            <li>Inner product, Hilbert space, orthonormal bases, Riesz representation theorem</li>
+            <li>Self-adjoint operator, compact operator, and their spectrum</li>
+            <li>Fredholm alternative property, Fredholm operator</li>
+            <li>Fourier transform, rapidly decreasing function, Fourier transform on L2</li>
+        </ul>
+
+        <p>However, not all of these topics are created equal. Some topics are used more frequently than others, and some topics appear that are not included in the list above. I have personally gone through and tagged all questions since 2010 by their topics and what theorems they involve below. This may not be entirely accurate, but I categorized them to the best of my abilities.</p>
+
+        <section>
+            <details open>
+                <summary><h3 style="display: inline; margin: 0;">Concept Coverage</h3></summary>
+                <div id="concept-chart"></div>
+            </details>
+        </section>
+
+        <section>
+            <details open>
+                <summary><h3 style="display: inline; margin: 0;">Theorem Coverage</h3></summary>
+                <div id="theorem-chart"></div>
+            </details>
+        </section>
+    </details>
 </section>
 
 <section>
-    <h2>Theorem Coverage</h2>
-    <div id="theorem-chart"></div>
+    <details>
+        <summary><h2 style="display: inline; margin: 0;">List of Questions</h2></summary>
+        <p>
+            Below is a list of all the Analysis questions. There are two sections of tick boxes: <strong>Filter by Concepts</strong> and <strong>Filter by Theorems</strong>. By selecting tick boxes in either, you can filter the list of questions below (it uses "and" logic, so selecting multiple concepts and theorems will find questions that uses all concepts and theorems). If you prefer, you can also search for specific questions using the <strong>question name search</strong>. Clicking on the header of each of the columns will sort the list by that column.
+        </p>
+        <div id="table-filter-container"></div>
+        <input type="text" id="table-name-search" placeholder="Search question name..." style="width:100%; margin-bottom:15px;">
+        <div id="question-table-container"></div>
+    </details>
 </section>
 
 <section>
-    <h2>All Questions</h2>
-    <div id="table-filter-container"></div>
-    <input type="text" id="table-name-search" placeholder="Search question name..." style="width:100%; margin-bottom:15px;">
-    <div id="question-table-container"></div>
-</section>
-
-<section>
-    <h2>Random Question Generator</h2>
-    <div id="generator-container"></div>
+    <details>
+        <summary><h2 style="display: inline; margin: 0;">Random Question Generator</h2></summary>
+        <div id="generator-container"></div>
+    </details>
 </section>
 
 <script>

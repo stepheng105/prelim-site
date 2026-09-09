@@ -38,7 +38,7 @@
                 .filter(q => !q.theorems || q.theorems.length === 0)
                 .reduce((sum, q) => sum + Math.max(1, (q.terms || []).length), 0);
 
-            counts["No Major Theorems Used (Only using definitions)"] = noTheoremWeight;
+            counts["No Major Theorems Used"] = noTheoremWeight;
         }
 
         return Object.entries(counts)
@@ -63,6 +63,14 @@
         document.getElementById("table-filter-container"),
         "Filter by Concepts",
         tableConceptValues,
+        () => renderTable()
+    );
+
+    const tableTheoremValues = [...new Set(questions.flatMap(q => q.theorems || []))].sort();
+    const tableTheoremCheckboxes = createCheckboxSection(
+        document.getElementById("table-filter-container"),
+        "Filter by Theorems",
+        tableTheoremValues,
         () => renderTable()
     );
 
@@ -91,14 +99,16 @@
     function getFilteredQuestions() {
 
         const selectedConcepts = tableConceptCheckboxes.filter(c => c.checked).map(c => c.value);
+        const selectedTheorems = tableTheoremCheckboxes.filter(c => c.checked).map(c => c.value);
         const nameQuery = tableNameSearch.value.trim().toLowerCase();
         const nameTerms = nameQuery === "" ? [] : nameQuery.split(/\s+/);
 
         return questions.filter(q => {
 
-            if (selectedConcepts.length > 0) {
+            if ((selectedConcepts.length > 0) || (selectedTheorems.length > 0)) {
                 const concepts = q.concepts || [];
-                if (!selectedConcepts.every(c => concepts.includes(c))) return false;
+                const theorems = q.theorems || [];
+                if (!(selectedConcepts.every(c => concepts.includes(c)) && selectedTheorems.every(c => theorems.includes(c)))) return false;
             }
 
             if (nameTerms.length > 0) {
@@ -150,7 +160,6 @@
             ["University", "university"],
             ["Terms", "terms"],
             ["Difficulty", "difficulty"],
-            ["Concepts", "concepts"]
         ];
 
         for (const [label, field] of columns) {
@@ -178,7 +187,6 @@
             row.insertCell().textContent = q.university ?? "";
             row.insertCell().textContent = (q.terms || []).join(", ");
             row.insertCell().textContent = q.difficulty ?? "";
-            row.insertCell().textContent = (q.concepts || []).join(", ");
         }
 
         tableContainer.appendChild(table);

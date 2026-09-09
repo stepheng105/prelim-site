@@ -15,6 +15,20 @@ async function fetchQuestions(relativePath) {
     return response.json();
 }
 
+// ------------------------------------------------------------
+// Dark mode: applied immediately so there's no flash of the
+// wrong theme. Respects system preference by default; an
+// explicit toggle choice is remembered in localStorage and
+// takes precedence over system preference from then on.
+// ------------------------------------------------------------
+
+(function () {
+    const stored = localStorage.getItem("theme"); // "light" | "dark" | null
+    if (stored === "light" || stored === "dark") {
+        document.documentElement.setAttribute("data-theme", stored);
+    }
+})();
+
 
 // ------------------------------------------------------------
 // Defensive normalizers (data should already be clean coming
@@ -396,3 +410,42 @@ function openStatementModal(question) {
         });
     }
 }
+
+// ------------------------------------------------------------
+// Inserts a dark/light toggle button into the nav bar on every
+// page (no per-page HTML changes needed, since every page
+// already loads common.js and has a nav.top-nav element).
+// ------------------------------------------------------------
+
+function initThemeToggle() {
+
+    const nav = document.querySelector("nav.top-nav");
+    if (!nav) return;
+
+    const button = document.createElement("button");
+    button.className = "theme-toggle";
+    button.type = "button";
+
+    function currentTheme() {
+        const explicit = document.documentElement.getAttribute("data-theme");
+        if (explicit) return explicit;
+        return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+
+    function updateLabel() {
+        button.textContent = currentTheme() === "dark" ? "☀️ Light Mode" : "🌙 Dark Mode";
+    }
+
+    updateLabel();
+
+    button.onclick = () => {
+        const next = currentTheme() === "dark" ? "light" : "dark";
+        document.documentElement.setAttribute("data-theme", next);
+        localStorage.setItem("theme", next);
+        updateLabel();
+    };
+
+    nav.appendChild(button);
+}
+
+initThemeToggle();

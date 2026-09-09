@@ -15,66 +15,76 @@
     <a href="../index.html">Home</a>
     <a href="basic-analysis-topology.html">Basic Analysis &amp; Topology</a>
     <a href="measure-theory.html">Measure Theory</a>
-    <a href="complex-analysis.html">Complex Analysis</a>
     <a href="functional-analysis.html">Functional Analysis</a>
+    <a href="complex-analysis.html">Complex Analysis</a>
+    <a href="../qa.html">Q&amp;A</a>
 </nav>
 
 <h1>Basic Analysis and Topology</h1>
 <p class="muted-italic">Sequences and series, uniform convergence, differentiation and integration, general topology, metric spaces.</p>
 
 <section>
-    <h2>Topic Coverage</h2>
-    <p>UCSC gives a generic list of topics that "could" be covered by the exam. They are as follows:</p>
-    <strong>Basic Analysis</strong>
-    <ul>
-        <li>Sequences and series functions, uniform convergence, Fourier series</li>
-        <li>Differentiation and integration of real and complex valued functions</li>
-        <li>Functions of bounded variation, the Riemann-Stieltjes integral</li>
-        <li>The implicit function theorem, the inverse function theorem</li>
-    </ul>
-    <strong>General Topology</strong>
-    <ul>
-        <li>Open and closed sets, topological spaces, bases, Hausdorff spaces</li>
-        <li>Continuous functions, the product topology, Tychonoff theorem</li>
-        <li>Locally compact spaces, Urysohn’s lemma, partition of unity</li>
-        <li>Nowhere dense set, set of the first category, Baire category theorem</li>
-    </ul>
-    <strong>Metric Spaces</strong>
-    <ul>
-        <li>Distance function, metric spaces</li>
-        <li>Convergence, Cauchy sequences, completeness</li>
-        <li>The contraction mapping theorem</li>
-        <li>Continuous functions on metric spaces</li>
-        <li>Arzela-Ascoli theorem and applications</li>
-    </ul>
+    <details open>
+        <summary><h2 style="display: inline; margin: 0;">Topic Coverage</h2></summary>
+        <p>UCSC gives a generic list of topics that "could" be covered by the exam. They are as follows:</p>
+        <strong>Basic Analysis</strong>
+        <ul>
+            <li>Sequences and series functions, uniform convergence, Fourier series</li>
+            <li>Differentiation and integration of real and complex valued functions</li>
+            <li>Functions of bounded variation, the Riemann-Stieltjes integral</li>
+            <li>The implicit function theorem, the inverse function theorem</li>
+        </ul>
+        <strong>General Topology</strong>
+        <ul>
+            <li>Open and closed sets, topological spaces, bases, Hausdorff spaces</li>
+            <li>Continuous functions, the product topology, Tychonoff theorem</li>
+            <li>Locally compact spaces, Urysohn’s lemma, partition of unity</li>
+            <li>Nowhere dense set, set of the first category, Baire category theorem</li>
+        </ul>
+        <strong>Metric Spaces</strong>
+        <ul>
+            <li>Distance function, metric spaces</li>
+            <li>Convergence, Cauchy sequences, completeness</li>
+            <li>The contraction mapping theorem</li>
+            <li>Continuous functions on metric spaces</li>
+            <li>Arzela-Ascoli theorem and applications</li>
+        </ul>
 
-    <p>However, not all of these topics are created equal. Some topics are used more frequently than others, and some topics appear that are not included in the list above. I have personally gone through and tagged all questions since 2010 by their topics and what theorems they involve below. This may not be entirely accurate, but I categorized them to the best of my abilities.</p>
+        <p>However, not all of these topics are created equal. Some topics are used more frequently than others, and some topics appear that are not included in the list above. I have personally gone through and tagged all questions since 2010 by their topics and what theorems they involve below. This may not be entirely accurate, but I categorized them to the best of my abilities.</p>
 
-    <section>
-        <details>
-            <summary><h3 style="display: inline; margin: 0;">Concept Coverage</h3></summary>
-            <div id="concept-chart"></div>
-        </details>
-    </section>
+        <section>
+            <details open>
+                <summary><h3 style="display: inline; margin: 0;">Concept Coverage</h3></summary>
+                <div id="concept-chart"></div>
+            </details>
+        </section>
 
-    <section>
-        <details>
-            <summary><h3 style="display: inline; margin: 0;">Theorem Coverage</h3></summary>
-            <div id="theorem-chart"></div>
-        </details>
-    </section>
+        <section>
+            <details open>
+                <summary><h3 style="display: inline; margin: 0;">Theorem Coverage</h3></summary>
+                <div id="theorem-chart"></div>
+            </details>
+        </section>
+    </details>
 </section>
 
 <section>
-    <h2>All Questions</h2>
-    <div id="table-filter-container"></div>
-    <input type="text" id="table-name-search" placeholder="Search question name..." style="width:100%; margin-bottom:15px;">
-    <div id="question-table-container"></div>
+    <details>
+        <summary><h2 style="display: inline; margin: 0;">List of Questions</h2></summary>
+        <p>
+            Below is a list of all the Analysis questions. There are two sections of tick boxes: <strong>Filter by Concepts</strong> and <strong>Filter by Theorems</strong>. By selecting tick boxes in either, you can filter the list of questions below (it uses "and" logic, so selecting multiple concepts and theorems will find questions that uses all concepts and theorems). If you prefer, you can also search for specific questions using the <strong>question name search</strong>. Clicking on the header of each of the columns will sort the list by that column.
+        </p>
+        <div id="table-filter-container"></div>
+        <input type="text" id="table-name-search" placeholder="Search question name..." style="width:100%; margin-bottom:15px;">
+        <div id="question-table-container"></div>
+    </details>
 </section>
 
 <section>
-    <h2>Random Question Generator</h2>
-    <div id="generator-container"></div>
+    <details>
+        <summary><h2 style="display: inline; margin: 0;">Random Question Generator</h2></summary>
+        <div id="generator-container"></div>
+    </details>
 </section>
 
 <script>
