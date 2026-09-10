@@ -53,19 +53,83 @@ h1, h2, h3, h4 { line-height: 1.25; }
 
 a { color: var(--accent); }
 
+summary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    list-style: none;
+    padding: 4px 8px;
+    margin: -4px -8px;
+    border-radius: 6px;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 6px solid currentColor;
+    flex-shrink: 0;
+    transition: transform 0.15s ease;
+}
+
+details[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+summary:hover {
+    background-color: var(--accent-faint);
+}
+
+details[open] > summary {
+    color: var(--accent);
+}
+
 nav.top-nav {
     display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
     margin-bottom: 24px;
     padding-bottom: 16px;
     border-bottom: 1px solid var(--border);
 }
 
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
 nav.top-nav a {
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.95em;
+    font-size: 0.9em;
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    color: var(--text);
+    transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+nav.top-nav a:hover {
+    background-color: var(--accent-faint);
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+nav.top-nav a.active {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
 }
 
 section {
@@ -307,7 +371,22 @@ button:hover { background: var(--accent-faint); }
 }
 
 .theme-toggle {
-    margin-left: auto;
+    font-size: 0.9em;
+    line-height: 1.5;
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    color: var(--text);
+    background: transparent;
+    -webkit-appearance: none;
+    appearance: none;
+    flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+    background-color: var(--accent-faint);
+    border-color: var(--accent);
+    color: var(--accent);
 }
 
 .faq-item {
