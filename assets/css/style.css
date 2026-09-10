@@ -326,3 +326,48 @@ button:hover { background: var(--accent-faint); }
     margin: 10px 0 0;
     color: var(--text);
 }
+
+.feedback-section {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-width: 500px;
+}
+
+.feedback-form label {
+    font-weight: 600;
+    font-size: 0.9em;
+    margin-top: 8px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    font-family: inherit;
+    font-size: 0.9em;
+    padding: 6px 8px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: var(--panel-bg);
+    color: var(--text);
+    resize: vertical;
+}
+
+.feedback-form button {
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+#feedback-result {
+    margin-top: 10px;
+}
+
+.feedback-form button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

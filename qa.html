@@ -43,7 +43,7 @@
 
 <details class="faq-item">
     <summary class="faq-question">I found an error or have a suggestion/qualm. How do I let you know?</summary>
-    <p class="faq-answer">Please email me at <a href="mailto:stgcook&ucsc.edu">stgcook&ucsc.edu</a>. Please be as specific as possible (title of the question, the line where you
+    <p class="faq-answer">I have added a form below. Please feel free to send me anything you find (bugs, typos, whatever)! Please be as specific as possible (title of the question, the line where you
             found the issue, etc.).</p>
 </details>
 
@@ -76,7 +76,26 @@
 
 -->
 
+
+<h2>Have Feedback?</h2>
+    <p>Found a bug, have a feature idea, or spotted an error in the data? Let me know below.</p>
+
+    <form id="feedback-form" action="https://formspree.io/f/mvkodwba" method="POST" class="feedback-form">
+        <label for="feedback-email">Email (optional)</label>
+        <input type="email" id="feedback-email" name="email" placeholder="you@example.com">
+
+        <label for="feedback-message">Message</label>
+        <textarea id="feedback-message" name="message" rows="5" required placeholder="Your feedback..."></textarea>
+
+        <button type="submit">Send Feedback</button>
+    </form>
+
+    <div id="feedback-result" class="muted-italic"></div>
+
+
 <script src="assets/js/common.js"></script>
+<script src="assets/js/common.js"></script>
+<script src="assets/js/qa.js"></script>
 
 </body>
 </html>
