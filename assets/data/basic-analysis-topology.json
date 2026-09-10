@@ -443,7 +443,7 @@
     "terms": [
       "Winter 2018"
     ],
-    "difficulty": 3,
+    "difficulty": 4,
     "concepts": [
       "Equicontinuity",
       "Uniform Convergence",
@@ -457,7 +457,7 @@
     "writer": [
       "Lin"
     ],
-    "finished": false,
+    "finished": true,
     "statement": "Let $(X,d)$ be a metric space. A continuous function $f\\in C(X)$ is called Hölder continuous of exponent $\\alpha >0$ if\n$$\nH_\\alpha(f) : = \\sup_{x\\neq y} \\frac{\\abs{f(x)-f(y)}}{d(x,y)^\\alpha}<\\infty.\n$$\nShow that if $X$ is compact, then the set\n$$\nA:=\\{f\\in C(X):\\norm{f} \\leq 1, H_\\alpha(f)\\leq 1 \\}\n$$\nis compact in $C(X)$, where $\\norm{\\cdot}$ is the supremum norm on $C(X)$."
   },
   {
@@ -986,7 +986,7 @@
       "Winter 2020",
       "Spring 2014"
     ],
-    "difficulty": 5,
+    "difficulty": 3,
     "concepts": [
       "Compactness",
       "Metric Spaces",
@@ -1015,7 +1015,7 @@
     "terms": [
       "Spring 2016"
     ],
-    "difficulty": 5,
+    "difficulty": 3,
     "concepts": [
       "Compactness",
       "Sequential Compactness",
@@ -1210,7 +1210,7 @@
     "writer": [
       "Qing"
     ],
-    "finished": false,
+    "finished": true,
     "statement": "Prove that $\\Q$ is not the intersection of a sequence of open sets in $\\R$."
   },
   {
