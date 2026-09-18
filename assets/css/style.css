@@ -361,6 +361,14 @@ button:hover { background: var(--accent-faint); }
     margin-bottom: 12px;
 }
 
+.instance-list {
+    font-size: 0.85em;
+    color: var(--text-muted);
+    margin: 0 0 16px;
+    padding-left: 20px;
+    list-style: disc;
+}
+
 .result-list {
     padding-left: 20px;
 }

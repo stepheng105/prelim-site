@@ -3,9 +3,13 @@
     "id": "A Biholomorphism of the Unit Disk with f(0)=0 is Linear",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2013"
+    "instances": [
+      {
+        "term": "Spring 2013",
+        "university": "University of California, Santa Cruz",
+        "writer": "Tromba",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -15,9 +19,6 @@
     "theorems": [
       "Schwarz Lemma"
     ],
-    "writer": [
-      "Tromba"
-    ],
     "finished": true,
     "statement": "Let $f:\\D\\rightarrow \\D$ be a biholomorphism such that $f(0)=0$. Show that\n$$\nf(z) = cz\n$$\nfor some $\\abs{c}=1$."
   },
@@ -25,18 +26,19 @@
     "id": "A Complex Trigonometric Inequality",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "Purdue University",
-    "terms": [
-      "Fall 2025"
+    "instances": [
+      {
+        "term": "Fall 2025",
+        "university": "Purdue University",
+        "writer": "Unknown",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
       "Analytic functions"
     ],
     "theorems": [],
-    "writer": [
-      "Unknown"
-    ],
     "finished": true,
     "statement": "Determine all points $z\\in \\C$ such that\n$$\n\\abs{\\cos(z)}^2 + \\abs{\\sin(z)}^2 \\leq 1.\n$$"
   },
@@ -44,9 +46,13 @@
     "id": "A Condition for the Existence of a Holomorphic Logarithm on the Punctured Plane",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2015"
+    "instances": [
+      {
+        "term": "Spring 2015",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -57,9 +63,6 @@
     "theorems": [
       "Argument principle"
     ],
-    "writer": [
-      "Ehrhardt"
-    ],
     "finished": false,
     "statement": "Let $f$ be a holomorphic function on $\\Omega = \\C\\backslash \\{0\\}$ and assume that\n$$\n\\int_{\\abs{z}=1} \\frac{f'(z)}{f(z)}\\, dz =0.\n$$\nShow that $f(z)$ has a holomorphic logarithm on $\\Omega$."
   },
@@ -67,9 +70,13 @@
     "id": "A Linear Lower Bound for Entire Functions Diverging at Infinity",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2020"
+    "instances": [
+      {
+        "term": "Fall 2020",
+        "university": "University of California, Santa Cruz",
+        "writer": "Lin",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -79,9 +86,6 @@
       "Maximum Modulus Principle",
       "Picard's theorem"
     ],
-    "writer": [
-      "Lin"
-    ],
     "finished": true,
     "statement": "Let $f(z)$ be an entire function such that $\\abs{f(z)} \\rightarrow \\infty$ as $\\abs{z}\\rightarrow \\infty$. Show that there exists constants $c>0,R>0$ such that $\\abs{f(z)}>c\\abs{z}$ for all $\\abs{z}>R$."
   },
@@ -89,10 +93,19 @@
     "id": "A Maximum Modulus Estimate on an Annulus",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2025",
-      "Fall 2014"
+    "instances": [
+      {
+        "term": "Spring 2025",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Fall 2014",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -100,10 +113,6 @@
     ],
     "theorems": [
       "Maximum Modulus Principle"
-    ],
-    "writer": [
-      "Ehrhardt",
-      "Monard"
     ],
     "finished": true,
     "statement": "(a) State the maximum modulus principle\n(b) Let $f$ be analytic on an open neighborhood of the annulus $1\\leq \\abs{z}\\leq 2$. Assume that $\\abs{f(z)}\\leq 1$ for all $\\abs{z}=1$, and $\\abs{f(z)}\\leq 4$ for all $\\abs{z}=2$. Show that $\\abs{f(z)} \\leq \\abs{z}^2$ for all $1\\leq \\abs{z}\\leq 2$."
@@ -112,10 +121,19 @@
     "id": "A Maximum Principle for the Real Part of a Holomorphic Function",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2019",
-      "Winter 2015"
+    "instances": [
+      {
+        "term": "Fall 2019",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Winter 2015",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -124,9 +142,6 @@
     "theorems": [
       "Maximum Modulus Principle"
     ],
-    "writer": [
-      "Ehrhardt"
-    ],
     "finished": false,
     "statement": "Let $\\Omega$ be a connected domain and let $f:\\Omega\\rightarrow \\C$ be holomorphic. Show that if $\\Re(f(z))$ attains a maximum on $\\Omega$, then $f(z)$ is constant."
   },
@@ -134,9 +149,13 @@
     "id": "A Normal Family from an L2 Boundary Bound",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "Purdue University",
-    "terms": [
-      "Fall 2025"
+    "instances": [
+      {
+        "term": "Fall 2025",
+        "university": "Purdue University",
+        "writer": "Unknown",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 5,
     "concepts": [
@@ -149,9 +168,6 @@
       "Montel's Theorem",
       "Holder's Inequality"
     ],
-    "writer": [
-      "Unknown"
-    ],
     "finished": true,
     "statement": "Let $\\mathcal{F}$ be the set of functions $f$ that are holomorphic in a neighborhood of the unit disk such that\n$$\n\\int_0^{2\\pi} \\abs{f(e^{it})}^2\\, dt \\leq 1.\n$$\nProve that $\\mathcal{F}$ is a normal family in the unit disk."
   },
@@ -159,9 +175,13 @@
     "id": "A Unique Zero of a−z−exp(-z) in the Right Half-Plane",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2021"
+    "instances": [
+      {
+        "term": "Fall 2021",
+        "university": "University of California, Santa Cruz",
+        "writer": "Hatinoglu",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -172,9 +192,6 @@
       "Rouche's Theorem",
       "Argument principle"
     ],
-    "writer": [
-      "Hatinoglu"
-    ],
     "finished": true,
     "statement": "Let $a>1$. Show that the equation\n$$\na-z-e^{-z}=0\n$$\nhas exactly one solution in the right half plane $\\Re(z)>0$."
   },
@@ -182,10 +199,19 @@
     "id": "All Biholomorphisms of the Complex Plane are Linear",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Winter 2014",
-      "Winter 2010"
+    "instances": [
+      {
+        "term": "Winter 2014",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Winter 2010",
+        "university": "University of California, Santa Cruz",
+        "writer": "Schonbek",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -196,10 +222,6 @@
       "Casorati-Weierstrass Theorem",
       "Picard's theorem"
     ],
-    "writer": [
-      "Ehrhardt",
-      "Schonbek"
-    ],
     "finished": false,
     "statement": "(a) State the Casorati-Weirstrass Theorem.\n(b) Show that the only bi-holomorphic map from $\\C$ to itself is of the form $f(z)=az+b$ with $a\\neq 0$."
   },
@@ -207,9 +229,13 @@
     "id": "An Entire Function with Bounded Product of Real and Imaginary Parts is Constant",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Winter 2022"
+    "instances": [
+      {
+        "term": "Winter 2022",
+        "university": "University of California, Santa Cruz",
+        "writer": "Hatinoglu",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -219,9 +245,6 @@
     "theorems": [
       "Liouville's Theorem"
     ],
-    "writer": [
-      "Hatinoglu"
-    ],
     "finished": false,
     "statement": "Let $f=u+iv$ be an entire function such that $\\abs{u}\\cdot \\abs{v}$ is bounded. Show that $f$ is a constant function."
   },
@@ -229,9 +252,13 @@
     "id": "Antiderivatives on the Plane Minus the Unit Interval",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "Purdue University",
-    "terms": [
-      "Winter 2025"
+    "instances": [
+      {
+        "term": "Winter 2025",
+        "university": "Purdue University",
+        "writer": "Unknown",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -242,9 +269,6 @@
       "Cauchy Integral Formula",
       "Morera's Theorem"
     ],
-    "writer": [
-      "Unknown"
-    ],
     "finished": true,
     "statement": "Explain why $\\displaystyle \\frac{\\sin(z^2)}{(z-1)(z+1)}$ has an analytic antiderivative on $\\C\\backslash [-1, 1]$."
   },
@@ -252,9 +276,13 @@
     "id": "Comparing Two Branches of a Square Root Identity",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2026"
+    "instances": [
+      {
+        "term": "Spring 2026",
+        "university": "University of California, Santa Cruz",
+        "writer": "Gharakhloo",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -264,9 +292,6 @@
     "theorems": [
       "Identity Theorem"
     ],
-    "writer": [
-      "Gharakhloo"
-    ],
     "finished": true,
     "statement": "Let $\\sqrt[pr]{w}$ denote the principle branch of $w^\\frac{1}{2}$ corresponding to \n$$\n-\\pi < \\arg(w)\\leq \\pi.\n$$\nLet\n$$\n\\Omega_L = \\{z\\in \\C : \\Re(z)<0\\}\\backslash[-1, 0), \\quad \\Omega_R = \\{z\\in \\C : \\Re(z)>0\\}\\backslash(0, 1].\n$$\nDefine\n$$\nf(z) := \\sqrt[pr]{z-1}\\sqrt[pr]{z+1} \\quad \\text{ and } \\quad g(z):= \\sqrt[pr]{z^2-1}\n$$\nwherever the respective expressions are defined. \n(a) Prove that for all $z\\in\\Omega_R$, $f(z)=g(z)$.\n(b) Prove that for all $z\\in \\Omega_L$, $f(z)=-g(z)$.\n(c) What can you say when $z\\in i\\R$?"
   },
@@ -274,9 +299,13 @@
     "id": "Comparing z and 1-exp(z) on the disk",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2022"
+    "instances": [
+      {
+        "term": "Spring 2022",
+        "university": "University of California, Santa Cruz",
+        "writer": "Hatinoglu",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -285,9 +314,6 @@
     "theorems": [
       "Maximum Modulus Principle"
     ],
-    "writer": [
-      "Hatinoglu"
-    ],
     "finished": true,
     "statement": "Prove that if $0<\\abs{z}<1$, then $\\displaystyle \\frac{1}{4}\\abs{z} < \\abs{1-e^z} < \\frac{7}{4}\\abs{z}$."
   },
@@ -295,9 +321,13 @@
     "id": "Conformal Equivalence of a Horizontal Strip and the Unit Disk",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "Purdue University",
-    "terms": [
-      "Winter 2025"
+    "instances": [
+      {
+        "term": "Winter 2025",
+        "university": "Purdue University",
+        "writer": "Unknown",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -307,9 +337,6 @@
     "theorems": [
       "Riemann Mapping Theorem"
     ],
-    "writer": [
-      "Unknown"
-    ],
     "finished": true,
     "statement": "Let $\\Omega=\\{z\\in \\C:0<\\Im(z)<1\\}$.\n\n(a) Find an analytic function $f(z)$ that maps $\\Omega$ one-to-one onto the unit disk. \n(b) show that, for any two points $a_1,a_2 \\in \\Omega$, there exists a one-to-one conformal map from $\\Omega$ onto itself such that $\\phi(a_1)=a_2$."
   },
@@ -317,9 +344,13 @@
     "id": "Constructing a Conformal Map from a Slit Quadrant to the Unit Disk",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2026"
+    "instances": [
+      {
+        "term": "Spring 2026",
+        "university": "University of California, Santa Cruz",
+        "writer": "Gharakhloo",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 5,
     "concepts": [
@@ -329,9 +360,6 @@
     "theorems": [
       "Riemann Mapping Theorem"
     ],
-    "writer": [
-      "Gharakhloo"
-    ],
     "finished": false,
     "statement": "(a) State the Riemann Mapping Theorem\n(b) Let \n$$\n\\Omega = \\{z\\in \\C :\\Re(z)>0, \\Im(z)>0\\}\\backslash \\{t(1+i):t\\in [1,\\infty)\\}.\n$$\nConstruct an explicit one-to-one conformal map $F:\\Omega\\rightarrow \\D$ such that $F\\left(\\frac{1+i}{2}\\right)=0$ and $F'\\left(\\frac{1+i}{2}\\right)>0$. The answer may be given as a composition of elementary conformal maps."
   },
@@ -339,9 +367,13 @@
     "id": "Constructing an Entire Function with a Shift Identity Via an Infinite Product",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Winter 2012"
+    "instances": [
+      {
+        "term": "Winter 2012",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 5,
     "concepts": [
@@ -349,9 +381,6 @@
       "Weirstrass Factorization"
     ],
     "theorems": [],
-    "writer": [
-      "Ehrhardt"
-    ],
     "finished": false,
     "statement": "Let\n$$\nG(z) = e^{z\\gamma} \\prod_{k=1}^\\infty \\left(1+ \\frac{z}{k} \\right) e^{-\\frac{z}{k}}.\n$$\n(a) Show that this infinite product defines a well-defined entire function.\n(b) Prove that\n$$\n(z+1)G(z+1)=G(z).\n$$"
   },
@@ -359,10 +388,19 @@
     "id": "Constructing the Reciprocal Gamma Function Via an Infinite Product",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Winter 2016",
-      "Winter 2010"
+    "instances": [
+      {
+        "term": "Winter 2016",
+        "university": "University of California, Santa Cruz",
+        "writer": "Goetz",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Winter 2010",
+        "university": "University of California, Santa Cruz",
+        "writer": "Schonbek",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 5,
     "concepts": [
@@ -370,10 +408,6 @@
       "Weirstrass Factorization"
     ],
     "theorems": [],
-    "writer": [
-      "Schonbek",
-      "Goetz"
-    ],
     "finished": false,
     "statement": "Let \n$$\nG(z) = z\\prod_{k=1}^\\infty \\left(1+ \\frac{z}{k} \\right) e^{-\\frac{z}{k}}.\n$$\n\n(a) Show that this infinite product defines a well-defined entire function.\n(b) Where are the zeros of this functions? Show your work.\n(c) Compute the limit\n$$\n\\lim_{n\\rightarrow \\infty} \\frac{z(z+1)(z+2)\\cdots(z+n)}{n!} n^{-z}.\n$$\n   Your answer may be expressed in terms of $G(z)$."
   },
@@ -381,9 +415,13 @@
     "id": "Convergence of Derivatives of Sequences of Holomorphic Functions",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Winter 2012"
+    "instances": [
+      {
+        "term": "Winter 2012",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -393,9 +431,6 @@
     "theorems": [
       "Cauchy Integral Formula"
     ],
-    "writer": [
-      "Ehrhardt"
-    ],
     "finished": false,
     "statement": "Let $\\D$ denote the open unit disk in the complex plane and let $f_n$ be a sequence of holomorphic functions that converges uniformly on $\\Omega$. Either prove or give counterexamples to the following statements:\n\n(a) $f_n'$ converges uniformly on $\\Omega$.\n(b) $f_n'$ converges locally uniformly on $\\Omega$."
   },
@@ -403,9 +438,13 @@
     "id": "Counting Zeros of a Polynomial on an Annulus",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2017"
+    "instances": [
+      {
+        "term": "Fall 2017",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -413,9 +452,6 @@
     ],
     "theorems": [
       "Rouche's Theorem"
-    ],
-    "writer": [
-      "Monard"
     ],
     "finished": false,
     "statement": "How many solutions does $3z^7-5z^3+1=0$ have in the annulus $1 < \\abs{z}<2$?"
@@ -424,9 +460,13 @@
     "id": "Counting Zeros of a Polynomial on the Unit Disk",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Winter 2011"
+    "instances": [
+      {
+        "term": "Winter 2011",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -434,9 +474,6 @@
     ],
     "theorems": [
       "Rouche's Theorem"
-    ],
-    "writer": [
-      "Ehrhardt"
     ],
     "finished": true,
     "statement": "How many solutions (up to multiplicity) to the equation\n$$\nz^7-2z^5+6z^3-z+1=0\n$$\nlie in the disk $\\abs{z}<1$?"
@@ -445,9 +482,13 @@
     "id": "Counting Zeros of a Truncated Exponential Perturbation",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2018"
+    "instances": [
+      {
+        "term": "Fall 2018",
+        "university": "University of California, Santa Cruz",
+        "writer": "Unknown",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -455,9 +496,6 @@
     ],
     "theorems": [
       "Rouche's Theorem"
-    ],
-    "writer": [
-      "Unknown"
     ],
     "finished": false,
     "statement": "Let $m\\geq 0$. How many roots does the function\n$$\nf(z) = 3z+\\sum_{n=0}^m \\frac{z^n}{n!}\n$$\nhave on the unit disk $\\D$? Justify your answer."
@@ -466,9 +504,13 @@
     "id": "Counting Zeros of a Truncated Exponential",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2014"
+    "instances": [
+      {
+        "term": "Spring 2014",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -476,9 +518,6 @@
     ],
     "theorems": [
       "Rouche's Theorem"
-    ],
-    "writer": [
-      "Ehrhardt"
     ],
     "finished": false,
     "statement": "For each $n\\in \\N$, let\n$$\np_n(z) = \\sum_{k=1}^n \\frac{z^k}{k!}.\n$$\nLet $Z(n)$ denote the number of zeros of $p_n(z)$ on the open disk of radius $5\\pi$ centered at 0. Compute\n$$\n\\lim_{n\\rightarrow \\infty} Z(n).\n$$"
@@ -487,9 +526,13 @@
     "id": "Counting Zeros of a Truncated Geometric Perturbation",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Winter 2019"
+    "instances": [
+      {
+        "term": "Winter 2019",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -498,9 +541,6 @@
     "theorems": [
       "Rouche's Theorem"
     ],
-    "writer": [
-      "Ehrhardt"
-    ],
     "finished": false,
     "statement": "(a) State Rouche's theorem.\n(b) Let \n$$\np_n(z) = z^2 -2 \\sum_{k=1}^n \\frac{z^k}{3^k}.\n$$\nLet $Z_n$ denote the number of zeros of $p_n$ (counting multiplicity) on the disk $\\{z\\in \\C:\\abs{z-\\frac{1}{2}}<1\\}$. Determine $\\displaystyle \\lim_{n\\rightarrow \\infty}Z_n$."
   },
@@ -508,9 +548,13 @@
     "id": "Derivative Bound for Holomorphic Self-Maps Fixing a Point",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "Purdue University",
-    "terms": [
-      "Winter 2025"
+    "instances": [
+      {
+        "term": "Winter 2025",
+        "university": "Purdue University",
+        "writer": "Unknown",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -520,9 +564,6 @@
       "Riemann Mapping Theorem",
       "Schwarz Lemma"
     ],
-    "writer": [
-      "Unknown"
-    ],
     "finished": true,
     "statement": "Suppose $\\Omega$ is a simply connected domain that is not the whole complex plane, and $a$ is a point in $\\Omega$. Prove that if $f$ is analytic on $\\Omega$ and maps $\\Omega$ into $\\Omega$ with $f(a)=a$, then $|f'(a)|\\leq 1$."
   },
@@ -530,9 +571,13 @@
     "id": "Determining All Injective Rational Functions From the Punctured Plane Into Itself",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2010"
+    "instances": [
+      {
+        "term": "Spring 2010",
+        "university": "University of California, Santa Cruz",
+        "writer": "Schonbek",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -543,9 +588,6 @@
     "theorems": [
       "Riemann Mapping Theorem"
     ],
-    "writer": [
-      "Schonbek"
-    ],
     "finished": false,
     "statement": "Determine all rational functions which map $\\C\\backslash \\{0\\}$ one-to-one into $\\C\\backslash \\{0\\}$."
   },
@@ -553,9 +595,13 @@
     "id": "Entire Functions Omitting an Open Disk are Constant",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2024"
+    "instances": [
+      {
+        "term": "Spring 2024",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -564,9 +610,6 @@
     "theorems": [
       "Liouville's Theorem"
     ],
-    "writer": [
-      "Monard"
-    ],
     "finished": true,
     "statement": "(a) State Liouville’s Theorem.\n(b) Show that if $f(z)$ is an entire function, and there is a nonempty open disk such that $f(z)$ does not attain any values in this disk, then $f(z)$ is constant."
   },
@@ -574,10 +617,19 @@
     "id": "Entire Functions of Polynomial Growth are Polynomials",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2023",
-      "Winter 2018"
+    "instances": [
+      {
+        "term": "Spring 2023",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Winter 2018",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -586,9 +638,6 @@
     "theorems": [
       "Liouville's Theorem",
       "Cauchy Integral Formula"
-    ],
-    "writer": [
-      "Monard"
     ],
     "finished": true,
     "statement": "(a) State Liouville's theorem.\n(b) Suppose that $f$ is entire such that there exists $C>0$ and $n\\in\\N$ such that $\\abs{f(z)}\\leq C\\abs{z}^n$ for all $\\abs{z}\\geq 1$. Show that $f(z)$ is a polynomial of degree at most $n$."
@@ -597,9 +646,13 @@
     "id": "Entire Functions of Sublinear Growth are Constant",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2020"
+    "instances": [
+      {
+        "term": "Spring 2020",
+        "university": "University of California, Santa Cruz",
+        "writer": "Lin",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -609,9 +662,6 @@
       "Liouville's Theorem",
       "Cauchy Integral Formula"
     ],
-    "writer": [
-      "Lin"
-    ],
     "finished": false,
     "statement": "Suppose that $f(z)$ is an entire function such that, for some $C>0$, $\\abs{f(z)}\\leq C\\left(1+\\abs{z}\\right)^\\frac{1}{2}$ for all $z\\in \\C$. Show that $f(z)$ is constant."
   },
@@ -619,9 +669,13 @@
     "id": "Entire Injective Functions are Linear",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Winter 2021"
+    "instances": [
+      {
+        "term": "Winter 2021",
+        "university": "University of California, Santa Cruz",
+        "writer": "Hatinoglu",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -633,9 +687,6 @@
       "Picard's theorem",
       "Liouville's Theorem"
     ],
-    "writer": [
-      "Hatinoglu"
-    ],
     "finished": true,
     "statement": "Suppose that $f:\\C\\rightarrow \\C$ is entire with $f(z) = \\sum_{n=0}^\\infty a_n z^n$.\n\n(a) Show that $f$ has an essential singularity at $\\infty$ if $a_n\\neq 0$ for infinitely many $n\\in\\N$.\n(b) Show that if $f$ is injective, then $f(z) = a_0+a_1z$ with $a_1 \\neq 0$."
   },
@@ -643,10 +694,19 @@
     "id": "Estimating a Bound for the Set of Roots of a Polynomial Using Rouché's Theorem",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2025",
-      "Spring 2018"
+    "instances": [
+      {
+        "term": "Fall 2025",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Spring 2018",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -655,9 +715,6 @@
     "theorems": [
       "Rouche's Theorem"
     ],
-    "writer": [
-      "Monard"
-    ],
     "finished": true,
     "statement": "(a) State Rouché's theorem.\n(b) Prove that any polynomial with complex coefficients $P(z) = \\sum_{k=1}^n a_kz^k$ with $a_n\\neq 0$ has exactly $n$ roots, and give an estimate on the radius of the disk centered at 0 $D_R(0)$ containing all roots."
   },
@@ -665,9 +722,13 @@
     "id": "Existence of a Holomorphic Cube Root of a Polynomial",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2014"
+    "instances": [
+      {
+        "term": "Fall 2014",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -675,9 +736,6 @@
       "Multivalued functions"
     ],
     "theorems": [],
-    "writer": [
-      "Ehrhardt"
-    ],
     "finished": false,
     "statement": "Show that there exists a holomorphic function $g(z)$ on $\\Omega:= \\C\\backslash[0,2]$ such that $g(z)^3 = z(z-1)(z-2)$."
   },
@@ -685,9 +743,13 @@
     "id": "Existence of an Antiderivative for 2 Specific Functions",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2020"
+    "instances": [
+      {
+        "term": "Spring 2020",
+        "university": "University of California, Santa Cruz",
+        "writer": "Lin",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -700,9 +762,6 @@
       "Morera's Theorem",
       "Residue Theorem"
     ],
-    "writer": [
-      "Lin"
-    ],
     "finished": false,
     "statement": "Let $\\Omega := \\{z\\in \\C: \\abs{z}>3\\}$, and let\n$$\nf(z)=\\frac{z+1}{(z-2)(z^2+3)}, \\qquad g(z)=\\frac{z^2}{(z-2)(z^2+3)}.\n$$\n(a) Is there a holomorphic function whose derivative is $f(z)$ on $\\Omega$?\n(b) Is there a holomorphic function whose derivative is $g(z)$ on $\\Omega$?"
   },
@@ -710,9 +769,13 @@
     "id": "Existence of an Entire Logarithm for Nonzero Entire Functions",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2013"
+    "instances": [
+      {
+        "term": "Fall 2013",
+        "university": "University of California, Santa Cruz",
+        "writer": "Tromba",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -721,9 +784,6 @@
     "theorems": [
       "Cauchy Integral Formula"
     ],
-    "writer": [
-      "Tromba"
-    ],
     "finished": false,
     "statement": "Show that if $f(z)$ is an entire nonzero function, then $f(z)=e^{g(z)}$ for some entire function $g(z)$."
   },
@@ -731,9 +791,13 @@
     "id": "Extension of Locally Uniform Convergence Across the Real Axis Given a Bound Off of the Real Line",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2015"
+    "instances": [
+      {
+        "term": "Spring 2015",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 5,
     "concepts": [
@@ -744,9 +808,6 @@
       "Cauchy Integral Formula",
       "Morera's Theorem"
     ],
-    "writer": [
-      "Ehrhardt"
-    ],
     "finished": false,
     "statement": "Let $(f_n)$ be a sequence of entire functions converging locally uniformly on $\\C\\backslash \\R$ to a function $f$. Assume, in addition, that\n$$\n\\abs{f_n(z)} \\leq \\abs{\\Im(z)}^{-\\frac{1}{2}}\n$$\nfor all $z\\in \\C\\backslash \\R$ and all $n\\in\\N$. Show that $f$ is entire and that $f_n\\rightarrow f$ locally uniformly on $\\C$."
   },
@@ -754,10 +815,19 @@
     "id": "Holomorphic Functions have Isolated Zeros",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2013",
-      "Winter 2014"
+    "instances": [
+      {
+        "term": "Spring 2013",
+        "university": "University of California, Santa Cruz",
+        "writer": "Tromba",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Winter 2014",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -766,10 +836,6 @@
     "theorems": [
       "Identity Theorem"
     ],
-    "writer": [
-      "Tromba",
-      "Ehrhardt"
-    ],
     "finished": true,
     "statement": "Let $f$ be a holomorphic function on a connected domain $U$. Show that if $f$ is not identically 0, then the zeros of $f$ are isolated."
   },
@@ -777,9 +843,13 @@
     "id": "Holomorphic Functions with Controlled Growth on the Punctured Plane",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2019"
+    "instances": [
+      {
+        "term": "Spring 2019",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -787,9 +857,6 @@
       "Singularities"
     ],
     "theorems": [],
-    "writer": [
-      "Ehrhardt"
-    ],
     "finished": false,
     "statement": "Let $s>0$ be a real number. Describe the set of all holomorphic functions $f:\\C\\backslash \\{0\\}\\rightarrow \\C$ for which there exists a constant $A>0$ such that $\\abs{f(z)}\\leq A \\left(1+ \\abs{z}^{-s} \\right)$ for all $z\\in \\C\\backslash\\{0\\}$. Prove your statement."
   },
@@ -797,9 +864,13 @@
     "id": "Holomorphic Functions with Real Boundary Values",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "Purdue University",
-    "terms": [
-      "Winter 2025"
+    "instances": [
+      {
+        "term": "Winter 2025",
+        "university": "Purdue University",
+        "writer": "Unknown",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -810,9 +881,6 @@
       "Open Mapping Theorem",
       "Jordan Curve Theorem"
     ],
-    "writer": [
-      "Unknown"
-    ],
     "finished": true,
     "statement": "Suppose $f(z)$ is a complex valued continuous function on the closed unit disc $|z|\\leq 1$ that is analytic on the open unit disc $|z|<1$. Suppose further that $f$ maps the unit circle onto the real line. Prove that $f$ must be a real constant function."
   },
@@ -820,9 +888,13 @@
     "id": "Holomorphicity Preserves Differentiation Under Uniform Limits",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2021"
+    "instances": [
+      {
+        "term": "Spring 2021",
+        "university": "University of California, Santa Cruz",
+        "writer": "Hatinoglu",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -832,9 +904,6 @@
     "theorems": [
       "Cauchy Integral Formula"
     ],
-    "writer": [
-      "Hatinoglu"
-    ],
     "finished": false,
     "statement": "Let $\\Omega\\subseteq \\C$ be open and suppose that $(f_n)$ is a sequence of holomorphic functions that converges uniformly to $f:\\Omega\\rightarrow \\C$. Show that, for any $\\delta>0$, we have that $f_n'\\rightarrow f'$ uniformly on the set\n$$\nK_\\delta := \\{z\\in \\Omega: \\overline{B_\\delta(z)}\\subseteq \\Omega \\}.\n$$"
   },
@@ -842,9 +911,13 @@
     "id": "Holomorphicity of ℜ(f)*f Implies Constancy",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2022"
+    "instances": [
+      {
+        "term": "Fall 2022",
+        "university": "University of California, Santa Cruz",
+        "writer": "Hatinoglu",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -855,9 +928,6 @@
     "theorems": [
       "Identity Theorem"
     ],
-    "writer": [
-      "Hatinoglu"
-    ],
     "finished": true,
     "statement": "Suppose $f$ is a holomorphic function on a connected open set, and $u=\\Re(f)$. Prove that if the product $u \\overline{f}$ is holomorphic, then $f$ must be a constant function."
   },
@@ -865,18 +935,19 @@
     "id": "Integrals of Harmonic Functions Are Harmonic",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "Purdue University",
-    "terms": [
-      "Winter 2025"
+    "instances": [
+      {
+        "term": "Winter 2025",
+        "university": "Purdue University",
+        "writer": "Unknown",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
       "Harmonic functions"
     ],
     "theorems": [],
-    "writer": [
-      "Unknown"
-    ],
     "finished": false,
     "statement": "Suppose that $u:\\C\\times \\R\\rightarrow \\R$ is continuous such that $u(z,s)$ is harmonic in $z$ for each $s\\in \\R$. Define\n$$\nU(z)= \\int_{-1}^1 u(z,s)\\, ds.\n$$\nShow that $U$ is harmonic on $\\C$."
   },
@@ -884,10 +955,19 @@
     "id": "Local Preservation of Zeros Under Uniform Convergence of Holomorphic Functions 1",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2024",
-      "Fall 2023"
+    "instances": [
+      {
+        "term": "Fall 2024",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Fall 2023",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -897,9 +977,6 @@
       "Rouche's Theorem",
       "Morera's Theorem"
     ],
-    "writer": [
-      "Monard"
-    ],
     "finished": true,
     "statement": "(a) State Rouché's theorem.\n(b) Let $(f_n)_{n=1}^\\infty$ be a sequence of holomorphic functions $\\Omega\\rightarrow \\C$ on the open domain $\\Omega$, converging uniformly to a limit $f$ on every compact subset of $\\Omega$. Show that if $f$ has a zero $z_0$ of order $m$ in $\\Omega$, then there exists $r>0$ and $N\\in \\N$ such that for all $n\\geq N$, $f_n$ has exactly $m$ zeros (counted with multiplicity) on the disk $D_r(z_0)$."
   },
@@ -907,9 +984,13 @@
     "id": "Local Preservation of Zeros Under Uniform Convergence of Holomorphic Functions 2",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "Purdue University",
-    "terms": [
-      "Fall 2025"
+    "instances": [
+      {
+        "term": "Fall 2025",
+        "university": "Purdue University",
+        "writer": "Unknown",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -920,9 +1001,6 @@
       "Morera's Theorem",
       "Identity Theorem"
     ],
-    "writer": [
-      "Unknown"
-    ],
     "finished": true,
     "statement": "Let $D\\subseteq \\C$ be open and connected, let $f_n$ be holomorphic in $D$ for all $n\\in \\N$, and suppose $f_n\\rightarrow f$ uniformly on $D$. Suppose also  there exists $z_0\\in D$ such that $f(z_0)=0$, but that $f$ is not identically equal to 0. Prove that there exists $n\\in\\N$ such that $f_n$ has a zero on $D$."
   },
@@ -930,9 +1008,13 @@
     "id": "Locally Uniform Limits of Entire Functions are Entire",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Winter 2013"
+    "instances": [
+      {
+        "term": "Winter 2013",
+        "university": "University of California, Santa Cruz",
+        "writer": "Tromba",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -941,9 +1023,6 @@
     "theorems": [
       "Morera's Theorem"
     ],
-    "writer": [
-      "Tromba"
-    ],
     "finished": false,
     "statement": "Suppose that $(f_n)$ is a sequence of entire functions such that $f_n$ converges locally uniformly to a function $f:\\C\\rightarrow \\C$. Show that $f$ is entire."
   },
@@ -951,9 +1030,13 @@
     "id": "Maximum Modulus of a Polynomial on the Disk",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "Purdue University",
-    "terms": [
-      "Winter 2025"
+    "instances": [
+      {
+        "term": "Winter 2025",
+        "university": "Purdue University",
+        "writer": "Unknown",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -962,9 +1045,6 @@
     "theorems": [
       "Maximum Modulus Principle"
     ],
-    "writer": [
-      "Unknown"
-    ],
     "finished": true,
     "statement": "At what point or points in the closed unit disk does $z^6+z^4$ attain its maximum modulus? Explain."
   },
@@ -972,9 +1052,13 @@
     "id": "Maximum Principle for the Real Parts of Holomorphic Functions",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "Purdue University",
-    "terms": [
-      "Fall 2025"
+    "instances": [
+      {
+        "term": "Fall 2025",
+        "university": "Purdue University",
+        "writer": "Unknown",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -984,9 +1068,6 @@
     "theorems": [
       "Maximum Modulus Principle"
     ],
-    "writer": [
-      "Unknown"
-    ],
     "finished": true,
     "statement": "Let $R>0$ and let $f$ be holomorphic in the disk $D_R(0) = \\{z\\in \\C : |z|<R\\}$. Define $A:[0,R)\\rightarrow \\R$ by \n$$\nA(r)= \\sup\\{ \\Re(f(z)) : |z|=r\\}.\n$$\nShow that if $f$ is non-constant, then $A$ is strictly increasing on $[0,R)$."
   },
@@ -994,9 +1075,13 @@
     "id": "Possible Values of a Contour Integral",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2022"
+    "instances": [
+      {
+        "term": "Spring 2022",
+        "university": "University of California, Santa Cruz",
+        "writer": "Hatinoglu",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -1008,9 +1093,6 @@
       "Cauchy Integral Formula",
       "Jordan Curve Theorem"
     ],
-    "writer": [
-      "Hatinoglu"
-    ],
     "finished": true,
     "statement": "Suppose that $\\gamma$ is a simple, closed, piecewise $C^1$ curve in $\\C$. What are all the possible values of\n$$\n\\int_\\gamma \\frac{z}{z^2+1}\\, dz\n$$\nfor different choices of $\\gamma$? Explain your reasoning."
   },
@@ -1018,9 +1100,13 @@
     "id": "Proof of Morera's Theorem",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2012"
+    "instances": [
+      {
+        "term": "Spring 2012",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 2,
     "concepts": [
@@ -1029,9 +1115,6 @@
     "theorems": [
       "Morera's Theorem"
     ],
-    "writer": [
-      "Ehrhardt"
-    ],
     "finished": false,
     "statement": "Let $f$ be a continuous function on a domain $\\Omega\\subseteq \\C$ such that for every closed piecewise $C^1$ curve $\\gamma$ in $\\Omega$,\n$$\n\\int_\\gamma f(z)\\,dz =0.\n$$\nShow that $f$ is holomorphic on $\\Omega$."
   },
@@ -1039,9 +1122,13 @@
     "id": "Proof of the Casorati-Weirstrass Theorem",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2013"
+    "instances": [
+      {
+        "term": "Fall 2013",
+        "university": "University of California, Santa Cruz",
+        "writer": "Tromba",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -1051,9 +1138,6 @@
     "theorems": [
       "Casorati-Weierstrass Theorem"
     ],
-    "writer": [
-      "Tromba"
-    ],
     "finished": false,
     "statement": "State and prove the Casorati-Weirstrass Theorem."
   },
@@ -1061,9 +1145,13 @@
     "id": "Proof of the Fundamental Theorem of Algebra",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Winter 2020"
+    "instances": [
+      {
+        "term": "Winter 2020",
+        "university": "University of California, Santa Cruz",
+        "writer": "Lin",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 2,
     "concepts": [
@@ -1072,9 +1160,6 @@
     "theorems": [
       "Rouche's Theorem"
     ],
-    "writer": [
-      "Lin"
-    ],
     "finished": false,
     "statement": "Let $f(z)$ be a nonzero polynomial of degree $n\\geq 0$. Show that $f(z)$ has exactly $n$ zeros counted with multiplicity."
   },
@@ -1082,9 +1167,13 @@
     "id": "Proof of the Schwarz Lemma",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2011"
+    "instances": [
+      {
+        "term": "Spring 2011",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -1094,9 +1183,6 @@
       "Schwarz Lemma",
       "Maximum Modulus Principle"
     ],
-    "writer": [
-      "Ehrhardt"
-    ],
     "finished": false,
     "statement": "State and Prove the Schwarz lemma."
   },
@@ -1104,9 +1190,13 @@
     "id": "Removing a Piece of the Principle Part of a Function to Obtain an Antiderivative",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "Purdue University",
-    "terms": [
-      "Fall 2025"
+    "instances": [
+      {
+        "term": "Fall 2025",
+        "university": "Purdue University",
+        "writer": "Unknown",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -1117,9 +1207,6 @@
     "theorems": [
       "Residue Theorem"
     ],
-    "writer": [
-      "Unknown"
-    ],
     "finished": true,
     "statement": "Let $f$ be holomorphic in the punctured unit disk $\\D\\backslash \\{0\\}$, let $r\\in (0,1)$, and define $\\gamma(t):=re^{it}$ for $t\\in [0,2\\pi]$. Define\n$$\nc = \\frac{1}{2\\pi i} \\int_{\\gamma} f(z)\\, dz,\n$$\nand let\n$$\nh(z) := f(z) - \\frac{c}{z}.\n$$\nProve that $h$ has a holomorphic antiderivative on $\\D\\backslash\\{0\\}$."
   },
@@ -1127,9 +1214,13 @@
     "id": "Residue Formula for a Quotient by a Function with a Double Root",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Winter 2025"
+    "instances": [
+      {
+        "term": "Winter 2025",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -1139,9 +1230,6 @@
     "theorems": [
       "Residue Theorem"
     ],
-    "writer": [
-      "Unknown"
-    ],
     "finished": true,
     "statement": "Suppose $f$ and $g$ are analytic near $a$ and that $g$ has a zero of order 2 at $a$. \n\n(a) Show that $g(z)= (z-a)^2 h(z)$ where $h(z)$ is meromorphic in a punctured neighborhood of $a$ with a removable singularity at $a$. Find the Taylor coefficients for the power series of $h$ centered at $z=a$.\n(b) Find the principle part of $\\frac{f}{g}$ centered at $z=a$ by computing a small number of coefficients in the Taylor series for $\\frac{f}{h}$. Write a formula for the residue of $\\frac{f}{g}$ at $z=a$."
   },
@@ -1149,10 +1237,19 @@
     "id": "Residue Theorem Purdue January 2024",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2010",
-      "Winter 2019"
+    "instances": [
+      {
+        "term": "Spring 2010",
+        "university": "University of California, Santa Cruz",
+        "writer": "Schonbek",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Winter 2019",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -1162,10 +1259,6 @@
     "theorems": [
       "Residue Theorem"
     ],
-    "writer": [
-      "Schonbek",
-      "Ehrhardt"
-    ],
     "finished": true,
     "statement": "Let $n \\geq 2$. Calculate\n$$\n\\int_0^{\\infty} \\frac{1}{x^n+1}\\, dx.\n$$"
   },
@@ -1173,9 +1266,13 @@
     "id": "Residue Theory Purdue August 2025",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "Purdue University",
-    "terms": [
-      "Fall 2025"
+    "instances": [
+      {
+        "term": "Fall 2025",
+        "university": "Purdue University",
+        "writer": "Unknown",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -1186,9 +1283,6 @@
     "theorems": [
       "Residue Theorem"
     ],
-    "writer": [
-      "Unknown"
-    ],
     "finished": false,
     "statement": "Let $a\\in (0,1)$. Evaluate \n$$\nI(a) = \\int_0^{\\infty} \\frac{x^{-a}}{1+x}\\, dx.\n$$"
   },
@@ -1196,9 +1290,13 @@
     "id": "Residue Theory Purdue January 2025",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "Purdue University",
-    "terms": [
-      "Winter 2025"
+    "instances": [
+      {
+        "term": "Winter 2025",
+        "university": "Purdue University",
+        "writer": "Unknown",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -1209,9 +1307,6 @@
       "Cauchy Integral Formula",
       "Residue Theorem"
     ],
-    "writer": [
-      "Unknown"
-    ],
     "finished": true,
     "statement": "Let $\\gamma$ be an elipse where one of the foci is the origin oriented clockwise. Compute\n$$\n\\int_\\gamma \\frac{e^{5z}}{z^7}\\, dz.\n$$"
   },
@@ -1219,9 +1314,13 @@
     "id": "Residue Theory UCSC Fall 2017",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2017"
+    "instances": [
+      {
+        "term": "Fall 2017",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -1231,9 +1330,6 @@
     "theorems": [
       "Residue Theorem"
     ],
-    "writer": [
-      "Monard"
-    ],
     "finished": false,
     "statement": "Use residue theory to compute\n$$\n\\int_0^{2\\pi} \\frac{\\cos(\\theta)}{4+\\cos(\\theta)}\\, d\\theta.\n$$"
   },
@@ -1241,12 +1337,31 @@
     "id": "Residue Theory UCSC Fall 2019",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2019",
-      "Spring 2012",
-      "Winter 2013",
-      "Winter 2011"
+    "instances": [
+      {
+        "term": "Fall 2019",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Spring 2012",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Winter 2013",
+        "university": "University of California, Santa Cruz",
+        "writer": "Tromba",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Winter 2011",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -1255,10 +1370,6 @@
     ],
     "theorems": [
       "Residue Theorem"
-    ],
-    "writer": [
-      "Ehrhardt",
-      "Tromba"
     ],
     "finished": false,
     "statement": "Evaluate the integral\n$$\n\\int_{-\\infty}^\\infty \\frac{\\sin(x)}{x}\\,dx.\n$$"
@@ -1267,9 +1378,13 @@
     "id": "Residue Theory UCSC Fall 2020",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2020"
+    "instances": [
+      {
+        "term": "Fall 2020",
+        "university": "University of California, Santa Cruz",
+        "writer": "Lin",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -1278,9 +1393,6 @@
     ],
     "theorems": [
       "Residue Theorem"
-    ],
-    "writer": [
-      "Lin"
     ],
     "finished": true,
     "statement": "Evaluate the integral\n$$\n\\int_0^\\infty \\frac{1+x^2}{1+x^4}\\, dx.\n$$"
@@ -1289,10 +1401,19 @@
     "id": "Residue Theory UCSC Fall 2021",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2021",
-      "Spring 2016"
+    "instances": [
+      {
+        "term": "Fall 2021",
+        "university": "University of California, Santa Cruz",
+        "writer": "Hatinoglu",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Spring 2016",
+        "university": "University of California, Santa Cruz",
+        "writer": "Goetz",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -1302,10 +1423,6 @@
     "theorems": [
       "Residue Theorem"
     ],
-    "writer": [
-      "Goetz",
-      "Hatinoglu"
-    ],
     "finished": true,
     "statement": "For $a>0$, compute the following integral using residue theory:\n$$\n\\int_{-\\infty}^\\infty \\frac{\\cos(x)}{x^2+a^2}\\, dx.\n$$"
   },
@@ -1313,13 +1430,37 @@
     "id": "Residue Theory UCSC Fall 2024",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2024",
-      "Fall 2023",
-      "Fall 2018",
-      "Spring 2011",
-      "Fall 2012"
+    "instances": [
+      {
+        "term": "Fall 2024",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Fall 2023",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Fall 2018",
+        "university": "University of California, Santa Cruz",
+        "writer": null,
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Spring 2011",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Fall 2012",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -1329,10 +1470,6 @@
     "theorems": [
       "Residue Theorem"
     ],
-    "writer": [
-      "Ehrhardt",
-      "Monard"
-    ],
     "finished": false,
     "statement": "For $a\\in \\C$ with $0<\\Re(a)<1$, evaluate\n$$\n\\int_{-\\infty}^\\infty \\frac{e^{ax}}{1+e^x}\\, dx\n$$\nby residues. Justify your limiting process carefully."
   },
@@ -1340,9 +1477,13 @@
     "id": "Residue Theory UCSC Fall 2025",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2025"
+    "instances": [
+      {
+        "term": "Fall 2025",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 2,
     "concepts": [
@@ -1352,9 +1493,6 @@
     "theorems": [
       "Residue Theorem"
     ],
-    "writer": [
-      "Monard"
-    ],
     "finished": false,
     "statement": "Compute, using residue theory,\n$$\n\\int_0^{2\\pi} \\frac{\\sin(\\theta)}{2+\\cos(\\theta)}\\,d\\theta.\n$$\nSimplify your answer as much as possible."
   },
@@ -1362,9 +1500,13 @@
     "id": "Residue Theory UCSC Spring 2013",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2013"
+    "instances": [
+      {
+        "term": "Spring 2013",
+        "university": "University of California, Santa Cruz",
+        "writer": "Tromba",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -1373,9 +1515,6 @@
     ],
     "theorems": [
       "Residue Theorem"
-    ],
-    "writer": [
-      "Tromba"
     ],
     "finished": false,
     "statement": "Compute\n$$\n\\int_0^\\infty \\frac{\\sin^2(x)}{x^2}\\, dx\n$$\nby showing that\n$$\n\\int_0^\\infty \\frac{\\sin^2(x)}{x^2}\\, dx=\\int_0^\\infty \\frac{\\sin(x)}{x}\\,dx\n$$\nand then computing\n$$\n\\int_0^\\infty \\frac{\\sin(x)}{x}\\,dx.\n$$"
@@ -1384,9 +1523,13 @@
     "id": "Residue Theory UCSC Spring 2014",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2014"
+    "instances": [
+      {
+        "term": "Spring 2014",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -1396,9 +1539,6 @@
     ],
     "theorems": [
       "Residue Theorem"
-    ],
-    "writer": [
-      "Ehrhardt"
     ],
     "finished": false,
     "statement": "Evaluate, for $a>0$,\n$$\n\\int_0^\\infty \\frac{\\ln(x)}{x^2+a^2}\\, dx.\n$$"
@@ -1407,10 +1547,19 @@
     "id": "Residue Theory UCSC Spring 2018",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2018",
-      "Winter 2016"
+    "instances": [
+      {
+        "term": "Spring 2018",
+        "university": "University of California, Santa Cruz",
+        "writer": "Goetz",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Winter 2016",
+        "university": "University of California, Santa Cruz",
+        "writer": "Goetz",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -1419,9 +1568,6 @@
     ],
     "theorems": [
       "Residue Theorem"
-    ],
-    "writer": [
-      "Goetz"
     ],
     "finished": false,
     "statement": "Show, using residue theory, that for every $a\\in\\R$,\n$$\n\\int_{-\\infty}^\\infty \\frac{e^{-2\\pi i xa}}{\\cosh(\\pi x)}\\, dx=\\frac{1}{\\cosh(\\pi a)}.\n$$"
@@ -1430,10 +1576,19 @@
     "id": "Residue Theory UCSC Spring 2019",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2019",
-      "Winter 2015"
+    "instances": [
+      {
+        "term": "Spring 2019",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Winter 2015",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -1443,9 +1598,6 @@
     "theorems": [
       "Residue Theorem"
     ],
-    "writer": [
-      "Ehrhardt"
-    ],
     "finished": false,
     "statement": "Using residue theory, compute the integrals\n$$\nI_1 = \\int_0^\\infty \\frac{1-\\cos(x)}{x^2}\\,dx, \\qquad I_2 = \\int_0^{2\\pi}\\frac{1}{2+\\cos(x)}\\, dx.\n$$"
   },
@@ -1453,9 +1605,13 @@
     "id": "Residue Theory UCSC Spring 2021",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2021"
+    "instances": [
+      {
+        "term": "Spring 2021",
+        "university": "University of California, Santa Cruz",
+        "writer": "Hatinoglu",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -1466,9 +1622,6 @@
     "theorems": [
       "Residue Theorem"
     ],
-    "writer": [
-      "Hatinoglu"
-    ],
     "finished": false,
     "statement": "Use the residue theorem to compute\n$$\n\\int_0^\\infty \\frac{x^\\frac{1}{3}}{1+x^2}\\, dx.\n$$"
   },
@@ -1476,9 +1629,13 @@
     "id": "Residue Theory UCSC Spring 2023",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2023"
+    "instances": [
+      {
+        "term": "Spring 2023",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -1487,9 +1644,6 @@
     ],
     "theorems": [
       "Residue Theorem"
-    ],
-    "writer": [
-      "Monard"
     ],
     "finished": false,
     "statement": "Let $a>0, b\\in\\R$. Compute, using residue theory, the integrals\n$$\n\\int_0^\\infty e^{-ax}\\cos(bx)\\,dx, \\qquad \\int_0^\\infty e^{-ax}\\sin(bx)\\,dx.\n$$"
@@ -1498,9 +1652,13 @@
     "id": "Residue Theory UCSC Spring 2024",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2024"
+    "instances": [
+      {
+        "term": "Spring 2024",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -1509,9 +1667,6 @@
     ],
     "theorems": [
       "Residue Theorem"
-    ],
-    "writer": [
-      "Monard"
     ],
     "finished": true,
     "statement": "Let $a>0$. Compute, using residue theory, the integral\n$$\n\\int_\\R \\frac{dx}{(x^2+a^2)^2}.\n$$\nJustify any limiting processes involved."
@@ -1520,9 +1675,13 @@
     "id": "Residue Theory UCSC Spring 2025",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Spring 2025"
+    "instances": [
+      {
+        "term": "Spring 2025",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -1532,9 +1691,6 @@
     "theorems": [
       "Residue Theorem"
     ],
-    "writer": [
-      "Monard"
-    ],
     "finished": false,
     "statement": "Compute the following integral using residue theory:\n$$\n\\int_\\R \\frac{dx}{\\left(1+x^2 \\right)^3}.\n$$"
   },
@@ -1542,9 +1698,13 @@
     "id": "Residue Theory UCSC Winter 2018",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Winter 2018"
+    "instances": [
+      {
+        "term": "Winter 2018",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -1555,9 +1715,6 @@
       "Residue Theorem",
       "Cauchy Integral Formula"
     ],
-    "writer": [
-      "Ehrhardt"
-    ],
     "finished": false,
     "statement": "(a) Prove using complex integration that for any $\\alpha \\in \\R$,\n$$\n\\int_\\R e^{-(x+ia)^2}\\, dx = \\int_\\R e^{-x^2}\\, dx.\n$$\n(b) Let $\\sigma >0, \\xi \\in \\R$. Show that \n$$\n\\int_\\R e^{-ix \\xi} e^{-\\frac{x^2}{2\\sigma^2}}\\, dx = \\sigma \\sqrt{2\\pi} e^{-\\frac{\\sigma^2\\xi^2}{2}}.\n$$"
   },
@@ -1565,9 +1722,13 @@
     "id": "Residue Theory UCSC Winter 2020",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Winter 2020"
+    "instances": [
+      {
+        "term": "Winter 2020",
+        "university": "University of California, Santa Cruz",
+        "writer": "Lin",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -1576,9 +1737,6 @@
     ],
     "theorems": [
       "Residue Theorem"
-    ],
-    "writer": [
-      "Lin"
     ],
     "finished": false,
     "statement": "For each $a\\in\\R$, compute the following integral using residue theory:\n$$\n\\int_{-\\infty}^\\infty \\frac{e^{iax}}{\\left(1+x^2\\right)^2}\\, dx\n$$"
@@ -1587,9 +1745,13 @@
     "id": "Residue Theory UCSC Winter 2021",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Winter 2021"
+    "instances": [
+      {
+        "term": "Winter 2021",
+        "university": "University of California, Santa Cruz",
+        "writer": "Hatinoglu",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -1599,9 +1761,6 @@
     "theorems": [
       "Residue Theorem"
     ],
-    "writer": [
-      "Hatinoglu"
-    ],
     "finished": false,
     "statement": "Use residue theory to evaluate\n$$\n\\int_0^\\pi \\frac{d\\theta}{2+\\sin(2\\theta)}.\n$$"
   },
@@ -1609,9 +1768,13 @@
     "id": "Residue Theory UCSC Winter 2022",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Winter 2022"
+    "instances": [
+      {
+        "term": "Winter 2022",
+        "university": "University of California, Santa Cruz",
+        "writer": "Hatinoglu",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 3,
     "concepts": [
@@ -1621,9 +1784,6 @@
     "theorems": [
       "Residue Theorem"
     ],
-    "writer": [
-      "Hatinoglu"
-    ],
     "finished": false,
     "statement": "Prove that\n$$\n\\int_0^{2\\pi} e^{\\cos(\\theta)}\\, d\\theta = \\sum_{n=0}^\\infty \\frac{1}{\\left(n! 2^n \\right)^2}.\n$$"
   },
@@ -1631,10 +1791,19 @@
     "id": "Simple Zeros Are Stable Under Small Holomorphic Perturbations",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2022",
-      "Spring 2016"
+    "instances": [
+      {
+        "term": "Fall 2022",
+        "university": "University of California, Santa Cruz",
+        "writer": "Hatinoglu",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Spring 2016",
+        "university": "University of California, Santa Cruz",
+        "writer": "Goetz",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -1644,10 +1813,6 @@
       "Rouche's Theorem",
       "Argument principle"
     ],
-    "writer": [
-      "Goetz",
-      "Hatinoglu"
-    ],
     "finished": false,
     "statement": "Suppose $f$ and $g$ are holomorphic in a region containing the disk $|z|\\leq 1$. Suppose that $f$ has a simple zero at $z=0$ and vanishes nowhere else in $|z|\\leq 1$. Let\n$$\nf_\\varepsilon(z)=f(z)+\\varepsilon g(z).\n$$\n\n(a) Show that for all sufficiently small $\\varepsilon>0$, $f_\\varepsilon$ has a unique zero in $|z|\\leq 1$.\n(b) For all small $\\varepsilon>0$, let $z_\\varepsilon$ denote that zero from part (a). Show that the mapping $\\varepsilon \\mapsto z_\\varepsilon$ is continuous."
   },
@@ -1655,9 +1820,13 @@
     "id": "Winding behavior of polynomials on the unit circle",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
-    "university": "University of California, Santa Cruz",
-    "terms": [
-      "Fall 2012"
+    "instances": [
+      {
+        "term": "Fall 2012",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
     ],
     "difficulty": 4,
     "concepts": [
@@ -1666,9 +1835,6 @@
     ],
     "theorems": [
       "Argument principle"
-    ],
-    "writer": [
-      "Ehrhardt"
     ],
     "finished": false,
     "statement": "Let $p(z)$ be a polynomial of degree $n$ that is nonzero on the unit circle $\\T=\\{z\\in\\C:\\abs{z}=1\\}$. Define\n$$\nm_0 := \\frac{1}{2\\pi i} \\int_\\T \\frac{p'(z)}{p(z)}\\, dz, \\qquad m_1 := \\frac{1}{2\\pi i} \\int_\\T z\\frac{p'(z)}{p(z)}\\, dz.\n$$\nShow that $m_0\\in \\{0,\\cdots, n\\}$ and $\\abs{m_1}\\leq m_0$."

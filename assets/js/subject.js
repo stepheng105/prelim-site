@@ -24,7 +24,7 @@
 
         for (const q of questions) {
 
-            const weight = Math.max(1, (q.terms || []).length);
+            const weight = Math.max(1, questionTerms(q).length);
             total += weight;
 
             for (const value of (q[field] || [])) {
@@ -36,7 +36,7 @@
 
             const noTheoremWeight = questions
                 .filter(q => !q.theorems || q.theorems.length === 0)
-                .reduce((sum, q) => sum + Math.max(1, (q.terms || []).length), 0);
+                .reduce((sum, q) => sum + Math.max(1, questionTerms(q).length), 0);
 
             counts["No Major Theorems Used"] = noTheoremWeight;
         }
@@ -127,8 +127,8 @@
         const sorted = [...filtered].sort((a, b) => {
 
             if (sortColumn === "terms") {
-                const x = termSortValue(a.terms, sortAscending);
-                const y = termSortValue(b.terms, sortAscending);
+                const x = termSortValue(questionTerms(a), sortAscending);
+                const y = termSortValue(questionTerms(b), sortAscending);
                 return sortAscending ? x - y : y - x;
             }
 
@@ -136,6 +136,7 @@
 
             if (sortColumn === "id") { x = a.id; y = b.id; }
             else if (sortColumn === "concepts") { x = (a.concepts || []).join(", "); y = (b.concepts || []).join(", "); }
+            else if (sortColumn === "university") { x = questionUniversities(a).join(", "); y = questionUniversities(b).join(", "); }
             else { x = String(a[sortColumn] ?? ""); y = String(b[sortColumn] ?? ""); }
 
             const cmp = x.localeCompare(y, undefined, { numeric: true, sensitivity: "base" });
@@ -184,8 +185,8 @@
             link.onclick = (e) => { e.preventDefault(); openStatementModal(q); };
             qCell.appendChild(link);
 
-            row.insertCell().textContent = q.university ?? "";
-            row.insertCell().textContent = (q.terms || []).join(", ");
+            row.insertCell().textContent = questionUniversities(q).join(", ");
+            row.insertCell().textContent = questionTerms(q).join(", ");
             row.insertCell().textContent = q.difficulty ?? "";
         }
 
@@ -201,7 +202,7 @@
 
     const genConceptValues = [...new Set(questions.flatMap(q => q.concepts || []))].sort();
     const genTheoremValues = [...new Set(questions.flatMap(q => q.theorems || []))].sort();
-    const genWriterValues = [...new Set(questions.flatMap(q => q.writer || []))]
+    const genWriterValues = [...new Set(questions.flatMap(q => questionWriters(q)))]
         .filter(w => w.toLowerCase() !== "unknown")
         .sort();
 
@@ -348,7 +349,7 @@
             }
 
             if (selectedWriter !== "") {
-                if (!(q.writer || []).includes(selectedWriter)) return false;
+                if (!questionWriters(q).includes(selectedWriter)) return false;
             }
 
             if (finishedSelect.value !== "any") {

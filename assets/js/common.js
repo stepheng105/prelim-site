@@ -48,6 +48,35 @@ function normalizeSafe(x) {
 
 
 // ------------------------------------------------------------
+// Instance helpers: a question can now have multiple `instances`
+// (one per appearance — a given term/university/exam/writer
+// combination). These pull a deduplicated, order-preserving list
+// of a single field across all of a question's instances, for
+// use in filters, tables, and sorting that previously read a
+// flat q.university / q.terms / q.writer field directly.
+// ------------------------------------------------------------
+
+function instanceValues(question, field) {
+    const seen = new Set();
+    const values = [];
+    for (const instance of (question.instances || [])) {
+        const value = instance[field];
+        if (value == null || value === "") continue;
+        if (!seen.has(value)) {
+            seen.add(value);
+            values.push(value);
+        }
+    }
+    return values;
+}
+
+function questionUniversities(question) { return instanceValues(question, "university"); }
+function questionTerms(question) { return instanceValues(question, "term"); }
+function questionWriters(question) { return instanceValues(question, "writer"); }
+function questionExams(question) { return instanceValues(question, "exam"); }
+
+
+// ------------------------------------------------------------
 // Checkbox filter section: collapsible, searchable, with
 // Select All / Clear All. Returns the array of checkbox
 // elements so callers can read .checked / .value.
@@ -370,7 +399,7 @@ function openStatementModal(question) {
     closeBtn.onclick = () => backdrop.remove();
 
     const title = document.createElement("h3");
-    title.textContent = `${question.university ?? ""} ${question.terms?.join(", ") ?? ""}`.trim() || question.id;
+    title.textContent = question.id;
 
     const meta = document.createElement("div");
     meta.className = "modal-meta";
@@ -378,8 +407,17 @@ function openStatementModal(question) {
     if (question.difficulty != null) metaParts.push(`Difficulty: ${question.difficulty}`);
     if (question.concepts?.length) metaParts.push(`Concepts: ${question.concepts.join(", ")}`);
     if (question.theorems?.length) metaParts.push(`Theorems: ${question.theorems.join(", ")}`);
-    if (question.writer?.length) metaParts.push(`Author: ${question.writer.join(", ")}`);
     meta.textContent = metaParts.join(" • ");
+
+    const instanceList = document.createElement("ul");
+    instanceList.className = "instance-list";
+    for (const instance of (question.instances || [])) {
+        const item = document.createElement("li");
+        const parts = [instance.university, instance.term, instance.exam, instance.writer ? `Author: ${instance.writer}` : null]
+            .filter(Boolean);
+        item.textContent = parts.join(" — ");
+        instanceList.appendChild(item);
+    }
 
     const statement = document.createElement("div");
     statement.className = "statement-body";
@@ -389,6 +427,7 @@ function openStatementModal(question) {
     box.appendChild(closeBtn);
     box.appendChild(title);
     box.appendChild(meta);
+    box.appendChild(instanceList);
     box.appendChild(statement);
     backdrop.appendChild(box);
 
