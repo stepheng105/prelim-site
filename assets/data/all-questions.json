@@ -25,40 +25,6 @@
     "statement": "Suppose that $(X,d)$ is a complete metric space. We say that a subset $A\\subseteq X$ is totally bounded if, for every $\\varepsilon>0$, there are finitely many points $\\{x_i\\}_{i=1}^k$ from $A$ such that $A\\subseteq \\bigcup_{i=1}^k B_\\varepsilon(x_i)$, where each $B_\\varepsilon(x_i)$ is the open ball of radius $\\varepsilon$ centered at $x_i$. \n\nProve that a closed subset $A$ of $X$ is compact if and only if it is totally bounded."
   },
   {
-    "id": "A Compact Subset of Euclidean Space Can be Separated From Any Open Set Containing It",
-    "subject": "Basic Analysis and Topology",
-    "subjectSlug": "basic-analysis-topology",
-    "instances": [
-      {
-        "term": "Winter 2019",
-        "university": "University of California, Santa Cruz",
-        "writer": "Lin",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Spring 2019",
-        "university": "University of California, Santa Cruz",
-        "writer": "Lin",
-        "exam": "Preliminary Exam"
-      }
-    ],
-    "difficulty": 4,
-    "concepts": [
-      "Open Sets",
-      "Closed Sets",
-      "Compactness",
-      "Hausdorff Spaces",
-      "Locally Compact Spaces",
-      "Continuous Functions"
-    ],
-    "theorems": [
-      "Urysohn Lemma",
-      "Heine-Borel Theorem"
-    ],
-    "finished": true,
-    "statement": "Suppose that $U\\subseteq \\R^n$ is open, and $K\\subseteq U$ is compact. Prove that there exists an open set $V\\subseteq \\R$ whose closure is compact such that\n$$\nK\\subseteq V \\subseteq \\overline{V} \\subseteq U.$$"
-  },
-  {
     "id": "A Complete Subset of a Metric Space is Closed",
     "subject": "Basic Analysis and Topology",
     "subjectSlug": "basic-analysis-topology",
@@ -81,7 +47,7 @@
     "statement": "Let $(X,d)$ be a metric space and let $Y$ be a subspace of $X$ such that $(Y,d)$ is a complete metric space. Show that $Y$ is closed in $X$."
   },
   {
-    "id": "A Continuous Bijection from a Compact Space to a Hausdorff Space is a Homeomorphism",
+    "id": "A Continuous Bijection from a Compact Space to a Hausdorff Space is a Homeomorphism 1",
     "subject": "Basic Analysis and Topology",
     "subjectSlug": "basic-analysis-topology",
     "instances": [
@@ -108,7 +74,29 @@
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Hausdorff Spaces",
+      "Continuous Functions",
+      "Homeomorphisms",
+      "Compactness"
+    ],
+    "theorems": [
+      "Compact Subsets of Hausdorff Spaces are Closed",
+      "Closed Subsets of Compact Spaces are Compact",
+      "Continuity Preserves Compactness",
+      "Continuous Bijection from Compact to Hausdorff is a Homeomorphism"
+    ],
+    "finished": true,
+    "statement": "Suppose that $f:X\\rightarrow Y$ is a continuous and bijective map, where $X$ is compact and $Y$ is Hausdorff. Show that $f$ is a homeomorphism."
+  },
+  {
+    "id": "A Continuous Bijection from a Compact Space to a Hausdorff Space is a Homeomorphism 2",
+    "subject": "Basic Analysis and Topology",
+    "subjectSlug": "basic-analysis-topology",
+    "instances": [
       {
         "term": "Winter 2010",
         "university": "University of California, Santa Cruz",
@@ -185,6 +173,12 @@
     "instances": [
       {
         "term": "Spring 2015",
+        "university": "University of California, Santa Cruz",
+        "writer": "Qing",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Spring 2022",
         "university": "University of California, Santa Cruz",
         "writer": "Qing",
         "exam": "Preliminary Exam"
@@ -428,10 +422,10 @@
       "Equivalence of Compactness and Sequential Compactness"
     ],
     "finished": false,
-    "statement": "(a) Show that every compact metric space is sequentially compact. Recall that a topological space $X$ is said to be sequentially compact if every sequence of points in $X$ has a subsequence converging to a point in $X$. \n(b) Show that (a) is not true in a general topological space"
+    "statement": "Show that every compact metric space is sequentially compact. Recall that a topological space $X$ is said to be sequentially compact if every sequence of points in $X$ has a subsequence converging to a point in $X$."
   },
   {
-    "id": "Compact Spaces are Limit Point Compact",
+    "id": "Compact Spaces are Limit Point Compact 1",
     "subject": "Basic Analysis and Topology",
     "subjectSlug": "basic-analysis-topology",
     "instances": [
@@ -440,7 +434,25 @@
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Limit Point Compactness",
+      "Product Topology",
+      "Compactness"
+    ],
+    "theorems": [
+      "Compact Implies Limit Point Compact"
+    ],
+    "finished": true,
+    "statement": "(a) Give the definition of compactness and limit point compactness.\n(b) Show that every compact space is limit point compact.\n(c) Give (and prove the validity of) an example that shows that not every limit point compact space is compact."
+  },
+  {
+    "id": "Compact Spaces are Limit Point Compact 2",
+    "subject": "Basic Analysis and Topology",
+    "subjectSlug": "basic-analysis-topology",
+    "instances": [
       {
         "term": "Fall 2012",
         "university": "University of California, Santa Cruz",
@@ -464,7 +476,7 @@
       "Compact Implies Limit Point Compact"
     ],
     "finished": true,
-    "statement": "(a) Give the definition of compactness and limit point compactness.\n(b) Show that every compact space is limit point compact.\n(c) Give (and prove the validity of) an example that shows that not every limit point compact space is compact."
+    "statement": "(a) Give the definition of compactness and limit point compactness.\n(b) Show that every compact space is limit point compact."
   },
   {
     "id": "Compact Subsets of Hausdorff Spaces are Closed, and a Counterexample if we Only Assume T1",
@@ -499,6 +511,32 @@
     "statement": "(a) Show that every compact subset of a Hausdorff space is closed.\n(b) Give an example where (a) fails if we only assume that the space is $T_1$."
   },
   {
+    "id": "Compactness in the Space of Continuous Functions implies being Bounded and Equicontinuous",
+    "subject": "Basic Analysis and Topology",
+    "subjectSlug": "basic-analysis-topology",
+    "instances": [
+      {
+        "term": "Spring 2014",
+        "university": "University of California, Santa Cruz",
+        "writer": "Qing",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Equicontinuity",
+      "Uniform Convergence",
+      "Continuous Functions",
+      "Compactness",
+      "Metric Spaces"
+    ],
+    "theorems": [
+      "Arzelà-Ascoli Theorem"
+    ],
+    "finished": false,
+    "statement": "Let $(X,d)$ be a compact metric space, and let $C(X)$ denote the space of continuous real-valued functions on $X$ with the supremum norm. Suppose that $K\\subseteq C(X)$ is compact. Show that $K$ is uniformly bounded (in norm) and uniformly equicontinuous."
+  },
+  {
     "id": "Compactness in the Space of Continuous Functions is Equivalent to being Closed, Bounded, and Equicontinuous",
     "subject": "Basic Analysis and Topology",
     "subjectSlug": "basic-analysis-topology",
@@ -522,7 +560,7 @@
       "Arzelà-Ascoli Theorem"
     ],
     "finished": false,
-    "statement": "Let $K$ be a compact metric space and let $A$ be a subset of $C(K)$, the space of continuous real-valued continuous functions defined on $K$ with the supremum norm. Show that $A$ is compact if and only if $A$ is closed, bounded, and equicontinuous."
+    "statement": "Let $K$ be a compact metric space and let $A$ be a subset of $C(K)$, the space of continuous real-valued continuous functions defined on $K$ with the supremum norm. Show that $A\\subseteq C(K)$ is compact if and only if $A$ is closed, bounded, and equicontinuous."
   },
   {
     "id": "Compactness of Uniformly Hölder Continuous Functions",
@@ -662,7 +700,7 @@
     "statement": "Let $\\Z$ have the standard discrete topology. \n\n(a) Show that if $\\R$ is equipped with the standard topology, then every continuous function $f:\\R\\rightarrow \\Z$ is constant.\n(b) Find a necessary and sufficient condition on a topological space $X$ such that every continuous function $f:X\\rightarrow \\Z$ is constant. Be sure to prove that your condition is both necessary and sufficient."
   },
   {
-    "id": "Convergence of Cesàro Means",
+    "id": "Convergence of Cesàro Means 1",
     "subject": "Basic Analysis and Topology",
     "subjectSlug": "basic-analysis-topology",
     "instances": [
@@ -671,7 +709,22 @@
         "university": "University of California, Santa Cruz",
         "writer": "Lin",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Sequences",
+      "Cauchy Sequences"
+    ],
+    "theorems": [],
+    "finished": true,
+    "statement": "Let $(x_n)$ be a sequence of real numbers. For each $n\\in\\N$, set\n$$\ny_n = \\frac{x_1+\\cdots +x_n}{n}.\n$$\n(a) Show that if $\\lim_{n\\rightarrow \\infty}x_n$ exists, then $\\lim_{n\\rightarrow \\infty} y_n$ exists, and find its limit.\n(b) Is it the case that if $\\lim_{n\\rightarrow \\infty}y_n$ then $\\lim_{n\\rightarrow \\infty} x_n$ exists? Justify your answer."
+  },
+  {
+    "id": "Convergence of Cesàro Means 2",
+    "subject": "Basic Analysis and Topology",
+    "subjectSlug": "basic-analysis-topology",
+    "instances": [
       {
         "term": "Winter 2014",
         "university": "University of California, Santa Cruz",
@@ -686,7 +739,7 @@
     ],
     "theorems": [],
     "finished": true,
-    "statement": "Let $(x_n)$ be a sequence of real numbers. For each $n\\in\\N$, set\n$$\ny_n = \\frac{x_1+\\cdots +x_n}{n}.\n$$\n(a) Show that if $\\lim_{n\\rightarrow \\infty}x_n$ exists, then $\\lim_{n\\rightarrow \\infty} y_n$ exists, and find its limit.\n(b) Is it the case that if $\\lim_{n\\rightarrow \\infty}y_n$ then $\\lim_{n\\rightarrow \\infty} x_n$ exists? Justify your answer."
+    "statement": "Let $(x_n)$ be a sequence of real numbers. For each $n\\in\\N$, set\n$$\ny_n = \\frac{x_1+\\cdots +x_n}{n}.\n$$\nShow that if $\\lim_{n\\rightarrow \\infty}x_n$ exists, then $\\lim_{n\\rightarrow \\infty} y_n$ exists, and find its limit."
   },
   {
     "id": "Countability of Subsets Without Accumulation Points",
@@ -885,7 +938,7 @@
     ],
     "theorems": [],
     "finished": false,
-    "statement": "A subset $A\\subseteq \\R$ is called perfect if every point $x\\in A$ is a limit point of $A$. Prove that every nonempty, perfect subset of $\\R$ is uncountable."
+    "statement": "A subset $A\\subseteq \\R$ is called perfect if every point $x\\in A$ is a limit point of $A$. Prove that every nonempty, closed, perfect subset of $\\R$ is uncountable."
   },
   {
     "id": "Every Open Connected Set of the Plane is Path Connected",
@@ -907,7 +960,7 @@
     ],
     "theorems": [],
     "finished": true,
-    "statement": "(a) Show that every open connected subset $A\\subseteq \\R$ is path connected.\n(b) Show that $X=[0,1]\\times [0,1]$ in the lexicographic order topology is not path connected."
+    "statement": "(a) Show that every open connected subset $A\\subseteq \\R^2$ is path connected.\n(b) Show that $X=[0,1]\\times [0,1]$ in the lexicographic order topology is not path connected."
   },
   {
     "id": "Extension of Uniformly Continuous Maps from Dense Subsets of a Metric Space",
@@ -1066,7 +1119,30 @@
     "statement": "Suppose that $(f_n)_{n=1}^\\infty$ is a sequence of continuous functions from a closed interval $[a,b]$ to $\\R$, where each $f_n(x)$ is monotone increasing. Assume also that $f_n(x)$ converges to a continuous function $f(x)$ pointwise on $[a,b]$. Show that the family of functions $\\{f_n\\}_{n\\in\\N}$ is uniformly equicontinuous on $[a,b]$."
   },
   {
-    "id": "Pointwise Converges of Increasing Functions on a Compact Interval is Actually Uniform Convergence",
+    "id": "Pointwise Converges of Increasing Functions on a Compact Interval is Actually Uniform Convergence 1",
+    "subject": "Basic Analysis and Topology",
+    "subjectSlug": "basic-analysis-topology",
+    "instances": [
+      {
+        "term": "Spring 2020",
+        "university": "University of California, Santa Cruz",
+        "writer": "Qing",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Uniform Convergence",
+      "Uniform Continuity",
+      "Continuous Functions",
+      "Compactness"
+    ],
+    "theorems": [],
+    "finished": true,
+    "statement": "Suppose that $(f_n)_{n=1}^\\infty$ is a sequence of continuous functions from a closed interval $[a,b]$ to $\\R$, where each $f_n(x)$ is monotone increasing. Assume also that $f_n(x)$ converges to a continuous function $f(x)$ pointwise on $[a,b]$. Show that $f_n(x)$ in fact converges uniformly to $f(x)$ on $[a,b]$."
+  },
+  {
+    "id": "Pointwise Converges of Increasing Functions on a Compact Interval is Actually Uniform Convergence 2",
     "subject": "Basic Analysis and Topology",
     "subjectSlug": "basic-analysis-topology",
     "instances": [
@@ -1075,13 +1151,24 @@
         "university": "University of California, Santa Cruz",
         "writer": "Qing",
         "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Spring 2020",
-        "university": "University of California, Santa Cruz",
-        "writer": "Qing",
-        "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Uniform Convergence",
+      "Uniform Continuity",
+      "Continuous Functions",
+      "Compactness"
+    ],
+    "theorems": [],
+    "finished": true,
+    "statement": "Suppose that $(f_n)_{n=1}^\\infty$ is a sequence of continuous functions from a closed interval $[a,b]$ to $\\R$, where each $f_n(x)$ is monotone increasing. Assume also that $f_n(x)$ converges to a continuous function $f(x)$ pointwise on $[a,b]$. \n(a) Show that, for any given finitely many points $a \\leq x_1<\\cdots < x_k \\leq b$ and $\\varepsilon>0$, there exists $N\\in\\N$ such that for each $i=1,\\cdots, k-1$,\n$$\nf(x_i)-\\varepsilon < f_n(x_i) \\leq f_n(x) \\leq f_n(x_{i+1})<f(x_{i+1})+\\varepsilon\n$$\nfor all $x\\in (x_i, x_{i+1})$ and $n\\geq N$.\n(b) Show that $f_n$ converges uniformly to $f$ on $[a,b]$."
+  },
+  {
+    "id": "Pointwise Converges of Increasing Functions on a Compact Interval is Actually Uniform Convergence 3",
+    "subject": "Basic Analysis and Topology",
+    "subjectSlug": "basic-analysis-topology",
+    "instances": [
       {
         "term": "Winter 2022",
         "university": "University of California, Santa Cruz",
@@ -1176,11 +1263,12 @@
     "difficulty": 3,
     "concepts": [
       "Compactness",
-      "Sequential Compactness",
+      "Metric Spaces",
       "Equicontinuity",
       "Uniform Convergence",
       "Differentiation",
-      "Metric Spaces"
+      "Sequential Compactness",
+      "Closed Sets"
     ],
     "theorems": [
       "Arzelà-Ascoli Theorem",
@@ -1188,7 +1276,7 @@
       "Equivalence of Compactness and Sequential Compactness"
     ],
     "finished": true,
-    "statement": "Let $C([0,1])$ be the space of real-valued continuous functions on $[0,1]$ with the norm\n$$\n\\norm{f}_0 = \\max \\{\\abs{f(x)}:x\\in [0,1]\\},\n$$\nand let $C^1([0,1])$ be the space of real-valued continuously differentiable functions on $[0,1]$ with the norm\n$$\n\\norm{f}_1 := \\norm{f}_0+\\norm{f'}_0\n$$\nShow that a bounded set in $C^1([0,1])$ is precompact in $C([0,1])$."
+    "statement": "Let $C([0,1])$ be the space of real-valued continuous functions on $[0,1]$ with the norm\n$$\n\\norm{f}_0 = \\max \\{\\abs{f(x)}:x\\in [0,1]\\},\n$$\nand let $C^1([0,1])$ be the space of real-valued continuously differentiable functions on $[0,1]$ with the norm\n$$\n\\norm{f}_1 := \\norm{f}_0+\\norm{f'}_0\n$$\n(a) Show that the inclusion map $\\iota: C^1([0,1])\\rightarrow C([0,1])$ is continuous.\n(b) Show that a bounded set in $C^1([0,1])$ is precompact in $C([0,1])$."
   },
   {
     "id": "Proof of the Contraction Mapping Theorem",
@@ -1299,12 +1387,11 @@
     "difficulty": 4,
     "concepts": [
       "Connectedness",
-      "Path Connectedness",
       "Closed Sets"
     ],
     "theorems": [],
     "finished": false,
-    "statement": "Let $S\\subseteq \\R^2$ be the topologist's sine curve\n$$\nS=\\left\\{(x, \\sin\\left(\\frac{1}{x}\\right):x\\in (0,1]\\right\\}.\n$$\n\n(a) Determine $\\overline{S}$.\n(b) Show that $\\overline{S}$ is connected.\n(c) Show that $\\overline{S}$ is not path connected."
+    "statement": "Let $S\\subseteq \\R^2$ be the topologist's sine curve\n$$\nS=\\left\\{(x, \\sin\\left(\\frac{1}{x}\\right):x\\in (0,1]\\right\\}.\n$$\n\n(a) Determine $\\overline{S}$.\n(b) Show that $\\overline{S}$ is connected."
   },
   {
     "id": "The Image of a Connected Space Under a Continuous Map is Connected",
@@ -1330,7 +1417,7 @@
     "statement": "Let $X,Y$ be topological spaces, and let $f:X\\rightarrow Y$ be continuous. Show that if $X$ is connected, then $f(X)$ is connected (with respect to the subspace topology)."
   },
   {
-    "id": "The Product Topology is Metrizable If and Only If it is Indexed by a Countable Set",
+    "id": "The Product Topology is with a Countable Indexing Set is Metrizable",
     "subject": "Basic Analysis and Topology",
     "subjectSlug": "basic-analysis-topology",
     "instances": [
@@ -1339,7 +1426,22 @@
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Product Topology",
+      "Metric Spaces"
+    ],
+    "theorems": [],
+    "finished": true,
+    "statement": "Let $J$ be an indexing set. Show that if $J$ is countable, then  $X=[0,1]^J$ is metrizable."
+  },
+  {
+    "id": "The Product Topology is with an Uncountable Indexing Set is Not Metrizable",
+    "subject": "Basic Analysis and Topology",
+    "subjectSlug": "basic-analysis-topology",
+    "instances": [
       {
         "term": "Winter 2011",
         "university": "University of California, Santa Cruz",
@@ -1354,7 +1456,7 @@
     ],
     "theorems": [],
     "finished": true,
-    "statement": "Let $J$ be an indexing set. Show that the space $X=[0,1]^J$ is metrizable if and only if $J$ is at most countable."
+    "statement": "Let $J$ be an indexing set. Show that if $J$ is uncountable, then $X=[0,1]^J$ is not metrizable."
   },
   {
     "id": "The Rational Numbers is Not the Intersection of Countably Many Open Sets",
@@ -1399,7 +1501,7 @@
     ],
     "theorems": [],
     "finished": true,
-    "statement": "Let $X$ be a topological space and let $A,B\\subseteq X$ be nonempty and connected. \n\n(a) Show that if $A\\cap B \\neq \\varnothing$, then $A\\cup B$ is connected.\n(b) Show that the converse of (a) is also true if we suppose that $A$ and $B$ are closed in $X$."
+    "statement": "Let $X$ be a topological space and let $A,B\\subseteq X$ be nonempty and connected. Show that if $A\\cap B \\neq \\varnothing$, then $A\\cup B$ is connected."
   },
   {
     "id": "The Union of Non-Disjoint Connected Spaces is Connected 2",
@@ -1441,6 +1543,33 @@
     "theorems": [],
     "finished": true,
     "statement": "Let $(X,d)$ be a totally bounded metric space. That is, for all $\\varepsilon>0$, there exists a finite collection of balls of radius $\\varepsilon$ that covers $X$. Suppose that $f:X\\rightarrow Y$ is uniformly continuous, where $(Y,\\rho)$ is another metric space. \n\n(a) Show that $f(X)$ is totally bounded.\n(b) Give an example demonstrating that $f(X)$ need not be totally bounded if $f$ is just continuous, but not uniformly continuous."
+  },
+  {
+    "id": "Urysohn's Lemma for Locally Compact Metric Spaces",
+    "subject": "Basic Analysis and Topology",
+    "subjectSlug": "basic-analysis-topology",
+    "instances": [
+      {
+        "term": "Fall 2019",
+        "university": "University of California, Santa Cruz",
+        "writer": "Lin",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Metric Spaces",
+      "Compactness",
+      "Closed Sets",
+      "Continuous Functions",
+      "Uniform Continuity"
+    ],
+    "theorems": [
+      "Urysohn Lemma",
+      "Metric Spaces are Normal"
+    ],
+    "finished": true,
+    "statement": "(a) State Urysohn's Lemma for locally compact Hausdorff spaces.\n(b) Let $(X,d)$ be a metric space. For a nonempty subset $A\\subseteq X$, define\n$$\nd(x,A) := \\inf\\{ d(x,a):a\\in A\\}.\n$$\nShow that $d(x,A)$ is uniformly continuous in $x$.\n(c) Let $A,B$ be two closed disjoint nonempty subsets of $(X,d)$. Construct an explicit continuous function $f:X\\rightarrow [0,1]$ such that $f(a)=0$ for all $a\\in A$ and $f(b)=1$ for all $b\\in B$. \n(d) Use your function from part (c) to prove Urysohn's Lemma for locally compact Hausdorff spaces in the case of a metric space."
   },
   {
     "id": "Urysohn's Lemma for Metric Spaces 1",
@@ -1497,7 +1626,7 @@
       "Metric Spaces are Normal"
     ],
     "finished": true,
-    "statement": "On the Euclidean space $\\R^n$, for a subset $A\\subseteq \\R^n$ and a point $x\\in  \\R^n$, let\n$$\nd(x,A)= \\inf\\{d(x,y):y\\in A\\}.\n$$\n(a) Let $A,B$ be two disjoint closed subsets in $\\R^n$. Show that\n$$\nf(x) = \\frac{d(x,A)}{d(x,A)+d(x,B)}\n$$\nis a continuous function from $X$ to $[0,1]$.\n(b) Use (a) to show that, for a closed subset $A$ and an open subset $U$ such that\n$$\nA\\subseteq U \\subseteq \\R^n,\n$$\nthere always exists an open set $V$ such that\n$$\nA\\subseteq V\\subseteq \\overline{V}\\subseteq U.\n$$"
+    "statement": "Let $(X,d)$ be a metric space. For a subset $A\\subseteq X$ and a point $x\\in  X$, let\n$$\nd(x,A)= \\inf\\{d(x,y):y\\in A\\}.\n$$\n(a) Let $A,B$ be two disjoint closed subsets in $X$. Show that\n$$\nf(x) = \\frac{d(x,A)}{d(x,A)+d(x,B)}\n$$\nis a continuous function from $X$ to $[0,1]$.\n(b) Use (a) to show that, for a closed subset $A$ and an open subset $U$ such that\n$$\nA\\subseteq U \\subseteq X,\n$$\nthere always exists an open set $V$ such that\n$$\nA\\subseteq V\\subseteq \\overline{V}\\subseteq U.\n$$"
   },
   {
     "id": "Urysohn's Lemma for Metric Spaces 3",
@@ -1505,26 +1634,33 @@
     "subjectSlug": "basic-analysis-topology",
     "instances": [
       {
-        "term": "Fall 2019",
+        "term": "Winter 2019",
+        "university": "University of California, Santa Cruz",
+        "writer": "Lin",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Spring 2019",
         "university": "University of California, Santa Cruz",
         "writer": "Lin",
         "exam": "Preliminary Exam"
       }
     ],
-    "difficulty": 5,
+    "difficulty": 4,
     "concepts": [
-      "Metric Spaces",
-      "Compactness",
+      "Open Sets",
       "Closed Sets",
-      "Continuous Functions",
-      "Uniform Continuity"
+      "Compactness",
+      "Hausdorff Spaces",
+      "Locally Compact Spaces",
+      "Continuous Functions"
     ],
     "theorems": [
       "Urysohn Lemma",
-      "Metric Spaces are Normal"
+      "Heine-Borel Theorem"
     ],
     "finished": true,
-    "statement": "(a) State Urysohn's Lemma for locally compact Hausdorff spaces.\n(b) Let $(X,d)$ be a metric space. For a nonempty subset $A\\subseteq X$, define\n$$\nd(x,A) := \\inf\\{ d(x,a):a\\in A\\}.\n$$\nShow that $d(x,A)$ is uniformly continuous in $x$.\n(c) Let $A,B$ be two closed disjoint nonempty subsets of $(X,d)$. Construct an explicit continuous function $f:X\\rightarrow [0,1]$ such that $f(a)=0$ for all $a\\in A$ and $f(b)=1$ for all $b\\in B$. \n(d) Use your function from part (c) to show that, for every closed subset $A$ and open subset $U$ such that $A\\subseteq U\\subseteq X$, there exists an open set $V$ such that $A\\subseteq V\\subseteq \\overline{V}\\subseteq U$. \n(e) Prove Urysohn's Lemma for locally compact Hausdorff spaces in the case of a metric space."
+    "statement": "Suppose that $U\\subseteq \\R^n$ is open, and $K\\subseteq U$ is compact. Prove that there exists an open set $V\\subseteq \\R$ whose closure is compact such that\n$$\nK\\subseteq V \\subseteq \\overline{V} \\subseteq U.$$"
   },
   {
     "id": "A Characterization of L1 on Finite Measure Spaces",
@@ -1743,7 +1879,7 @@
       "Radon-Nikodym theorem"
     ],
     "finished": false,
-    "statement": "Let $\\Sigma$ be the Lebesgue $\\sigma$-algebra on $X=[0,1]$, let $\\lambda$ be the Lebesgue measure on $(X,\\Sigma)$, and let $\\mu$ be the counting measure on $\\Sigma$. \n\n(a) Prove that $\\lambda \\ll \\mu$, but that there is no nonnegative measurable function $f:X\\rightarrow [0,\\infty]$ such that $\\lambda(E)=\\int_E f\\, d\\mu$ for all $E\\in\\Sigma$. Explain why this does not contradict the Radon-Nikodym theorem.\n(b) Let $\\nu$ be an arbitrary measure on $(X,\\Sigma)$. Prove that the following are equivalent:\n* There exists a nonnegative measurable function $f:X\\rightarrow [0,\\infty]$ such that\n$$\n\\nu(E)=\\int_E f\\, d\\mu\n$$\nfor all $E\\in\\Sigma$.\n* There exists a countable set $F\\in\\Sigma$ such that $\\nu(X\\backslash F)=0$.\n\nWhen either of the two above conditions hold, determine a possible density function $f$."
+    "statement": "Let $\\Sigma$ be the Lebesgue $\\sigma$-algebra on $X=[0,1]$, let $\\lambda$ be the Lebesgue measure on $(X,\\Sigma)$, and let $\\mu$ be the counting measure on $\\Sigma$. \n\n(a) Prove that $\\lambda \\ll \\mu$, but that there is no nonnegative measurable function $f:X\\rightarrow [0,\\infty]$ such that $\\lambda(E)=\\int_E f\\, d\\mu$ for all $E\\in\\Sigma$. Explain why this does not contradict the Radon-Nikodym theorem.\n(b) Let $\\nu$ be an arbitrary finite measure on $(X,\\Sigma)$. Prove that the following are equivalent:\n* There exists a nonnegative measurable function $f:X\\rightarrow [0,\\infty]$ such that\n$$\n\\nu(E)=\\int_E f\\, d\\mu\n$$\nfor all $E\\in\\Sigma$.\n* There exists a countable set $F\\in\\Sigma$ such that $\\nu(X\\backslash F)=0$.\n\nWhen either of the two above conditions hold, determine a possible density function $f$."
   },
   {
     "id": "Characterizing Scale-Invariant Absolutely Continuous Measures",
@@ -1877,7 +2013,24 @@
         "university": "University of California, Santa Cruz",
         "writer": "Schonbek",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Abstract measure",
+      "Sigma-algebra"
+    ],
+    "theorems": [
+      "Continuity from Above/Below"
+    ],
+    "finished": false,
+    "statement": "Let $(X,\\Sigma,\\mu)$ be a measure space.\n\n(a) Suppose that $A_1\\subseteq A_2 \\subseteq \\cdots$ are measurable sets. Show that\n$$\n\\lim_{n\\rightarrow \\infty} \\mu(A_n) = \\mu\\left(\\bigcup_{n=1}^\\infty A_n\\right).\n$$\n(b) Suppose that $B_1\\supseteq B_2\\supseteq \\cdots$ are measurable sets. Is it the case that\n$$\n\\lim_{n\\rightarrow \\infty} \\mu(B_n) = \\mu\\left(\\bigcap_{n=1}^\\infty B_n \\right)?\n$$\nIf so, give a proof. If not, find a counterexample, and find (and prove the validity of) a condition on $X$ that would the statement true."
+  },
+  {
+    "id": "Continuity from Above",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "instances": [
       {
         "term": "Winter 2013",
         "university": "University of California, Santa Cruz",
@@ -1894,7 +2047,7 @@
       "Continuity from Above/Below"
     ],
     "finished": false,
-    "statement": "Let $(X,\\Sigma,\\mu)$ be a measure space.\n\n(a) Suppose that $A_1\\subseteq A_2 \\subseteq \\cdots$ are measurable sets. Show that\n$$\n\\lim_{n\\rightarrow \\infty} \\mu(A_n) = \\mu\\left(\\bigcup_{n=1}^\\infty A_n\\right).\n$$\n(b) Suppose that $B_1\\supseteq B_2\\supseteq \\cdots$ are measurable sets. Is it the case that\n$$\n\\lim_{n\\rightarrow \\infty} \\mu(B_n) = \\mu\\left(\\bigcap_{n=1}^\\infty B_n \\right)?\n$$\nIf so, give a proof. If not, find a counterexample, and find (and prove the validity of) a condition on $X$ that would the statement true."
+    "statement": "Let $(X,\\Sigma,\\mu)$ be a measure space.\n\n(a) Suppose that $B_1\\supseteq B_2\\supseteq \\cdots$ are measurable sets such that $\\mu(B_1)<\\infty$. Prove that\n$$\n\\lim_{n\\rightarrow \\infty} \\mu(B_n) = \\mu\\left(\\bigcap_{n=1}^\\infty B_n \\right).\n$$\n(b) If this assumption $\\mu(B_1)<\\infty$ is dropped, is it still necessarily the case that \n$$\n\\lim_{n\\rightarrow \\infty} \\mu(B_n) = \\mu\\left(\\bigcap_{n=1}^\\infty B_n \\right).\n$$\nEither prove or give a counterexample."
   },
   {
     "id": "Convergence Almost Everywhere in a Finite Measure Space Implies Convergence in Measure",
@@ -2373,18 +2526,12 @@
     "statement": "Suppose that $(X,\\Sigma, \\mu)$ is a measure space. For each $0<r<p<s<\\infty$, let $f\\in L^r(\\mu) \\cap L^s(\\mu)$. Show that $f\\in L^p(\\mu)$ and\n$$\n\\norm{f}_p \\leq \\norm{f}_r^\\theta \\cdot \\norm{f}_s^{1-\\theta}\n$$\nwhere \n$$\n\\frac{1}{p} = \\frac{\\theta}{r}+ \\frac{1-\\theta}{s}.\n$$"
   },
   {
-    "id": "L1 Convergence from Convergence in Measure and Domination by a L1 Function",
+    "id": "L1 Convergence from Convergence in Measure and Domination by a L1 Function 1",
     "subject": "Measure Theory",
     "subjectSlug": "measure-theory",
     "instances": [
       {
         "term": "Spring 2018",
-        "university": "University of California, Santa Cruz",
-        "writer": "Monard",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Winter 2018",
         "university": "University of California, Santa Cruz",
         "writer": "Monard",
         "exam": "Preliminary Exam"
@@ -2403,7 +2550,31 @@
     "statement": "Let $\\lambda$ denote Lebesgue measure on $\\R$. Let $f_n:\\R\\rightarrow \\R\\cup\\{+\\infty\\}$ be a sequence of measurable functions such that $f_n\\rightarrow f$ in measure. Suppose that there exists a function $g\\in L^1(\\R)$ such that $\\abs{f_n(x)}\\leq g(x)$ for a.e. $x\\in \\R$.\n\n(a) Show that $\\abs{f(x)}\\leq g(x)$ for a.e. $x\\in\\R$.\n(b) Show that $\\displaystyle \\lim_{n\\rightarrow \\infty} \\int_\\R \\abs{f_n-f}\\, d\\lambda =0$."
   },
   {
-    "id": "Limits of Measurable Functions Are Measurable",
+    "id": "L1 Convergence from Convergence in Measure and Domination by a L1 Function 2",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "instances": [
+      {
+        "term": "Winter 2018",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Convergence in measure",
+      "L1 convergence",
+      "Lebesgue integration"
+    ],
+    "theorems": [
+      "Dominated Convergence Theorem"
+    ],
+    "finished": false,
+    "statement": "Let $(X,\\Sigma,\\mu)$ be a complete measure space, and Let $f_n:X\\rightarrow \\R\\cup\\{+\\infty\\}$ be a sequence of measurable functions such that $f_n\\rightarrow f$ in measure. for some $f$. Suppose that there exists a function $g\\in L^1(\\R)$ such that $\\abs{f_n(x)}\\leq g(x)$ for a.e. $x\\in \\R$. Show that $\\displaystyle \\lim_{n\\rightarrow \\infty} \\int_\\R \\abs{f_n-f}\\, d\\lambda =0$. and $f\\in L^1(X)$."
+  },
+  {
+    "id": "Limits of Measurable Functions Are Measurable 1",
     "subject": "Measure Theory",
     "subjectSlug": "measure-theory",
     "instances": [
@@ -2412,7 +2583,22 @@
         "university": "University of California, Santa Cruz",
         "writer": "Monard",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Measurable functions",
+      "Sigma-algebra"
+    ],
+    "theorems": [],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma)$ be a measurable space, and suppose $f_n:X\\rightarrow [-\\infty, \\infty]$ is measurable for each $n\\in\\N$.\n\n(a) Show that $\\displaystyle \\limsup_{n\\rightarrow \\infty} f_n(x)$ is a measurable function.\n(b) Show that if $(f_n)_{n=1}^\\infty$ converges pointwise to a function $f(x)$, then $f$ is measurable."
+  },
+  {
+    "id": "Limits of Measurable Functions Are Measurable 2",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "instances": [
       {
         "term": "Fall 2018",
         "university": "University of California, Santa Cruz",
@@ -2432,8 +2618,8 @@
       "Sigma-algebra"
     ],
     "theorems": [],
-    "finished": true,
-    "statement": "Let $(X,\\Sigma)$ be a measurable space, and suppose $f_n:X\\rightarrow [-\\infty, \\infty]$ is measurable for each $n\\in\\N$.\n\n(a) Show that $\\displaystyle \\limsup_{n\\rightarrow \\infty} f_n(x)$ is a measurable function.\n(b) Show that if $(f_n)_{n=1}^\\infty$ converges pointwise to a function $f(x)$, then $f$ is measurable."
+    "finished": false,
+    "statement": "Let $(X,\\Sigma,\\mu)$ be a complete measure space, and suppose $f_n:X\\rightarrow [-\\infty, \\infty]$ is measurable for each $n\\in\\N$. Show that if $f_n$ converges pointwise a.e. to a function $f$. Show that $f$ is measurable."
   },
   {
     "id": "Lipschitz Images of Lebesgue Measure-Zero Sets",
@@ -2453,7 +2639,7 @@
     ],
     "theorems": [],
     "finished": false,
-    "statement": "(a) Prove that if $f:\\R\\rightarrow \\R$ is Lipschitz continuous and $E\\subseteq\\ R$ has Lebesgue measure 0, then $f(E)$ also has Lebesgue measure 0. \n(b) For which $n,m\\in\\N$ is it the case that if $f:\\R^n\\rightarrow \\R^m$ is Lipschitz and $E\\subseteq\\R$ has Lebesgue measure 0, then $f(E)$ also has Lebesgue measure 0? Give a proof for the pairs $(n,m)$ that this is true, and give a counterexample for the pairs $(n,m)$ that this is false."
+    "statement": "(a) Prove that if $f:\\R\\rightarrow \\R$ is Lipschitz continuous and $E\\subseteq\\ R$ has Lebesgue measure 0, then $f(E)$ also has Lebesgue measure 0. \n(b) For which $n,m\\in\\N$ is it the case that if $f:\\R^n\\rightarrow \\R^m$ is Lipschitz and $E\\subseteq\\R^n$ has Lebesgue measure 0, then $f(E)$ also has Lebesgue measure 0? Give a proof for the pairs $(n,m)$ that this is true, and give a counterexample for the pairs $(n,m)$ that this is false."
   },
   {
     "id": "Local Comparison of Absolutely Continuous Measures",
@@ -2477,7 +2663,7 @@
       "Radon-Nikodym theorem"
     ],
     "finished": false,
-    "statement": "Let $\\mu, \\nu$ be two $\\sigma$-finite measures on a measurable space $(X,\\Sigma)$ such that $\\nu \\ll \\mu$ and $\\nu \\neq 0$. Show that there exists a set $E\\in \\Sigma$ with and $n\\in\\N$ such that $\\nu(E)>0$ and, for all $A\\subseteq E$ with $A\\in \\Sigma$, \n$$\n\\frac{1}{n}\\mu(A) \\leq \\nu(A) \\leq n \\mu(A).\n$$"
+    "statement": "Let $\\mu, \\nu$ be two $\\sigma$-finite measures on a measurable space $(X,\\Sigma)$ such that $\\nu \\ll \\mu$ and $\\nu \\neq 0$. Show that there exists a set $E\\in \\Sigma$ and $n\\in\\N$ such that $\\nu(E)>0$ and, for all $A\\subseteq E$ with $A\\in \\Sigma$, \n$$\n\\frac{1}{n}\\mu(A) \\leq \\nu(A) \\leq n \\mu(A).\n$$"
   },
   {
     "id": "Measurable Level Sets Do Not Imply Measurability",
@@ -2498,7 +2684,7 @@
     ],
     "theorems": [],
     "finished": false,
-    "statement": "Construct a function $f:\\R\\rightarrow \\R$ such that each set $\\{x\\in \\R:f(x)=\\alpha\\}$ is measurable for all $\\alpha \\in \\R$, but $f$ itself is not measurable."
+    "statement": "Construct a function $f:\\R\\rightarrow \\R$ such that each set $\\{x\\in \\R:f(x)=\\alpha\\}$ is measurable for all $\\alpha \\in \\R$, but the set $\\{x\\in X: f(x)>0\\}$ is not measurable."
   },
   {
     "id": "Measure of Shrinking Neighborhoods of a Compact Set",
@@ -2590,10 +2776,10 @@
       "Egorov's Theorem"
     ],
     "finished": false,
-    "statement": "Let $(f_n)$ be a sequence of measurable functions on a $\\sigma$-finite measure space $(X,\\Sigma, \\mu)$, and let $f$ be a function such that $f_n\\rightarrow f$ $\\mu$-almost everywhere. Show that there exists a sequence of measurable sets $(E_n)\\subseteq \\Sigma$ such that $f_n\\rightarrow f$ uniformly on $E_n$ for each $n\\in\\N$, and\n$$\n\\mu \\left(X\\backslash \\left(\\bigcap_{k=1}^\\infty E_k\\right) \\right)=0.\n$$"
+    "statement": "Let $(f_n)$ be a sequence of measurable functions on a $\\sigma$-finite measure space $(X,\\Sigma, \\mu)$, and let $f$ be a function such that $f_n\\rightarrow f$ $\\mu$-almost everywhere. Show that there exists a sequence of measurable sets $(E_n)\\subseteq \\Sigma$ such that $f_n\\rightarrow f$ uniformly on $E_n$ for each $n\\in\\N$, and\n$$\n\\mu \\left(X\\backslash \\left(\\bigcup_{k=1}^\\infty E_k\\right) \\right)=0.\n$$"
   },
   {
-    "id": "Products of Absolutely Continuous Functions are Absolutely Continuous",
+    "id": "Products of Absolutely Continuous Functions are Absolutely Continuous 1",
     "subject": "Measure Theory",
     "subjectSlug": "measure-theory",
     "instances": [
@@ -2602,7 +2788,22 @@
         "university": "University of California, Santa Cruz",
         "writer": "Monard",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Absolute continuity (functions)",
+      "Uniform Continuity"
+    ],
+    "theorems": [],
+    "finished": false,
+    "statement": "(a) Let $f,g:[0,1]\\rightarrow \\R$ be absolutely continuous. Show that their product $fg$ is also absolutely continuous.\n(b) Give and example of a function on from $[0,1]$ to $\\R$ that is uniformly continuous but not absolutely continuous."
+  },
+  {
+    "id": "Products of Absolutely Continuous Functions are Absolutely Continuous 2",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "instances": [
       {
         "term": "Winter 2019",
         "university": "University of California, Santa Cruz",
@@ -2623,7 +2824,7 @@
     ],
     "theorems": [],
     "finished": false,
-    "statement": "(a) Let $f,g:[0,1]\\rightarrow \\R$ be absolutely continuous. Show that their product $fg$ is also absolutely continuous.\n(b) Give and example of a function on from $[0,1]$ to $\\R$ that is uniformly continuous but not absolutely continuous."
+    "statement": "(a) Let $f,g:[0,1]\\rightarrow \\R$ be absolutely continuous. Show that their product $fg$ is also absolutely continuous."
   },
   {
     "id": "Proof of Chebyshev’s Inequality",
@@ -2668,6 +2869,30 @@
     ],
     "finished": false,
     "statement": "Let $(X,\\Sigma, \\mu)$ be a finite measure space, and let $p>r\\geq 1$. Prove that if $f\\in L^p(X)$, then $f\\in L^r(X)$, and \n$$\n\\norm{f}_r \\leq \\mu(X)^{\\frac{1}{r}-\\frac{1}{p}} \\norm{f}_p.\n$$"
+  },
+  {
+    "id": "Proof of the Borel-Cantelli Lemma",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "instances": [
+      {
+        "term": "Fall 2019",
+        "university": "University of California, Santa Cruz",
+        "writer": "Mishra",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Abstract measure",
+      "Sigma-algebra"
+    ],
+    "theorems": [
+      "Borel-Cantelli Lemma",
+      "Continuity from Above/Below"
+    ],
+    "finished": true,
+    "statement": "Suppose that $\\{A_n\\}$ is a sequence of measurable sets in a measure space $(X,\\Sigma, \\mu)$ such that\n$$\n\\sum_{n=1}^\\infty \\mu(A_n)<\\infty.\n$$\nShow that\n$$\n\\mu\\left(\\bigcap_{n=1}^\\infty \\bigcup_{i=n}^\\infty A_i\\right)=0.\n$$"
   },
   {
     "id": "Proof of the Generalized Hölder Inequality",
@@ -2773,12 +2998,6 @@
         "term": "Spring 2024",
         "university": "University of California, Santa Cruz",
         "writer": "Qing",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Fall 2019",
-        "university": "University of California, Santa Cruz",
-        "writer": "Mishra",
         "exam": "Preliminary Exam"
       },
       {
@@ -3004,7 +3223,7 @@
       "Radon-Nikodym theorem"
     ],
     "finished": false,
-    "statement": "Let $\\mu,\\nu$ be finite nonnegative measures on a measurable space $(X,\\Sigma)$ such that $\\nu \\ll \\mu$. \n\n(a) Show that $\\mu+\\nu$ is a measure such that $\\nu \\ll \\mu+\\nu$.\n(b) Let $\\frac{d\\nu}{d(\\mu+\\nu)}$ be the Radon-Nikodym derivative of $\\nu$ with respect to $\\mu+\\nu$. Show that\n$$\n0<\\frac{d\\nu}{d(\\mu+\\nu)} < 1\n$$\n$\\mu$-almost everywhere."
+    "statement": "Let $\\mu,\\nu$ be finite nonnegative measures on a measurable space $(X,\\Sigma)$ such that $\\mu \\ll \\nu$. \n\n(a) Show that $\\mu+\\nu$ is a measure such that $\\nu \\ll \\mu+\\nu$.\n(b) Let $\\frac{d\\nu}{d(\\mu+\\nu)}$ be the Radon-Nikodym derivative of $\\nu$ with respect to $\\mu+\\nu$. Show that\n$$\n0<\\frac{d\\nu}{d(\\mu+\\nu)} < 1\n$$\n$\\mu$-almost everywhere."
   },
   {
     "id": "The product measure on σ-finite spaces is unique",
@@ -3028,7 +3247,7 @@
     "statement": "Let $(X_1, \\Sigma_1, \\mu_1), (X_2, \\Sigma_2, \\mu_2)$ be two $\\sigma$-finite measure spaces. Let $X=X_1\\times X_2$ and $\\Sigma$ be the $\\sigma$-algebra generated by the set\n$$\n\\mathcal{B}=\\{A\\times B\\subseteq X\\times Y:A\\in \\Sigma_1, B\\in\\Sigma_2\\}.\n$$\nSuppose that $\\Phi,\\Psi$ are two measures defined on $\\Sigma$ such that\n$$\n\\Phi(A\\times B) = \\Psi(A\\times B) = \\mu_1(A)\\mu_2(B)\n$$\nfor all $A\\in \\Sigma_1, B\\in \\Sigma_2$. Show that $\\Phi=\\Psi$."
   },
   {
-    "id": "The σ-Algebra of Countable and Co-Countable Sets",
+    "id": "The σ-Algebra of Countable and Co-Countable Sets 1",
     "subject": "Measure Theory",
     "subjectSlug": "measure-theory",
     "instances": [
@@ -3036,12 +3255,6 @@
         "term": "Winter 2021",
         "university": "University of California, Santa Cruz",
         "writer": "Monard",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Winter 2016",
-        "university": "University of California, Santa Cruz",
-        "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
       }
     ],
@@ -3053,6 +3266,27 @@
     "theorems": [],
     "finished": true,
     "statement": "Let $X$ be an uncountable set, and let\n$$\n\\Sigma := \\{ E\\subseteq X : E \\text{ or } X\\backslash E \\text{ is at most countable}\\}.\n$$\n\n(a) Prove that $\\Sigma$ is a $\\sigma$-algebra, and that it is the $\\sigma$-algebra generated by $\\mathcal{E} = \\{\\{x\\}:x\\in X\\}$, the collection of all singleton sets.\n(b) Define $\\mu:\\Sigma\\rightarrow [0,\\infty]$ by \n$$\n\\mu(E) = \\begin{cases} 0, & E \\text{ is at most countable}, \\\\\n1, & X\\backslash E \\text{ is at most countable}.\n\\end{cases}\n$$\nShow that $\\mu$ is a measure on $(X,\\Sigma)$."
+  },
+  {
+    "id": "The σ-Algebra of Countable and Co-Countable Sets 2",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "instances": [
+      {
+        "term": "Winter 2016",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Sigma-algebra",
+      "Abstract measure"
+    ],
+    "theorems": [],
+    "finished": true,
+    "statement": "Let $X$ be an uncountable set, and let\n$$\n\\Sigma := \\{ E\\subseteq X : E \\text{ or } X\\backslash E \\text{ is at most countable}\\}.\n$$\n\n(a) Prove that $\\Sigma$ is a $\\sigma$-algebra.\n(b) Define $\\mu:\\Sigma\\rightarrow [0,\\infty]$ by \n$$\n\\mu(E) = \\begin{cases} 0, & E \\text{ is at most countable}, \\\\\n1, & X\\backslash E \\text{ is at most countable}.\n\\end{cases}\n$$\nShow that $\\mu$ is a measure on $(X,\\Sigma)$."
   },
   {
     "id": "Uniform Convergence of Convolutions with Almost-Everywhere Vanishing Factors",
@@ -3144,7 +3378,7 @@
       "Argument principle"
     ],
     "finished": false,
-    "statement": "Let $f$ be a holomorphic function on $\\Omega = \\C\\backslash \\{0\\}$ and assume that\n$$\n\\int_{\\abs{z}=1} \\frac{f'(z)}{f(z)}\\, dz =0.\n$$\nShow that $f(z)$ has a holomorphic logarithm on $\\Omega$."
+    "statement": "Let $f$ be a holomorphic and nonzero function on $\\Omega = \\C\\backslash \\{0\\}$ and assume that\n$$\n\\int_{\\abs{z}=1} \\frac{f'(z)}{f(z)}\\, dz =0.\n$$\nShow that $f(z)$ has a holomorphic logarithm on $\\Omega$."
   },
   {
     "id": "A Linear Lower Bound for Entire Functions Diverging at Infinity",
@@ -3198,7 +3432,7 @@
     "statement": "(a) State the maximum modulus principle\n(b) Let $f$ be analytic on an open neighborhood of the annulus $1\\leq \\abs{z}\\leq 2$. Assume that $\\abs{f(z)}\\leq 1$ for all $\\abs{z}=1$, and $\\abs{f(z)}\\leq 4$ for all $\\abs{z}=2$. Show that $\\abs{f(z)} \\leq \\abs{z}^2$ for all $1\\leq \\abs{z}\\leq 2$."
   },
   {
-    "id": "A Maximum Principle for the Real Part of a Holomorphic Function",
+    "id": "A Maximum Principle for the Real Part of a Holomorphic Function 1",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
     "instances": [
@@ -3207,7 +3441,23 @@
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Analytic functions"
+    ],
+    "theorems": [
+      "Maximum Modulus Principle"
+    ],
+    "finished": false,
+    "statement": "Let $\\Omega$ be a connected domain and let $f:\\Omega\\rightarrow \\C$ be holomorphic. Show that if $\\Re(f(z))$ attains a maximum on $\\Omega$, then $f(z)$ is constant."
+  },
+  {
+    "id": "A Maximum Principle for the Real Part of a Holomorphic Function 2",
+    "subject": "Complex Analysis",
+    "subjectSlug": "complex-analysis",
+    "instances": [
       {
         "term": "Winter 2015",
         "university": "University of California, Santa Cruz",
@@ -3223,7 +3473,7 @@
       "Maximum Modulus Principle"
     ],
     "finished": false,
-    "statement": "Let $\\Omega$ be a connected domain and let $f:\\Omega\\rightarrow \\C$ be holomorphic. Show that if $\\Re(f(z))$ attains a maximum on $\\Omega$, then $f(z)$ is constant."
+    "statement": "Let $\\Omega$ be a connected domain and let $f:\\Omega\\rightarrow \\C$ be holomorphic. Show that if $\\Re(f(z))$ attains a maximum or a minimum on $\\Omega$, then $f(z)$ is constant."
   },
   {
     "id": "A Normal Family from an L2 Boundary Bound",
@@ -3252,7 +3502,7 @@
     "statement": "Let $\\mathcal{F}$ be the set of functions $f$ that are holomorphic in a neighborhood of the unit disk such that\n$$\n\\int_0^{2\\pi} \\abs{f(e^{it})}^2\\, dt \\leq 1.\n$$\nProve that $\\mathcal{F}$ is a normal family in the unit disk."
   },
   {
-    "id": "A Unique Zero of a−z−exp(-z) in the Right Half-Plane",
+    "id": "A Unique Zero of a−z-exp(-z) in the Right Half-Plane",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
     "instances": [
@@ -3373,7 +3623,7 @@
       "Identity Theorem"
     ],
     "finished": true,
-    "statement": "Let $\\sqrt[pr]{w}$ denote the principle branch of $w^\\frac{1}{2}$ corresponding to \n$$\n-\\pi < \\arg(w)\\leq \\pi.\n$$\nLet\n$$\n\\Omega_L = \\{z\\in \\C : \\Re(z)<0\\}\\backslash[-1, 0), \\quad \\Omega_R = \\{z\\in \\C : \\Re(z)>0\\}\\backslash(0, 1].\n$$\nDefine\n$$\nf(z) := \\sqrt[pr]{z-1}\\sqrt[pr]{z+1} \\quad \\text{ and } \\quad g(z):= \\sqrt[pr]{z^2-1}\n$$\nwherever the respective expressions are defined. \n(a) Prove that for all $z\\in\\Omega_R$, $f(z)=g(z)$.\n(b) Prove that for all $z\\in \\Omega_L$, $f(z)=-g(z)$.\n(c) What can you say when $z\\in i\\R$?"
+    "statement": "Let $\\sqrt[pr]{w}$ denote the principle branch of $w^\\frac{1}{2}$ corresponding to \n$$\n-\\pi < \\arg(w)< \\pi.\n$$\nLet\n$$\n\\Omega_L = \\{z\\in \\C : \\Re(z)<0\\}\\backslash[-1, 0), \\quad \\Omega_R = \\{z\\in \\C : \\Re(z)>0\\}\\backslash(0, 1].\n$$\nDefine\n$$\nf(z) := \\sqrt[pr]{z-1}\\sqrt[pr]{z+1} \\quad \\text{ and } \\quad g(z):= \\sqrt[pr]{z^2-1}\n$$\nwherever the respective expressions are defined. \n(a) Prove that for all $z\\in\\Omega_R$, $f(z)=g(z)$.\n(b) Prove that for all $z\\in \\Omega_L$, $f(z)=-g(z)$.\n(c) What can you say when $z\\in i\\R$?"
   },
   {
     "id": "Comparing z and 1-exp(z) on the disk",
@@ -3465,7 +3715,7 @@
     "statement": "Let\n$$\nG(z) = e^{z\\gamma} \\prod_{k=1}^\\infty \\left(1+ \\frac{z}{k} \\right) e^{-\\frac{z}{k}}.\n$$\n(a) Show that this infinite product defines a well-defined entire function.\n(b) Prove that\n$$\n(z+1)G(z+1)=G(z).\n$$"
   },
   {
-    "id": "Constructing the Reciprocal Gamma Function Via an Infinite Product",
+    "id": "Constructing the Reciprocal Gamma Function Via an Infinite Product 1",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
     "instances": [
@@ -3474,7 +3724,22 @@
         "university": "University of California, Santa Cruz",
         "writer": "Goetz",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Analytic functions",
+      "Weirstrass Factorization"
+    ],
+    "theorems": [],
+    "finished": false,
+    "statement": "Let \n$$\nG(z) = z\\prod_{k=1}^\\infty \\left(1+ \\frac{z}{k} \\right) e^{-\\frac{z}{k}}.\n$$\n\n(a) Show that this infinite product defines a well-defined entire function.\n(b) Where are the zeros of this functions? Show your work.\n(c) Compute the limit\n$$\n\\lim_{n\\rightarrow \\infty} \\frac{z(z+1)(z+2)\\cdots(z+n)}{n!} n^{-z}.\n$$\n   Your answer may be expressed in terms of $G(z)$."
+  },
+  {
+    "id": "Constructing the Reciprocal Gamma Function Via an Infinite Product 2",
+    "subject": "Complex Analysis",
+    "subjectSlug": "complex-analysis",
+    "instances": [
       {
         "term": "Winter 2010",
         "university": "University of California, Santa Cruz",
@@ -3489,7 +3754,7 @@
     ],
     "theorems": [],
     "finished": false,
-    "statement": "Let \n$$\nG(z) = z\\prod_{k=1}^\\infty \\left(1+ \\frac{z}{k} \\right) e^{-\\frac{z}{k}}.\n$$\n\n(a) Show that this infinite product defines a well-defined entire function.\n(b) Where are the zeros of this functions? Show your work.\n(c) Compute the limit\n$$\n\\lim_{n\\rightarrow \\infty} \\frac{z(z+1)(z+2)\\cdots(z+n)}{n!} n^{-z}.\n$$\n   Your answer may be expressed in terms of $G(z)$."
+    "statement": "(a) Let $(a_n)$ be a sequence of complex numbers. Show that if $\\sum_{k=1}^\\infty \\abs{a_k}$ converges, then $\\prod_{k=1}^\\infty (1+a_k)$ converges.\n(b) Prove that \n$$\nG(z) = z\\prod_{k=1}^\\infty \\left(1+ \\frac{z}{k} \\right) e^{-\\frac{z}{k}}.\n$$\n\ndefines a well-defined entire function."
   },
   {
     "id": "Convergence of Derivatives of Sequences of Holomorphic Functions",
@@ -3796,7 +4061,7 @@
       "Rouche's Theorem"
     ],
     "finished": true,
-    "statement": "(a) State Rouché's theorem.\n(b) Prove that any polynomial with complex coefficients $P(z) = \\sum_{k=1}^n a_kz^k$ with $a_n\\neq 0$ has exactly $n$ roots, and give an estimate on the radius of the disk centered at 0 $D_R(0)$ containing all roots."
+    "statement": "(a) State Rouché's theorem.\n(b) Prove that any polynomial with complex coefficients $P(z) = \\sum_{k=0}^n a_kz^k$ with $a_n\\neq 0$ has exactly $n$ roots, and give an estimate on the radius of the disk centered at 0 $D_R(0)$ containing all roots."
   },
   {
     "id": "Existence of a Holomorphic Cube Root of a Polynomial",
@@ -4314,35 +4579,6 @@
     "statement": "Suppose $f$ and $g$ are analytic near $a$ and that $g$ has a zero of order 2 at $a$. \n\n(a) Show that $g(z)= (z-a)^2 h(z)$ where $h(z)$ is meromorphic in a punctured neighborhood of $a$ with a removable singularity at $a$. Find the Taylor coefficients for the power series of $h$ centered at $z=a$.\n(b) Find the principle part of $\\frac{f}{g}$ centered at $z=a$ by computing a small number of coefficients in the Taylor series for $\\frac{f}{h}$. Write a formula for the residue of $\\frac{f}{g}$ at $z=a$."
   },
   {
-    "id": "Residue Theorem Purdue January 2024",
-    "subject": "Complex Analysis",
-    "subjectSlug": "complex-analysis",
-    "instances": [
-      {
-        "term": "Spring 2010",
-        "university": "University of California, Santa Cruz",
-        "writer": "Schonbek",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Winter 2019",
-        "university": "University of California, Santa Cruz",
-        "writer": "Ehrhardt",
-        "exam": "Preliminary Exam"
-      }
-    ],
-    "difficulty": 4,
-    "concepts": [
-      "Singularities",
-      "Evaluation of integrals"
-    ],
-    "theorems": [
-      "Residue Theorem"
-    ],
-    "finished": true,
-    "statement": "Let $n \\geq 2$. Calculate\n$$\n\\int_0^{\\infty} \\frac{1}{x^n+1}\\, dx.\n$$"
-  },
-  {
     "id": "Residue Theory Purdue August 2025",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
@@ -4365,6 +4601,35 @@
     ],
     "finished": false,
     "statement": "Let $a\\in (0,1)$. Evaluate \n$$\nI(a) = \\int_0^{\\infty} \\frac{x^{-a}}{1+x}\\, dx.\n$$"
+  },
+  {
+    "id": "Residue Theory Purdue January 2024",
+    "subject": "Complex Analysis",
+    "subjectSlug": "complex-analysis",
+    "instances": [
+      {
+        "term": "Winter 2024",
+        "university": "Purdue University",
+        "writer": "Unknown",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Spring 2010",
+        "university": "University of California, Santa Cruz",
+        "writer": "Schonbek",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Singularities",
+      "Evaluation of integrals"
+    ],
+    "theorems": [
+      "Residue Theorem"
+    ],
+    "finished": false,
+    "statement": "Let $n \\geq 2$. Calculate\n$$\n\\int_0^{\\infty} \\frac{1}{x^n+1}\\, dx.\n$$"
   },
   {
     "id": "Residue Theory Purdue January 2025",
@@ -4420,24 +4685,6 @@
     "instances": [
       {
         "term": "Fall 2019",
-        "university": "University of California, Santa Cruz",
-        "writer": "Ehrhardt",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Spring 2012",
-        "university": "University of California, Santa Cruz",
-        "writer": "Ehrhardt",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Winter 2013",
-        "university": "University of California, Santa Cruz",
-        "writer": "Tromba",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Winter 2011",
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
@@ -4662,12 +4909,6 @@
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Winter 2015",
-        "university": "University of California, Santa Cruz",
-        "writer": "Ehrhardt",
-        "exam": "Preliminary Exam"
       }
     ],
     "difficulty": 4,
@@ -4775,6 +5016,64 @@
     "statement": "Compute the following integral using residue theory:\n$$\n\\int_\\R \\frac{dx}{\\left(1+x^2 \\right)^3}.\n$$"
   },
   {
+    "id": "Residue Theory UCSC Winter 2013",
+    "subject": "Complex Analysis",
+    "subjectSlug": "complex-analysis",
+    "instances": [
+      {
+        "term": "Spring 2012",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Winter 2013",
+        "university": "University of California, Santa Cruz",
+        "writer": "Tromba",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Winter 2011",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Singularities",
+      "Evaluation of integrals"
+    ],
+    "theorems": [
+      "Residue Theorem"
+    ],
+    "finished": false,
+    "statement": "Evaluate the integral\n$$\n\\int_{0}^\\infty \\frac{\\sin(x)}{x}\\,dx.\n$$"
+  },
+  {
+    "id": "Residue Theory UCSC Winter 2015",
+    "subject": "Complex Analysis",
+    "subjectSlug": "complex-analysis",
+    "instances": [
+      {
+        "term": "Winter 2015",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Singularities",
+      "Evaluation of integrals"
+    ],
+    "theorems": [
+      "Residue Theorem"
+    ],
+    "finished": false,
+    "statement": "Using residue theory, compute\n$$\n\\int_0^\\infty \\frac{1-\\cos(x)}{x^2}\\,dx.\n$$"
+  },
+  {
     "id": "Residue Theory UCSC Winter 2018",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
@@ -4797,6 +5096,29 @@
     ],
     "finished": false,
     "statement": "(a) Prove using complex integration that for any $\\alpha \\in \\R$,\n$$\n\\int_\\R e^{-(x+ia)^2}\\, dx = \\int_\\R e^{-x^2}\\, dx.\n$$\n(b) Let $\\sigma >0, \\xi \\in \\R$. Show that \n$$\n\\int_\\R e^{-ix \\xi} e^{-\\frac{x^2}{2\\sigma^2}}\\, dx = \\sigma \\sqrt{2\\pi} e^{-\\frac{\\sigma^2\\xi^2}{2}}.\n$$"
+  },
+  {
+    "id": "Residue Theory UCSC Winter 2019",
+    "subject": "Complex Analysis",
+    "subjectSlug": "complex-analysis",
+    "instances": [
+      {
+        "term": "Winter 2019",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Singularities",
+      "Evaluation of integrals"
+    ],
+    "theorems": [
+      "Residue Theorem"
+    ],
+    "finished": false,
+    "statement": "Let $n \\in\\N$. Calculate\n$$\n\\int_{-\\infty}^{\\infty} \\frac{1}{x^{2n}+1}\\, dx.\n$$"
   },
   {
     "id": "Residue Theory UCSC Winter 2020",
@@ -4865,10 +5187,10 @@
       "Residue Theorem"
     ],
     "finished": false,
-    "statement": "Prove that\n$$\n\\int_0^{2\\pi} e^{\\cos(\\theta)}\\, d\\theta = \\sum_{n=0}^\\infty \\frac{1}{\\left(n! 2^n \\right)^2}.\n$$"
+    "statement": "Prove that\n$$\n\\frac{1}{2\\pi}\\int_0^{2\\pi} e^{\\cos(\\theta)}\\, d\\theta = \\sum_{n=0}^\\infty \\frac{1}{\\left(n! 2^n \\right)^2}.\n$$"
   },
   {
-    "id": "Simple Zeros Are Stable Under Small Holomorphic Perturbations",
+    "id": "Simple Zeros Are Stable Under Small Holomorphic Perturbations 1",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
     "instances": [
@@ -4877,7 +5199,24 @@
         "university": "University of California, Santa Cruz",
         "writer": "Hatinoglu",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Analytic functions"
+    ],
+    "theorems": [
+      "Rouche's Theorem",
+      "Argument principle"
+    ],
+    "finished": true,
+    "statement": "Suppose $f$ and $g$ are holomorphic in a region containing the disk $|z|\\leq 1$. Suppose that $f$ has a simple zero at $z=0$ and vanishes nowhere else in $|z|\\leq 1$. Let\n$$\nf_\\varepsilon(z)=f(z)+\\varepsilon g(z).\n$$\n\nShow that for all sufficiently small $\\varepsilon>0$, $f_\\varepsilon$ has a unique zero in $|z|\\leq 1$."
+  },
+  {
+    "id": "Simple Zeros Are Stable Under Small Holomorphic Perturbations 2",
+    "subject": "Complex Analysis",
+    "subjectSlug": "complex-analysis",
+    "instances": [
       {
         "term": "Spring 2016",
         "university": "University of California, Santa Cruz",
@@ -4918,6 +5257,29 @@
     ],
     "finished": false,
     "statement": "Let $p(z)$ be a polynomial of degree $n$ that is nonzero on the unit circle $\\T=\\{z\\in\\C:\\abs{z}=1\\}$. Define\n$$\nm_0 := \\frac{1}{2\\pi i} \\int_\\T \\frac{p'(z)}{p(z)}\\, dz, \\qquad m_1 := \\frac{1}{2\\pi i} \\int_\\T z\\frac{p'(z)}{p(z)}\\, dz.\n$$\nShow that $m_0\\in \\{0,\\cdots, n\\}$ and $\\abs{m_1}\\leq m_0$."
+  },
+  {
+    "id": "A Bounded Operator on a Hilbert Space has a Left Inverse If and Only If it is Bounded Below",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "instances": [
+      {
+        "term": "Spring 2010",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Hilbert space",
+      "Bounded linear operators"
+    ],
+    "theorems": [
+      "Open mapping theorem"
+    ],
+    "finished": false,
+    "statement": "Let $H$ be Hilbert space spaces and $A$ be a bounded linear operator on $H$. Show that there exists a bounded linear operator $B$ on $H$ such that. $BA=I$ if and only if there exists a constant $\\gamma>0$ such that\n$$\n\\norm{x}\\leq \\gamma \\norm{A(x)}\n$$\nfor all $x\\in H$."
   },
   {
     "id": "A Compact Diagonal Operator and a Noncompact Nilpotent Operator on ℓp",
@@ -5026,7 +5388,7 @@
     ],
     "theorems": [],
     "finished": true,
-    "statement": "Let $X$ be the set of all continuously differentiable functions $f:[-1, 1]\\rightarrow \\R$. Because $X\\subseteq C([-1,1])$, $X$ is a normed space with\n$$\n\\norm{f} = \\max_{x\\in [-1, 1]}\\abs{f(x)}.\n$$\nDecide which of the following linear functionals on $X$ are bounded. For the ones that are bounded, find their norm.\n$$\n\\phi_1(f)=f(0),\\qquad \\phi_2(f)=\\int_{-1}^1 \\operatorname{sign}(f(x))f(x)\\, dx, \\qquad \\phi_3(f)= f'(0), \\qquad \\phi_4(f)=\\sum_{n=1}^\\infty \\frac{1}{2^n} f\\left( \\frac{1}{n}\\right)\n$$"
+    "statement": "Let $X$ be the set of all continuously differentiable functions $f:[-1, 1]\\rightarrow \\R$. Because $X\\subseteq C([-1,1])$, $X$ is a normed space with\n$$\n\\norm{f} = \\max_{x\\in [-1, 1]}\\abs{f(x)}.\n$$\nDecide which of the following linear functionals on $X$ are bounded. For the ones that are bounded, find their norm.\n$$\n\\phi_1(f)=f(0),\\qquad \\phi_2(f)=\\int_{-1}^1 \\operatorname{sign}(x)f(x)\\, dx, \\qquad \\phi_3(f)= f'(0), \\qquad \\phi_4(f)=\\sum_{n=1}^\\infty \\frac{1}{2^n} f\\left( \\frac{1}{n}\\right)\n$$"
   },
   {
     "id": "A Uniform Operator Norm Bound from a Weak Dual Bound",
@@ -5172,6 +5534,31 @@
     "statement": "Suppose that $X$ is a normed space and that $W$ is a closed subspace of $X$. Show that\n$$\nW = \\{x\\in X : \\phi(x) = 0 \\text{ for all } \\phi\\in X^* \\text{ with } W\\subseteq \\null{\\phi} \\}.\n$$"
   },
   {
+    "id": "Closed Range of I+K for Compact Operators K on a Hilbert Space",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "instances": [
+      {
+        "term": "Spring 2011",
+        "university": "University of California, Santa Cruz",
+        "writer": "Tromba",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Hilbert space",
+      "Compact operator",
+      "Banach space",
+      "Fredholm operator"
+    ],
+    "theorems": [
+      "The Spectral Theorem"
+    ],
+    "finished": false,
+    "statement": "Let $H$ be a separable Hilbert space and let $K:H\\rightarrow H$ be a linear operator.\n(a) Give the definition for $K$ to be Compact.\n(b) State the spectral theorem for a compact self-adjoint operator.\n(c) Show that if $K$ is compact, then $R(I+K)$ is closed."
+  },
+  {
     "id": "Closed Range of I+K for Compact Operators K",
     "subject": "Functional Analysis",
     "subjectSlug": "functional-analysis",
@@ -5180,12 +5567,6 @@
         "term": "Spring 2018",
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Spring 2011",
-        "university": "University of California, Santa Cruz",
-        "writer": "Tromba",
         "exam": "Preliminary Exam"
       }
     ],
@@ -5197,7 +5578,7 @@
     ],
     "theorems": [],
     "finished": false,
-    "statement": "Let $X$ be a Banach space and let $K\\in\\mathcal{L}(X)$ be a compact operator on $X$. Show that $R(I+K)$ is closed."
+    "statement": "Let $X$ be a Banach space and let $K\\in\\mathcal{L}(X)$ be a compact operator on $X$. You may assume that $\\ker(T+K)=\\{0\\}$. Show that $R(I+K)$ is closed."
   },
   {
     "id": "Closed Subspaces of Reflexive Spaces are Reflexive",
@@ -5329,6 +5710,36 @@
     "theorems": [],
     "finished": true,
     "statement": "Let $X,Y$ be complex Banach spaces, A map $B:X\\times Y \\rightarrow \\C$ is called a **bilinear form** if $B(x,y)$ is linear in $x$ for all $y\\in Y$ and linear in $y$ for all $x\\in X$. It is called **bounded** if there exists a constant $M>0$ such that\n$$\n|B(x,y)| \\leq M \\norm{x}\\norm{y}\n$$\nfor all $x\\in X,y\\in Y$. \n\nShow that there exists a bijective correspondence between the set of bounded bilinear forms $B:X\\times Y\\rightarrow \\C$ and the set of bounded linear operators $A:X\\rightarrow Y^*$, where $Y^*$ is the dual space of $Y$."
+  },
+  {
+    "id": "Defining the Banach Space Adjoint",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "instances": [
+      {
+        "term": "Fall 2018",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Winter 2016",
+        "university": "University of California, Santa Cruz",
+        "writer": "Lin",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Adjoint operator",
+      "Bounded linear operators",
+      "Linear functionals"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem"
+    ],
+    "finished": true,
+    "statement": "Let $A:X\\rightarrow Y$ be a bounded lienear operator between Banach spaces $X,Y$. \n\n(a) Define the Banach space adjoint operator $A^*$. \n(b) Show that $A^*$ is well defined and bounded, with $\\norm{A^*}=\\norm{A}$."
   },
   {
     "id": "Determining the Norm and Spectrum of an Integration Operator",
@@ -5565,7 +5976,7 @@
     "statement": "Let $A$ be a subset in a normed space $V$. Suppose that\n$$\n\\sup_{x\\in A}|\\phi(x)|<\\infty\n$$\nfor all $\\phi\\in V^*$, where $V^*$ denotes the dual space of $V$. Prove that\n$$\n\\sup_{x\\in A}\\norm{x}<\\infty.\n$$"
   },
   {
-    "id": "Injective Operators with Closed Range Are Bounded Below",
+    "id": "Injective Operators with Closed Range Are Bounded Below 1",
     "subject": "Functional Analysis",
     "subjectSlug": "functional-analysis",
     "instances": [
@@ -5574,7 +5985,24 @@
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Banach space",
+      "Bounded linear operators"
+    ],
+    "theorems": [
+      "Open Mapping Theorem"
+    ],
+    "finished": true,
+    "statement": "Let $X,Y$ be Banach spaces and $A:X\\rightarrow Y$ be a bounded linear operator. Show that the following are equivalent:\n* $A$ is injective and the range of $A$ is closed.\n* There exists a constant $M>0$ such that \n$$\n\\norm{x} \\leq M \\norm{A(x)}\n$$\nfor all $x\\in X$.\n* There exists a bounded linear operator $B:R(A)\\rightarrow X$ such that $BA=I_X$."
+  },
+  {
+    "id": "Injective Operators with Closed Range Are Bounded Below 2",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "instances": [
       {
         "term": "Fall 2021",
         "university": "University of California, Santa Cruz",
@@ -5597,7 +6025,7 @@
       "Open Mapping Theorem"
     ],
     "finished": true,
-    "statement": "Let $X,Y$ be Banach spaces and $A:X\\rightarrow Y$ be a bounded linear operator. Show that the following are equivalent:\n* $A$ is injective and the range of $A$ is closed.\n* There exists a constant $M>0$ such that \n$$\n\\norm{x} \\leq M \\norm{A(x)}\n$$\nfor all $x\\in X$.\n* There exists a bounded linear operator $B:R(A)\\rightarrow X$ such that $BA=I_X$."
+    "statement": "Let $X,Y$ be Banach spaces and $A:X\\rightarrow Y$ be a bounded linear operator. Show that the following are equivalent:\n* $A$ is injective and the range of $A$ is closed.\n* There exists a constant $M>0$ such that \n$$\n\\norm{x} \\leq M \\norm{A(x)}\n$$\nfor all $x\\in X$."
   },
   {
     "id": "Norms Defined by Inner Products",
@@ -5685,7 +6113,24 @@
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Banach space",
+      "Bounded linear operators"
+    ],
+    "theorems": [
+      "Closed Graph Theorem"
+    ],
+    "finished": true,
+    "statement": "Let $X$ be a Banach space which decomposes as a direct sum of two subspace $X=X_1\\oplus X_2$. Let $P:X\\rightarrow X$ be the projection function onto $X_1$. I.e., $P(x_1+x_2)=x_1$ for all $x_1\\in X_1, x_2\\in X_2$. \n\n(a) Show that $P$ is a linear operator satisfying $P^2=P$.\n(b) Show that $P$ is bounded if and only if $X_1,X_2$ are closed subspaces of $X$."
+  },
+  {
+    "id": "Projection Operators are Bounded If their Image and Kernel are Closed",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "instances": [
       {
         "term": "Fall 2014",
         "university": "University of California, Santa Cruz",
@@ -5708,7 +6153,7 @@
       "Closed Graph Theorem"
     ],
     "finished": true,
-    "statement": "Let $X$ be a Banach space which decomposes as a direct sum of two subspace $X=X_1\\oplus X_2$. Let $P:X\\rightarrow X$ be the projection function onto $X_1$. I.e., $P(x_1+x_2)=x_1$ for all $x_1\\in X_1, x_2\\in X_2$. \n\n(a) Show that $P$ is a linear operator satisfying $P^2=P$.\n(b) Show that $P$ is bounded if and only if $X_1,X_2$ are closed subspaces of $X$."
+    "statement": "Let $X$ be a Banach space which decomposes as a direct sum of two closed subspace $X_1,X_2$. Let $P:X\\rightarrow X$ be the projection function onto $X_1$. I.e., $P(x_1+x_2)=x_1$ for all $x_1\\in X_1, x_2\\in X_2$. Show that $P$ is continuous."
   },
   {
     "id": "Proof of the Neumann Series Theorem",
@@ -5731,7 +6176,7 @@
       "Neumann Series"
     ],
     "finished": false,
-    "statement": "Suppose that $A\\in \\mathcal{L}(X)$ is a bounded linear operator on a Banach space $X$ such that $\\norm{A}<1$. Show that \n$$\nB:= \\sum_{n=0}^\\infty A^k\n$$\nis a well defined and bounded linear operator such that $AB=BA=I$."
+    "statement": "Suppose that $A\\in \\mathcal{L}(X)$ is a bounded linear operator on a Banach space $X$ such that $\\norm{A}<1$. Show that \n$$\nB:= \\sum_{n=0}^\\infty A^k\n$$\nis a well defined and bounded linear operator such that $(I-T)B=B(I-T)=I$."
   },
   {
     "id": "Proof of the Open Mapping Theorem Via the Closed Graph Theorem",
@@ -5990,36 +6435,6 @@
     "statement": "For a sequence $\\alpha =(\\alpha_n)_{n=1}^\\infty$ of positive numbers, let $X=\\ell^1(a)$ stand for the Banach space of all sequences $x=(x_n)_{n=1}^\\infty$ (where $x_n\\in \\C$) for which\n$$\n\\norm{x}_X=\\sum_{n=1}^\\infty |x_n|\\alpha_n < \\infty.\n$$\nYou may take for granted that $X$ is a Banach space. Consider the backward shift operator $B$ defined by\n$$\nB((x_n)_{n=1}^\\infty)=(x_{n+1})_{n=1}^\\infty.\n$$\nProve that the following are equivalent:\n(a) $B(x)\\in X$ for all $x\\in X$.\n(b) $B$ is a bounded linear operator from $X$ to $X$.\n(c) $\\displaystyle \\sup_{n\\geq 1} \\frac{a_n}{a_{n+1}}<\\infty$."
   },
   {
-    "id": "The Banach Space Adjoint",
-    "subject": "Functional Analysis",
-    "subjectSlug": "functional-analysis",
-    "instances": [
-      {
-        "term": "Fall 2018",
-        "university": "University of California, Santa Cruz",
-        "writer": "Ehrhardt",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Winter 2016",
-        "university": "University of California, Santa Cruz",
-        "writer": "Lin",
-        "exam": "Preliminary Exam"
-      }
-    ],
-    "difficulty": 3,
-    "concepts": [
-      "Adjoint operator",
-      "Bounded linear operators",
-      "Linear functionals"
-    ],
-    "theorems": [
-      "Hahn-Banach Theorem"
-    ],
-    "finished": true,
-    "statement": "Let $A:X\\rightarrow Y$ be a bounded lienear operator between Banach spaces $X,Y$. \n\n(a) Define the Banach space adjoint operator $A^*$. \n(b) Show that $A^*$ is well defined and bounded, with $\\norm{A^*}=\\norm{A}$."
-  },
-  {
     "id": "The Closed Unit Ball in the Dual Space is Weak*-Compact",
     "subject": "Functional Analysis",
     "subjectSlug": "functional-analysis",
@@ -6038,7 +6453,7 @@
     ],
     "theorems": [],
     "finished": false,
-    "statement": "Suppose $X$ is a Banach space. Show that the unit ball $B^* = \\{\\phi \\in X^* : \\norm{\\phi}\\leq 1\\}$ is closed in the weak*-topology."
+    "statement": "Suppose $X$ is a seperable Banach space. Show that the unit ball $B^* = \\{\\phi \\in X^* : \\norm{\\phi}\\leq 1\\}$ is compact in the weak*-topology."
   },
   {
     "id": "The Closed Unit Ball is Weakly Closed",
@@ -6063,7 +6478,7 @@
       "Banach-Alaoglu theorem"
     ],
     "finished": false,
-    "statement": "Let $X$ be a Banach space, and let $B= \\{x\\in X:\\norm{x}\\leq 1\\}$ be the closed unit ball. \n\n(a) Show that $B$ is closed with respect to the weak topology. \n(b) Is it the case that $B$ is compact with respect to the weak topology? If not, give a counterexample and find (and prove the validity of) a condition on $X$ that makes this statement true."
+    "statement": "Let $X$ be a Banach space, and let $B= \\{x\\in X:\\norm{x}\\leq 1\\}$ be the closed unit ball. \n\n(a) Show that $B$ is closed with respect to the weak topology. \n(b) Is it the case that the unit sphere $S=\\{x\\in X:\\norm{x}=1\\}$ is closed with respect to the weak topology? If not, give a counterexample."
   },
   {
     "id": "The Dual Space of a Normed Space is Banach",
@@ -6251,12 +6666,6 @@
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Spring 2020",
-        "university": "University of California, Santa Cruz",
-        "writer": "Ehrhardt",
-        "exam": "Preliminary Exam"
       }
     ],
     "difficulty": 5,
@@ -6270,6 +6679,28 @@
     ],
     "finished": true,
     "statement": "Let $X$ and $Y$ be normed spaces with $X\\neq \\{0\\}$, and consider the space of bounded linear operators $\\mathcal{L}(X,Y)$ with the standard operator norm. Show that $\\mathcal{L}(X,Y)$ is Banach if and only if $Y$ is Banach."
+  },
+  {
+    "id": "The Space of Operators Between Normed Spaces is Banach if the Codomain is Banach",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "instances": [
+      {
+        "term": "Spring 2020",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Bounded linear operators",
+      "Banach space",
+      "Normed linear space"
+    ],
+    "theorems": [],
+    "finished": true,
+    "statement": "Let $X$ and $Y$ be normed spaces with $X\\neq \\{0\\}$, and consider the space of bounded linear operators $\\mathcal{L}(X,Y)$ with the standard operator norm. Show that if $Y$ is Banach, then $\\mathcal{L}(X,Y)$ is Banach."
   },
   {
     "id": "The Spectrum of an Operator is Compact and Nonempty",

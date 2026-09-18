@@ -64,7 +64,7 @@
       "Argument principle"
     ],
     "finished": false,
-    "statement": "Let $f$ be a holomorphic function on $\\Omega = \\C\\backslash \\{0\\}$ and assume that\n$$\n\\int_{\\abs{z}=1} \\frac{f'(z)}{f(z)}\\, dz =0.\n$$\nShow that $f(z)$ has a holomorphic logarithm on $\\Omega$."
+    "statement": "Let $f$ be a holomorphic and nonzero function on $\\Omega = \\C\\backslash \\{0\\}$ and assume that\n$$\n\\int_{\\abs{z}=1} \\frac{f'(z)}{f(z)}\\, dz =0.\n$$\nShow that $f(z)$ has a holomorphic logarithm on $\\Omega$."
   },
   {
     "id": "A Linear Lower Bound for Entire Functions Diverging at Infinity",
@@ -118,7 +118,7 @@
     "statement": "(a) State the maximum modulus principle\n(b) Let $f$ be analytic on an open neighborhood of the annulus $1\\leq \\abs{z}\\leq 2$. Assume that $\\abs{f(z)}\\leq 1$ for all $\\abs{z}=1$, and $\\abs{f(z)}\\leq 4$ for all $\\abs{z}=2$. Show that $\\abs{f(z)} \\leq \\abs{z}^2$ for all $1\\leq \\abs{z}\\leq 2$."
   },
   {
-    "id": "A Maximum Principle for the Real Part of a Holomorphic Function",
+    "id": "A Maximum Principle for the Real Part of a Holomorphic Function 1",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
     "instances": [
@@ -127,7 +127,23 @@
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Analytic functions"
+    ],
+    "theorems": [
+      "Maximum Modulus Principle"
+    ],
+    "finished": false,
+    "statement": "Let $\\Omega$ be a connected domain and let $f:\\Omega\\rightarrow \\C$ be holomorphic. Show that if $\\Re(f(z))$ attains a maximum on $\\Omega$, then $f(z)$ is constant."
+  },
+  {
+    "id": "A Maximum Principle for the Real Part of a Holomorphic Function 2",
+    "subject": "Complex Analysis",
+    "subjectSlug": "complex-analysis",
+    "instances": [
       {
         "term": "Winter 2015",
         "university": "University of California, Santa Cruz",
@@ -143,7 +159,7 @@
       "Maximum Modulus Principle"
     ],
     "finished": false,
-    "statement": "Let $\\Omega$ be a connected domain and let $f:\\Omega\\rightarrow \\C$ be holomorphic. Show that if $\\Re(f(z))$ attains a maximum on $\\Omega$, then $f(z)$ is constant."
+    "statement": "Let $\\Omega$ be a connected domain and let $f:\\Omega\\rightarrow \\C$ be holomorphic. Show that if $\\Re(f(z))$ attains a maximum or a minimum on $\\Omega$, then $f(z)$ is constant."
   },
   {
     "id": "A Normal Family from an L2 Boundary Bound",
@@ -172,7 +188,7 @@
     "statement": "Let $\\mathcal{F}$ be the set of functions $f$ that are holomorphic in a neighborhood of the unit disk such that\n$$\n\\int_0^{2\\pi} \\abs{f(e^{it})}^2\\, dt \\leq 1.\n$$\nProve that $\\mathcal{F}$ is a normal family in the unit disk."
   },
   {
-    "id": "A Unique Zero of a−z−exp(-z) in the Right Half-Plane",
+    "id": "A Unique Zero of a−z-exp(-z) in the Right Half-Plane",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
     "instances": [
@@ -293,7 +309,7 @@
       "Identity Theorem"
     ],
     "finished": true,
-    "statement": "Let $\\sqrt[pr]{w}$ denote the principle branch of $w^\\frac{1}{2}$ corresponding to \n$$\n-\\pi < \\arg(w)\\leq \\pi.\n$$\nLet\n$$\n\\Omega_L = \\{z\\in \\C : \\Re(z)<0\\}\\backslash[-1, 0), \\quad \\Omega_R = \\{z\\in \\C : \\Re(z)>0\\}\\backslash(0, 1].\n$$\nDefine\n$$\nf(z) := \\sqrt[pr]{z-1}\\sqrt[pr]{z+1} \\quad \\text{ and } \\quad g(z):= \\sqrt[pr]{z^2-1}\n$$\nwherever the respective expressions are defined. \n(a) Prove that for all $z\\in\\Omega_R$, $f(z)=g(z)$.\n(b) Prove that for all $z\\in \\Omega_L$, $f(z)=-g(z)$.\n(c) What can you say when $z\\in i\\R$?"
+    "statement": "Let $\\sqrt[pr]{w}$ denote the principle branch of $w^\\frac{1}{2}$ corresponding to \n$$\n-\\pi < \\arg(w)< \\pi.\n$$\nLet\n$$\n\\Omega_L = \\{z\\in \\C : \\Re(z)<0\\}\\backslash[-1, 0), \\quad \\Omega_R = \\{z\\in \\C : \\Re(z)>0\\}\\backslash(0, 1].\n$$\nDefine\n$$\nf(z) := \\sqrt[pr]{z-1}\\sqrt[pr]{z+1} \\quad \\text{ and } \\quad g(z):= \\sqrt[pr]{z^2-1}\n$$\nwherever the respective expressions are defined. \n(a) Prove that for all $z\\in\\Omega_R$, $f(z)=g(z)$.\n(b) Prove that for all $z\\in \\Omega_L$, $f(z)=-g(z)$.\n(c) What can you say when $z\\in i\\R$?"
   },
   {
     "id": "Comparing z and 1-exp(z) on the disk",
@@ -385,7 +401,7 @@
     "statement": "Let\n$$\nG(z) = e^{z\\gamma} \\prod_{k=1}^\\infty \\left(1+ \\frac{z}{k} \\right) e^{-\\frac{z}{k}}.\n$$\n(a) Show that this infinite product defines a well-defined entire function.\n(b) Prove that\n$$\n(z+1)G(z+1)=G(z).\n$$"
   },
   {
-    "id": "Constructing the Reciprocal Gamma Function Via an Infinite Product",
+    "id": "Constructing the Reciprocal Gamma Function Via an Infinite Product 1",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
     "instances": [
@@ -394,7 +410,22 @@
         "university": "University of California, Santa Cruz",
         "writer": "Goetz",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Analytic functions",
+      "Weirstrass Factorization"
+    ],
+    "theorems": [],
+    "finished": false,
+    "statement": "Let \n$$\nG(z) = z\\prod_{k=1}^\\infty \\left(1+ \\frac{z}{k} \\right) e^{-\\frac{z}{k}}.\n$$\n\n(a) Show that this infinite product defines a well-defined entire function.\n(b) Where are the zeros of this functions? Show your work.\n(c) Compute the limit\n$$\n\\lim_{n\\rightarrow \\infty} \\frac{z(z+1)(z+2)\\cdots(z+n)}{n!} n^{-z}.\n$$\n   Your answer may be expressed in terms of $G(z)$."
+  },
+  {
+    "id": "Constructing the Reciprocal Gamma Function Via an Infinite Product 2",
+    "subject": "Complex Analysis",
+    "subjectSlug": "complex-analysis",
+    "instances": [
       {
         "term": "Winter 2010",
         "university": "University of California, Santa Cruz",
@@ -409,7 +440,7 @@
     ],
     "theorems": [],
     "finished": false,
-    "statement": "Let \n$$\nG(z) = z\\prod_{k=1}^\\infty \\left(1+ \\frac{z}{k} \\right) e^{-\\frac{z}{k}}.\n$$\n\n(a) Show that this infinite product defines a well-defined entire function.\n(b) Where are the zeros of this functions? Show your work.\n(c) Compute the limit\n$$\n\\lim_{n\\rightarrow \\infty} \\frac{z(z+1)(z+2)\\cdots(z+n)}{n!} n^{-z}.\n$$\n   Your answer may be expressed in terms of $G(z)$."
+    "statement": "(a) Let $(a_n)$ be a sequence of complex numbers. Show that if $\\sum_{k=1}^\\infty \\abs{a_k}$ converges, then $\\prod_{k=1}^\\infty (1+a_k)$ converges.\n(b) Prove that \n$$\nG(z) = z\\prod_{k=1}^\\infty \\left(1+ \\frac{z}{k} \\right) e^{-\\frac{z}{k}}.\n$$\n\ndefines a well-defined entire function."
   },
   {
     "id": "Convergence of Derivatives of Sequences of Holomorphic Functions",
@@ -716,7 +747,7 @@
       "Rouche's Theorem"
     ],
     "finished": true,
-    "statement": "(a) State Rouché's theorem.\n(b) Prove that any polynomial with complex coefficients $P(z) = \\sum_{k=1}^n a_kz^k$ with $a_n\\neq 0$ has exactly $n$ roots, and give an estimate on the radius of the disk centered at 0 $D_R(0)$ containing all roots."
+    "statement": "(a) State Rouché's theorem.\n(b) Prove that any polynomial with complex coefficients $P(z) = \\sum_{k=0}^n a_kz^k$ with $a_n\\neq 0$ has exactly $n$ roots, and give an estimate on the radius of the disk centered at 0 $D_R(0)$ containing all roots."
   },
   {
     "id": "Existence of a Holomorphic Cube Root of a Polynomial",
@@ -1234,35 +1265,6 @@
     "statement": "Suppose $f$ and $g$ are analytic near $a$ and that $g$ has a zero of order 2 at $a$. \n\n(a) Show that $g(z)= (z-a)^2 h(z)$ where $h(z)$ is meromorphic in a punctured neighborhood of $a$ with a removable singularity at $a$. Find the Taylor coefficients for the power series of $h$ centered at $z=a$.\n(b) Find the principle part of $\\frac{f}{g}$ centered at $z=a$ by computing a small number of coefficients in the Taylor series for $\\frac{f}{h}$. Write a formula for the residue of $\\frac{f}{g}$ at $z=a$."
   },
   {
-    "id": "Residue Theorem Purdue January 2024",
-    "subject": "Complex Analysis",
-    "subjectSlug": "complex-analysis",
-    "instances": [
-      {
-        "term": "Spring 2010",
-        "university": "University of California, Santa Cruz",
-        "writer": "Schonbek",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Winter 2019",
-        "university": "University of California, Santa Cruz",
-        "writer": "Ehrhardt",
-        "exam": "Preliminary Exam"
-      }
-    ],
-    "difficulty": 4,
-    "concepts": [
-      "Singularities",
-      "Evaluation of integrals"
-    ],
-    "theorems": [
-      "Residue Theorem"
-    ],
-    "finished": true,
-    "statement": "Let $n \\geq 2$. Calculate\n$$\n\\int_0^{\\infty} \\frac{1}{x^n+1}\\, dx.\n$$"
-  },
-  {
     "id": "Residue Theory Purdue August 2025",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
@@ -1285,6 +1287,35 @@
     ],
     "finished": false,
     "statement": "Let $a\\in (0,1)$. Evaluate \n$$\nI(a) = \\int_0^{\\infty} \\frac{x^{-a}}{1+x}\\, dx.\n$$"
+  },
+  {
+    "id": "Residue Theory Purdue January 2024",
+    "subject": "Complex Analysis",
+    "subjectSlug": "complex-analysis",
+    "instances": [
+      {
+        "term": "Winter 2024",
+        "university": "Purdue University",
+        "writer": "Unknown",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Spring 2010",
+        "university": "University of California, Santa Cruz",
+        "writer": "Schonbek",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Singularities",
+      "Evaluation of integrals"
+    ],
+    "theorems": [
+      "Residue Theorem"
+    ],
+    "finished": false,
+    "statement": "Let $n \\geq 2$. Calculate\n$$\n\\int_0^{\\infty} \\frac{1}{x^n+1}\\, dx.\n$$"
   },
   {
     "id": "Residue Theory Purdue January 2025",
@@ -1340,24 +1371,6 @@
     "instances": [
       {
         "term": "Fall 2019",
-        "university": "University of California, Santa Cruz",
-        "writer": "Ehrhardt",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Spring 2012",
-        "university": "University of California, Santa Cruz",
-        "writer": "Ehrhardt",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Winter 2013",
-        "university": "University of California, Santa Cruz",
-        "writer": "Tromba",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Winter 2011",
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
@@ -1582,12 +1595,6 @@
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Winter 2015",
-        "university": "University of California, Santa Cruz",
-        "writer": "Ehrhardt",
-        "exam": "Preliminary Exam"
       }
     ],
     "difficulty": 4,
@@ -1695,6 +1702,64 @@
     "statement": "Compute the following integral using residue theory:\n$$\n\\int_\\R \\frac{dx}{\\left(1+x^2 \\right)^3}.\n$$"
   },
   {
+    "id": "Residue Theory UCSC Winter 2013",
+    "subject": "Complex Analysis",
+    "subjectSlug": "complex-analysis",
+    "instances": [
+      {
+        "term": "Spring 2012",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Winter 2013",
+        "university": "University of California, Santa Cruz",
+        "writer": "Tromba",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Winter 2011",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Singularities",
+      "Evaluation of integrals"
+    ],
+    "theorems": [
+      "Residue Theorem"
+    ],
+    "finished": false,
+    "statement": "Evaluate the integral\n$$\n\\int_{0}^\\infty \\frac{\\sin(x)}{x}\\,dx.\n$$"
+  },
+  {
+    "id": "Residue Theory UCSC Winter 2015",
+    "subject": "Complex Analysis",
+    "subjectSlug": "complex-analysis",
+    "instances": [
+      {
+        "term": "Winter 2015",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Singularities",
+      "Evaluation of integrals"
+    ],
+    "theorems": [
+      "Residue Theorem"
+    ],
+    "finished": false,
+    "statement": "Using residue theory, compute\n$$\n\\int_0^\\infty \\frac{1-\\cos(x)}{x^2}\\,dx.\n$$"
+  },
+  {
     "id": "Residue Theory UCSC Winter 2018",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
@@ -1717,6 +1782,29 @@
     ],
     "finished": false,
     "statement": "(a) Prove using complex integration that for any $\\alpha \\in \\R$,\n$$\n\\int_\\R e^{-(x+ia)^2}\\, dx = \\int_\\R e^{-x^2}\\, dx.\n$$\n(b) Let $\\sigma >0, \\xi \\in \\R$. Show that \n$$\n\\int_\\R e^{-ix \\xi} e^{-\\frac{x^2}{2\\sigma^2}}\\, dx = \\sigma \\sqrt{2\\pi} e^{-\\frac{\\sigma^2\\xi^2}{2}}.\n$$"
+  },
+  {
+    "id": "Residue Theory UCSC Winter 2019",
+    "subject": "Complex Analysis",
+    "subjectSlug": "complex-analysis",
+    "instances": [
+      {
+        "term": "Winter 2019",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Singularities",
+      "Evaluation of integrals"
+    ],
+    "theorems": [
+      "Residue Theorem"
+    ],
+    "finished": false,
+    "statement": "Let $n \\in\\N$. Calculate\n$$\n\\int_{-\\infty}^{\\infty} \\frac{1}{x^{2n}+1}\\, dx.\n$$"
   },
   {
     "id": "Residue Theory UCSC Winter 2020",
@@ -1785,10 +1873,10 @@
       "Residue Theorem"
     ],
     "finished": false,
-    "statement": "Prove that\n$$\n\\int_0^{2\\pi} e^{\\cos(\\theta)}\\, d\\theta = \\sum_{n=0}^\\infty \\frac{1}{\\left(n! 2^n \\right)^2}.\n$$"
+    "statement": "Prove that\n$$\n\\frac{1}{2\\pi}\\int_0^{2\\pi} e^{\\cos(\\theta)}\\, d\\theta = \\sum_{n=0}^\\infty \\frac{1}{\\left(n! 2^n \\right)^2}.\n$$"
   },
   {
-    "id": "Simple Zeros Are Stable Under Small Holomorphic Perturbations",
+    "id": "Simple Zeros Are Stable Under Small Holomorphic Perturbations 1",
     "subject": "Complex Analysis",
     "subjectSlug": "complex-analysis",
     "instances": [
@@ -1797,7 +1885,24 @@
         "university": "University of California, Santa Cruz",
         "writer": "Hatinoglu",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Analytic functions"
+    ],
+    "theorems": [
+      "Rouche's Theorem",
+      "Argument principle"
+    ],
+    "finished": true,
+    "statement": "Suppose $f$ and $g$ are holomorphic in a region containing the disk $|z|\\leq 1$. Suppose that $f$ has a simple zero at $z=0$ and vanishes nowhere else in $|z|\\leq 1$. Let\n$$\nf_\\varepsilon(z)=f(z)+\\varepsilon g(z).\n$$\n\nShow that for all sufficiently small $\\varepsilon>0$, $f_\\varepsilon$ has a unique zero in $|z|\\leq 1$."
+  },
+  {
+    "id": "Simple Zeros Are Stable Under Small Holomorphic Perturbations 2",
+    "subject": "Complex Analysis",
+    "subjectSlug": "complex-analysis",
+    "instances": [
       {
         "term": "Spring 2016",
         "university": "University of California, Santa Cruz",

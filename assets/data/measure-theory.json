@@ -216,7 +216,7 @@
       "Radon-Nikodym theorem"
     ],
     "finished": false,
-    "statement": "Let $\\Sigma$ be the Lebesgue $\\sigma$-algebra on $X=[0,1]$, let $\\lambda$ be the Lebesgue measure on $(X,\\Sigma)$, and let $\\mu$ be the counting measure on $\\Sigma$. \n\n(a) Prove that $\\lambda \\ll \\mu$, but that there is no nonnegative measurable function $f:X\\rightarrow [0,\\infty]$ such that $\\lambda(E)=\\int_E f\\, d\\mu$ for all $E\\in\\Sigma$. Explain why this does not contradict the Radon-Nikodym theorem.\n(b) Let $\\nu$ be an arbitrary measure on $(X,\\Sigma)$. Prove that the following are equivalent:\n* There exists a nonnegative measurable function $f:X\\rightarrow [0,\\infty]$ such that\n$$\n\\nu(E)=\\int_E f\\, d\\mu\n$$\nfor all $E\\in\\Sigma$.\n* There exists a countable set $F\\in\\Sigma$ such that $\\nu(X\\backslash F)=0$.\n\nWhen either of the two above conditions hold, determine a possible density function $f$."
+    "statement": "Let $\\Sigma$ be the Lebesgue $\\sigma$-algebra on $X=[0,1]$, let $\\lambda$ be the Lebesgue measure on $(X,\\Sigma)$, and let $\\mu$ be the counting measure on $\\Sigma$. \n\n(a) Prove that $\\lambda \\ll \\mu$, but that there is no nonnegative measurable function $f:X\\rightarrow [0,\\infty]$ such that $\\lambda(E)=\\int_E f\\, d\\mu$ for all $E\\in\\Sigma$. Explain why this does not contradict the Radon-Nikodym theorem.\n(b) Let $\\nu$ be an arbitrary finite measure on $(X,\\Sigma)$. Prove that the following are equivalent:\n* There exists a nonnegative measurable function $f:X\\rightarrow [0,\\infty]$ such that\n$$\n\\nu(E)=\\int_E f\\, d\\mu\n$$\nfor all $E\\in\\Sigma$.\n* There exists a countable set $F\\in\\Sigma$ such that $\\nu(X\\backslash F)=0$.\n\nWhen either of the two above conditions hold, determine a possible density function $f$."
   },
   {
     "id": "Characterizing Scale-Invariant Absolutely Continuous Measures",
@@ -350,7 +350,24 @@
         "university": "University of California, Santa Cruz",
         "writer": "Schonbek",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Abstract measure",
+      "Sigma-algebra"
+    ],
+    "theorems": [
+      "Continuity from Above/Below"
+    ],
+    "finished": false,
+    "statement": "Let $(X,\\Sigma,\\mu)$ be a measure space.\n\n(a) Suppose that $A_1\\subseteq A_2 \\subseteq \\cdots$ are measurable sets. Show that\n$$\n\\lim_{n\\rightarrow \\infty} \\mu(A_n) = \\mu\\left(\\bigcup_{n=1}^\\infty A_n\\right).\n$$\n(b) Suppose that $B_1\\supseteq B_2\\supseteq \\cdots$ are measurable sets. Is it the case that\n$$\n\\lim_{n\\rightarrow \\infty} \\mu(B_n) = \\mu\\left(\\bigcap_{n=1}^\\infty B_n \\right)?\n$$\nIf so, give a proof. If not, find a counterexample, and find (and prove the validity of) a condition on $X$ that would the statement true."
+  },
+  {
+    "id": "Continuity from Above",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "instances": [
       {
         "term": "Winter 2013",
         "university": "University of California, Santa Cruz",
@@ -367,7 +384,7 @@
       "Continuity from Above/Below"
     ],
     "finished": false,
-    "statement": "Let $(X,\\Sigma,\\mu)$ be a measure space.\n\n(a) Suppose that $A_1\\subseteq A_2 \\subseteq \\cdots$ are measurable sets. Show that\n$$\n\\lim_{n\\rightarrow \\infty} \\mu(A_n) = \\mu\\left(\\bigcup_{n=1}^\\infty A_n\\right).\n$$\n(b) Suppose that $B_1\\supseteq B_2\\supseteq \\cdots$ are measurable sets. Is it the case that\n$$\n\\lim_{n\\rightarrow \\infty} \\mu(B_n) = \\mu\\left(\\bigcap_{n=1}^\\infty B_n \\right)?\n$$\nIf so, give a proof. If not, find a counterexample, and find (and prove the validity of) a condition on $X$ that would the statement true."
+    "statement": "Let $(X,\\Sigma,\\mu)$ be a measure space.\n\n(a) Suppose that $B_1\\supseteq B_2\\supseteq \\cdots$ are measurable sets such that $\\mu(B_1)<\\infty$. Prove that\n$$\n\\lim_{n\\rightarrow \\infty} \\mu(B_n) = \\mu\\left(\\bigcap_{n=1}^\\infty B_n \\right).\n$$\n(b) If this assumption $\\mu(B_1)<\\infty$ is dropped, is it still necessarily the case that \n$$\n\\lim_{n\\rightarrow \\infty} \\mu(B_n) = \\mu\\left(\\bigcap_{n=1}^\\infty B_n \\right).\n$$\nEither prove or give a counterexample."
   },
   {
     "id": "Convergence Almost Everywhere in a Finite Measure Space Implies Convergence in Measure",
@@ -846,18 +863,12 @@
     "statement": "Suppose that $(X,\\Sigma, \\mu)$ is a measure space. For each $0<r<p<s<\\infty$, let $f\\in L^r(\\mu) \\cap L^s(\\mu)$. Show that $f\\in L^p(\\mu)$ and\n$$\n\\norm{f}_p \\leq \\norm{f}_r^\\theta \\cdot \\norm{f}_s^{1-\\theta}\n$$\nwhere \n$$\n\\frac{1}{p} = \\frac{\\theta}{r}+ \\frac{1-\\theta}{s}.\n$$"
   },
   {
-    "id": "L1 Convergence from Convergence in Measure and Domination by a L1 Function",
+    "id": "L1 Convergence from Convergence in Measure and Domination by a L1 Function 1",
     "subject": "Measure Theory",
     "subjectSlug": "measure-theory",
     "instances": [
       {
         "term": "Spring 2018",
-        "university": "University of California, Santa Cruz",
-        "writer": "Monard",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Winter 2018",
         "university": "University of California, Santa Cruz",
         "writer": "Monard",
         "exam": "Preliminary Exam"
@@ -876,7 +887,31 @@
     "statement": "Let $\\lambda$ denote Lebesgue measure on $\\R$. Let $f_n:\\R\\rightarrow \\R\\cup\\{+\\infty\\}$ be a sequence of measurable functions such that $f_n\\rightarrow f$ in measure. Suppose that there exists a function $g\\in L^1(\\R)$ such that $\\abs{f_n(x)}\\leq g(x)$ for a.e. $x\\in \\R$.\n\n(a) Show that $\\abs{f(x)}\\leq g(x)$ for a.e. $x\\in\\R$.\n(b) Show that $\\displaystyle \\lim_{n\\rightarrow \\infty} \\int_\\R \\abs{f_n-f}\\, d\\lambda =0$."
   },
   {
-    "id": "Limits of Measurable Functions Are Measurable",
+    "id": "L1 Convergence from Convergence in Measure and Domination by a L1 Function 2",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "instances": [
+      {
+        "term": "Winter 2018",
+        "university": "University of California, Santa Cruz",
+        "writer": "Monard",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Convergence in measure",
+      "L1 convergence",
+      "Lebesgue integration"
+    ],
+    "theorems": [
+      "Dominated Convergence Theorem"
+    ],
+    "finished": false,
+    "statement": "Let $(X,\\Sigma,\\mu)$ be a complete measure space, and Let $f_n:X\\rightarrow \\R\\cup\\{+\\infty\\}$ be a sequence of measurable functions such that $f_n\\rightarrow f$ in measure. for some $f$. Suppose that there exists a function $g\\in L^1(\\R)$ such that $\\abs{f_n(x)}\\leq g(x)$ for a.e. $x\\in \\R$. Show that $\\displaystyle \\lim_{n\\rightarrow \\infty} \\int_\\R \\abs{f_n-f}\\, d\\lambda =0$. and $f\\in L^1(X)$."
+  },
+  {
+    "id": "Limits of Measurable Functions Are Measurable 1",
     "subject": "Measure Theory",
     "subjectSlug": "measure-theory",
     "instances": [
@@ -885,7 +920,22 @@
         "university": "University of California, Santa Cruz",
         "writer": "Monard",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Measurable functions",
+      "Sigma-algebra"
+    ],
+    "theorems": [],
+    "finished": true,
+    "statement": "Let $(X,\\Sigma)$ be a measurable space, and suppose $f_n:X\\rightarrow [-\\infty, \\infty]$ is measurable for each $n\\in\\N$.\n\n(a) Show that $\\displaystyle \\limsup_{n\\rightarrow \\infty} f_n(x)$ is a measurable function.\n(b) Show that if $(f_n)_{n=1}^\\infty$ converges pointwise to a function $f(x)$, then $f$ is measurable."
+  },
+  {
+    "id": "Limits of Measurable Functions Are Measurable 2",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "instances": [
       {
         "term": "Fall 2018",
         "university": "University of California, Santa Cruz",
@@ -905,8 +955,8 @@
       "Sigma-algebra"
     ],
     "theorems": [],
-    "finished": true,
-    "statement": "Let $(X,\\Sigma)$ be a measurable space, and suppose $f_n:X\\rightarrow [-\\infty, \\infty]$ is measurable for each $n\\in\\N$.\n\n(a) Show that $\\displaystyle \\limsup_{n\\rightarrow \\infty} f_n(x)$ is a measurable function.\n(b) Show that if $(f_n)_{n=1}^\\infty$ converges pointwise to a function $f(x)$, then $f$ is measurable."
+    "finished": false,
+    "statement": "Let $(X,\\Sigma,\\mu)$ be a complete measure space, and suppose $f_n:X\\rightarrow [-\\infty, \\infty]$ is measurable for each $n\\in\\N$. Show that if $f_n$ converges pointwise a.e. to a function $f$. Show that $f$ is measurable."
   },
   {
     "id": "Lipschitz Images of Lebesgue Measure-Zero Sets",
@@ -926,7 +976,7 @@
     ],
     "theorems": [],
     "finished": false,
-    "statement": "(a) Prove that if $f:\\R\\rightarrow \\R$ is Lipschitz continuous and $E\\subseteq\\ R$ has Lebesgue measure 0, then $f(E)$ also has Lebesgue measure 0. \n(b) For which $n,m\\in\\N$ is it the case that if $f:\\R^n\\rightarrow \\R^m$ is Lipschitz and $E\\subseteq\\R$ has Lebesgue measure 0, then $f(E)$ also has Lebesgue measure 0? Give a proof for the pairs $(n,m)$ that this is true, and give a counterexample for the pairs $(n,m)$ that this is false."
+    "statement": "(a) Prove that if $f:\\R\\rightarrow \\R$ is Lipschitz continuous and $E\\subseteq\\ R$ has Lebesgue measure 0, then $f(E)$ also has Lebesgue measure 0. \n(b) For which $n,m\\in\\N$ is it the case that if $f:\\R^n\\rightarrow \\R^m$ is Lipschitz and $E\\subseteq\\R^n$ has Lebesgue measure 0, then $f(E)$ also has Lebesgue measure 0? Give a proof for the pairs $(n,m)$ that this is true, and give a counterexample for the pairs $(n,m)$ that this is false."
   },
   {
     "id": "Local Comparison of Absolutely Continuous Measures",
@@ -950,7 +1000,7 @@
       "Radon-Nikodym theorem"
     ],
     "finished": false,
-    "statement": "Let $\\mu, \\nu$ be two $\\sigma$-finite measures on a measurable space $(X,\\Sigma)$ such that $\\nu \\ll \\mu$ and $\\nu \\neq 0$. Show that there exists a set $E\\in \\Sigma$ with and $n\\in\\N$ such that $\\nu(E)>0$ and, for all $A\\subseteq E$ with $A\\in \\Sigma$, \n$$\n\\frac{1}{n}\\mu(A) \\leq \\nu(A) \\leq n \\mu(A).\n$$"
+    "statement": "Let $\\mu, \\nu$ be two $\\sigma$-finite measures on a measurable space $(X,\\Sigma)$ such that $\\nu \\ll \\mu$ and $\\nu \\neq 0$. Show that there exists a set $E\\in \\Sigma$ and $n\\in\\N$ such that $\\nu(E)>0$ and, for all $A\\subseteq E$ with $A\\in \\Sigma$, \n$$\n\\frac{1}{n}\\mu(A) \\leq \\nu(A) \\leq n \\mu(A).\n$$"
   },
   {
     "id": "Measurable Level Sets Do Not Imply Measurability",
@@ -971,7 +1021,7 @@
     ],
     "theorems": [],
     "finished": false,
-    "statement": "Construct a function $f:\\R\\rightarrow \\R$ such that each set $\\{x\\in \\R:f(x)=\\alpha\\}$ is measurable for all $\\alpha \\in \\R$, but $f$ itself is not measurable."
+    "statement": "Construct a function $f:\\R\\rightarrow \\R$ such that each set $\\{x\\in \\R:f(x)=\\alpha\\}$ is measurable for all $\\alpha \\in \\R$, but the set $\\{x\\in X: f(x)>0\\}$ is not measurable."
   },
   {
     "id": "Measure of Shrinking Neighborhoods of a Compact Set",
@@ -1063,10 +1113,10 @@
       "Egorov's Theorem"
     ],
     "finished": false,
-    "statement": "Let $(f_n)$ be a sequence of measurable functions on a $\\sigma$-finite measure space $(X,\\Sigma, \\mu)$, and let $f$ be a function such that $f_n\\rightarrow f$ $\\mu$-almost everywhere. Show that there exists a sequence of measurable sets $(E_n)\\subseteq \\Sigma$ such that $f_n\\rightarrow f$ uniformly on $E_n$ for each $n\\in\\N$, and\n$$\n\\mu \\left(X\\backslash \\left(\\bigcap_{k=1}^\\infty E_k\\right) \\right)=0.\n$$"
+    "statement": "Let $(f_n)$ be a sequence of measurable functions on a $\\sigma$-finite measure space $(X,\\Sigma, \\mu)$, and let $f$ be a function such that $f_n\\rightarrow f$ $\\mu$-almost everywhere. Show that there exists a sequence of measurable sets $(E_n)\\subseteq \\Sigma$ such that $f_n\\rightarrow f$ uniformly on $E_n$ for each $n\\in\\N$, and\n$$\n\\mu \\left(X\\backslash \\left(\\bigcup_{k=1}^\\infty E_k\\right) \\right)=0.\n$$"
   },
   {
-    "id": "Products of Absolutely Continuous Functions are Absolutely Continuous",
+    "id": "Products of Absolutely Continuous Functions are Absolutely Continuous 1",
     "subject": "Measure Theory",
     "subjectSlug": "measure-theory",
     "instances": [
@@ -1075,7 +1125,22 @@
         "university": "University of California, Santa Cruz",
         "writer": "Monard",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Absolute continuity (functions)",
+      "Uniform Continuity"
+    ],
+    "theorems": [],
+    "finished": false,
+    "statement": "(a) Let $f,g:[0,1]\\rightarrow \\R$ be absolutely continuous. Show that their product $fg$ is also absolutely continuous.\n(b) Give and example of a function on from $[0,1]$ to $\\R$ that is uniformly continuous but not absolutely continuous."
+  },
+  {
+    "id": "Products of Absolutely Continuous Functions are Absolutely Continuous 2",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "instances": [
       {
         "term": "Winter 2019",
         "university": "University of California, Santa Cruz",
@@ -1096,7 +1161,7 @@
     ],
     "theorems": [],
     "finished": false,
-    "statement": "(a) Let $f,g:[0,1]\\rightarrow \\R$ be absolutely continuous. Show that their product $fg$ is also absolutely continuous.\n(b) Give and example of a function on from $[0,1]$ to $\\R$ that is uniformly continuous but not absolutely continuous."
+    "statement": "(a) Let $f,g:[0,1]\\rightarrow \\R$ be absolutely continuous. Show that their product $fg$ is also absolutely continuous."
   },
   {
     "id": "Proof of Chebyshev’s Inequality",
@@ -1141,6 +1206,30 @@
     ],
     "finished": false,
     "statement": "Let $(X,\\Sigma, \\mu)$ be a finite measure space, and let $p>r\\geq 1$. Prove that if $f\\in L^p(X)$, then $f\\in L^r(X)$, and \n$$\n\\norm{f}_r \\leq \\mu(X)^{\\frac{1}{r}-\\frac{1}{p}} \\norm{f}_p.\n$$"
+  },
+  {
+    "id": "Proof of the Borel-Cantelli Lemma",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "instances": [
+      {
+        "term": "Fall 2019",
+        "university": "University of California, Santa Cruz",
+        "writer": "Mishra",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Abstract measure",
+      "Sigma-algebra"
+    ],
+    "theorems": [
+      "Borel-Cantelli Lemma",
+      "Continuity from Above/Below"
+    ],
+    "finished": true,
+    "statement": "Suppose that $\\{A_n\\}$ is a sequence of measurable sets in a measure space $(X,\\Sigma, \\mu)$ such that\n$$\n\\sum_{n=1}^\\infty \\mu(A_n)<\\infty.\n$$\nShow that\n$$\n\\mu\\left(\\bigcap_{n=1}^\\infty \\bigcup_{i=n}^\\infty A_i\\right)=0.\n$$"
   },
   {
     "id": "Proof of the Generalized Hölder Inequality",
@@ -1246,12 +1335,6 @@
         "term": "Spring 2024",
         "university": "University of California, Santa Cruz",
         "writer": "Qing",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Fall 2019",
-        "university": "University of California, Santa Cruz",
-        "writer": "Mishra",
         "exam": "Preliminary Exam"
       },
       {
@@ -1477,7 +1560,7 @@
       "Radon-Nikodym theorem"
     ],
     "finished": false,
-    "statement": "Let $\\mu,\\nu$ be finite nonnegative measures on a measurable space $(X,\\Sigma)$ such that $\\nu \\ll \\mu$. \n\n(a) Show that $\\mu+\\nu$ is a measure such that $\\nu \\ll \\mu+\\nu$.\n(b) Let $\\frac{d\\nu}{d(\\mu+\\nu)}$ be the Radon-Nikodym derivative of $\\nu$ with respect to $\\mu+\\nu$. Show that\n$$\n0<\\frac{d\\nu}{d(\\mu+\\nu)} < 1\n$$\n$\\mu$-almost everywhere."
+    "statement": "Let $\\mu,\\nu$ be finite nonnegative measures on a measurable space $(X,\\Sigma)$ such that $\\mu \\ll \\nu$. \n\n(a) Show that $\\mu+\\nu$ is a measure such that $\\nu \\ll \\mu+\\nu$.\n(b) Let $\\frac{d\\nu}{d(\\mu+\\nu)}$ be the Radon-Nikodym derivative of $\\nu$ with respect to $\\mu+\\nu$. Show that\n$$\n0<\\frac{d\\nu}{d(\\mu+\\nu)} < 1\n$$\n$\\mu$-almost everywhere."
   },
   {
     "id": "The product measure on σ-finite spaces is unique",
@@ -1501,7 +1584,7 @@
     "statement": "Let $(X_1, \\Sigma_1, \\mu_1), (X_2, \\Sigma_2, \\mu_2)$ be two $\\sigma$-finite measure spaces. Let $X=X_1\\times X_2$ and $\\Sigma$ be the $\\sigma$-algebra generated by the set\n$$\n\\mathcal{B}=\\{A\\times B\\subseteq X\\times Y:A\\in \\Sigma_1, B\\in\\Sigma_2\\}.\n$$\nSuppose that $\\Phi,\\Psi$ are two measures defined on $\\Sigma$ such that\n$$\n\\Phi(A\\times B) = \\Psi(A\\times B) = \\mu_1(A)\\mu_2(B)\n$$\nfor all $A\\in \\Sigma_1, B\\in \\Sigma_2$. Show that $\\Phi=\\Psi$."
   },
   {
-    "id": "The σ-Algebra of Countable and Co-Countable Sets",
+    "id": "The σ-Algebra of Countable and Co-Countable Sets 1",
     "subject": "Measure Theory",
     "subjectSlug": "measure-theory",
     "instances": [
@@ -1509,12 +1592,6 @@
         "term": "Winter 2021",
         "university": "University of California, Santa Cruz",
         "writer": "Monard",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Winter 2016",
-        "university": "University of California, Santa Cruz",
-        "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
       }
     ],
@@ -1526,6 +1603,27 @@
     "theorems": [],
     "finished": true,
     "statement": "Let $X$ be an uncountable set, and let\n$$\n\\Sigma := \\{ E\\subseteq X : E \\text{ or } X\\backslash E \\text{ is at most countable}\\}.\n$$\n\n(a) Prove that $\\Sigma$ is a $\\sigma$-algebra, and that it is the $\\sigma$-algebra generated by $\\mathcal{E} = \\{\\{x\\}:x\\in X\\}$, the collection of all singleton sets.\n(b) Define $\\mu:\\Sigma\\rightarrow [0,\\infty]$ by \n$$\n\\mu(E) = \\begin{cases} 0, & E \\text{ is at most countable}, \\\\\n1, & X\\backslash E \\text{ is at most countable}.\n\\end{cases}\n$$\nShow that $\\mu$ is a measure on $(X,\\Sigma)$."
+  },
+  {
+    "id": "The σ-Algebra of Countable and Co-Countable Sets 2",
+    "subject": "Measure Theory",
+    "subjectSlug": "measure-theory",
+    "instances": [
+      {
+        "term": "Winter 2016",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Sigma-algebra",
+      "Abstract measure"
+    ],
+    "theorems": [],
+    "finished": true,
+    "statement": "Let $X$ be an uncountable set, and let\n$$\n\\Sigma := \\{ E\\subseteq X : E \\text{ or } X\\backslash E \\text{ is at most countable}\\}.\n$$\n\n(a) Prove that $\\Sigma$ is a $\\sigma$-algebra.\n(b) Define $\\mu:\\Sigma\\rightarrow [0,\\infty]$ by \n$$\n\\mu(E) = \\begin{cases} 0, & E \\text{ is at most countable}, \\\\\n1, & X\\backslash E \\text{ is at most countable}.\n\\end{cases}\n$$\nShow that $\\mu$ is a measure on $(X,\\Sigma)$."
   },
   {
     "id": "Uniform Convergence of Convolutions with Almost-Everywhere Vanishing Factors",

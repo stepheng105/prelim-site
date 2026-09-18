@@ -1,5 +1,28 @@
 [
   {
+    "id": "A Bounded Operator on a Hilbert Space has a Left Inverse If and Only If it is Bounded Below",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "instances": [
+      {
+        "term": "Spring 2010",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Hilbert space",
+      "Bounded linear operators"
+    ],
+    "theorems": [
+      "Open mapping theorem"
+    ],
+    "finished": false,
+    "statement": "Let $H$ be Hilbert space spaces and $A$ be a bounded linear operator on $H$. Show that there exists a bounded linear operator $B$ on $H$ such that. $BA=I$ if and only if there exists a constant $\\gamma>0$ such that\n$$\n\\norm{x}\\leq \\gamma \\norm{A(x)}\n$$\nfor all $x\\in H$."
+  },
+  {
     "id": "A Compact Diagonal Operator and a Noncompact Nilpotent Operator on ℓp",
     "subject": "Functional Analysis",
     "subjectSlug": "functional-analysis",
@@ -106,7 +129,7 @@
     ],
     "theorems": [],
     "finished": true,
-    "statement": "Let $X$ be the set of all continuously differentiable functions $f:[-1, 1]\\rightarrow \\R$. Because $X\\subseteq C([-1,1])$, $X$ is a normed space with\n$$\n\\norm{f} = \\max_{x\\in [-1, 1]}\\abs{f(x)}.\n$$\nDecide which of the following linear functionals on $X$ are bounded. For the ones that are bounded, find their norm.\n$$\n\\phi_1(f)=f(0),\\qquad \\phi_2(f)=\\int_{-1}^1 \\operatorname{sign}(f(x))f(x)\\, dx, \\qquad \\phi_3(f)= f'(0), \\qquad \\phi_4(f)=\\sum_{n=1}^\\infty \\frac{1}{2^n} f\\left( \\frac{1}{n}\\right)\n$$"
+    "statement": "Let $X$ be the set of all continuously differentiable functions $f:[-1, 1]\\rightarrow \\R$. Because $X\\subseteq C([-1,1])$, $X$ is a normed space with\n$$\n\\norm{f} = \\max_{x\\in [-1, 1]}\\abs{f(x)}.\n$$\nDecide which of the following linear functionals on $X$ are bounded. For the ones that are bounded, find their norm.\n$$\n\\phi_1(f)=f(0),\\qquad \\phi_2(f)=\\int_{-1}^1 \\operatorname{sign}(x)f(x)\\, dx, \\qquad \\phi_3(f)= f'(0), \\qquad \\phi_4(f)=\\sum_{n=1}^\\infty \\frac{1}{2^n} f\\left( \\frac{1}{n}\\right)\n$$"
   },
   {
     "id": "A Uniform Operator Norm Bound from a Weak Dual Bound",
@@ -252,6 +275,31 @@
     "statement": "Suppose that $X$ is a normed space and that $W$ is a closed subspace of $X$. Show that\n$$\nW = \\{x\\in X : \\phi(x) = 0 \\text{ for all } \\phi\\in X^* \\text{ with } W\\subseteq \\null{\\phi} \\}.\n$$"
   },
   {
+    "id": "Closed Range of I+K for Compact Operators K on a Hilbert Space",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "instances": [
+      {
+        "term": "Spring 2011",
+        "university": "University of California, Santa Cruz",
+        "writer": "Tromba",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Hilbert space",
+      "Compact operator",
+      "Banach space",
+      "Fredholm operator"
+    ],
+    "theorems": [
+      "The Spectral Theorem"
+    ],
+    "finished": false,
+    "statement": "Let $H$ be a separable Hilbert space and let $K:H\\rightarrow H$ be a linear operator.\n(a) Give the definition for $K$ to be Compact.\n(b) State the spectral theorem for a compact self-adjoint operator.\n(c) Show that if $K$ is compact, then $R(I+K)$ is closed."
+  },
+  {
     "id": "Closed Range of I+K for Compact Operators K",
     "subject": "Functional Analysis",
     "subjectSlug": "functional-analysis",
@@ -260,12 +308,6 @@
         "term": "Spring 2018",
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Spring 2011",
-        "university": "University of California, Santa Cruz",
-        "writer": "Tromba",
         "exam": "Preliminary Exam"
       }
     ],
@@ -277,7 +319,7 @@
     ],
     "theorems": [],
     "finished": false,
-    "statement": "Let $X$ be a Banach space and let $K\\in\\mathcal{L}(X)$ be a compact operator on $X$. Show that $R(I+K)$ is closed."
+    "statement": "Let $X$ be a Banach space and let $K\\in\\mathcal{L}(X)$ be a compact operator on $X$. You may assume that $\\ker(T+K)=\\{0\\}$. Show that $R(I+K)$ is closed."
   },
   {
     "id": "Closed Subspaces of Reflexive Spaces are Reflexive",
@@ -409,6 +451,36 @@
     "theorems": [],
     "finished": true,
     "statement": "Let $X,Y$ be complex Banach spaces, A map $B:X\\times Y \\rightarrow \\C$ is called a **bilinear form** if $B(x,y)$ is linear in $x$ for all $y\\in Y$ and linear in $y$ for all $x\\in X$. It is called **bounded** if there exists a constant $M>0$ such that\n$$\n|B(x,y)| \\leq M \\norm{x}\\norm{y}\n$$\nfor all $x\\in X,y\\in Y$. \n\nShow that there exists a bijective correspondence between the set of bounded bilinear forms $B:X\\times Y\\rightarrow \\C$ and the set of bounded linear operators $A:X\\rightarrow Y^*$, where $Y^*$ is the dual space of $Y$."
+  },
+  {
+    "id": "Defining the Banach Space Adjoint",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "instances": [
+      {
+        "term": "Fall 2018",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Winter 2016",
+        "university": "University of California, Santa Cruz",
+        "writer": "Lin",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Adjoint operator",
+      "Bounded linear operators",
+      "Linear functionals"
+    ],
+    "theorems": [
+      "Hahn-Banach Theorem"
+    ],
+    "finished": true,
+    "statement": "Let $A:X\\rightarrow Y$ be a bounded lienear operator between Banach spaces $X,Y$. \n\n(a) Define the Banach space adjoint operator $A^*$. \n(b) Show that $A^*$ is well defined and bounded, with $\\norm{A^*}=\\norm{A}$."
   },
   {
     "id": "Determining the Norm and Spectrum of an Integration Operator",
@@ -645,7 +717,7 @@
     "statement": "Let $A$ be a subset in a normed space $V$. Suppose that\n$$\n\\sup_{x\\in A}|\\phi(x)|<\\infty\n$$\nfor all $\\phi\\in V^*$, where $V^*$ denotes the dual space of $V$. Prove that\n$$\n\\sup_{x\\in A}\\norm{x}<\\infty.\n$$"
   },
   {
-    "id": "Injective Operators with Closed Range Are Bounded Below",
+    "id": "Injective Operators with Closed Range Are Bounded Below 1",
     "subject": "Functional Analysis",
     "subjectSlug": "functional-analysis",
     "instances": [
@@ -654,7 +726,24 @@
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Banach space",
+      "Bounded linear operators"
+    ],
+    "theorems": [
+      "Open Mapping Theorem"
+    ],
+    "finished": true,
+    "statement": "Let $X,Y$ be Banach spaces and $A:X\\rightarrow Y$ be a bounded linear operator. Show that the following are equivalent:\n* $A$ is injective and the range of $A$ is closed.\n* There exists a constant $M>0$ such that \n$$\n\\norm{x} \\leq M \\norm{A(x)}\n$$\nfor all $x\\in X$.\n* There exists a bounded linear operator $B:R(A)\\rightarrow X$ such that $BA=I_X$."
+  },
+  {
+    "id": "Injective Operators with Closed Range Are Bounded Below 2",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "instances": [
       {
         "term": "Fall 2021",
         "university": "University of California, Santa Cruz",
@@ -677,7 +766,7 @@
       "Open Mapping Theorem"
     ],
     "finished": true,
-    "statement": "Let $X,Y$ be Banach spaces and $A:X\\rightarrow Y$ be a bounded linear operator. Show that the following are equivalent:\n* $A$ is injective and the range of $A$ is closed.\n* There exists a constant $M>0$ such that \n$$\n\\norm{x} \\leq M \\norm{A(x)}\n$$\nfor all $x\\in X$.\n* There exists a bounded linear operator $B:R(A)\\rightarrow X$ such that $BA=I_X$."
+    "statement": "Let $X,Y$ be Banach spaces and $A:X\\rightarrow Y$ be a bounded linear operator. Show that the following are equivalent:\n* $A$ is injective and the range of $A$ is closed.\n* There exists a constant $M>0$ such that \n$$\n\\norm{x} \\leq M \\norm{A(x)}\n$$\nfor all $x\\in X$."
   },
   {
     "id": "Norms Defined by Inner Products",
@@ -765,7 +854,24 @@
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Banach space",
+      "Bounded linear operators"
+    ],
+    "theorems": [
+      "Closed Graph Theorem"
+    ],
+    "finished": true,
+    "statement": "Let $X$ be a Banach space which decomposes as a direct sum of two subspace $X=X_1\\oplus X_2$. Let $P:X\\rightarrow X$ be the projection function onto $X_1$. I.e., $P(x_1+x_2)=x_1$ for all $x_1\\in X_1, x_2\\in X_2$. \n\n(a) Show that $P$ is a linear operator satisfying $P^2=P$.\n(b) Show that $P$ is bounded if and only if $X_1,X_2$ are closed subspaces of $X$."
+  },
+  {
+    "id": "Projection Operators are Bounded If their Image and Kernel are Closed",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "instances": [
       {
         "term": "Fall 2014",
         "university": "University of California, Santa Cruz",
@@ -788,7 +894,7 @@
       "Closed Graph Theorem"
     ],
     "finished": true,
-    "statement": "Let $X$ be a Banach space which decomposes as a direct sum of two subspace $X=X_1\\oplus X_2$. Let $P:X\\rightarrow X$ be the projection function onto $X_1$. I.e., $P(x_1+x_2)=x_1$ for all $x_1\\in X_1, x_2\\in X_2$. \n\n(a) Show that $P$ is a linear operator satisfying $P^2=P$.\n(b) Show that $P$ is bounded if and only if $X_1,X_2$ are closed subspaces of $X$."
+    "statement": "Let $X$ be a Banach space which decomposes as a direct sum of two closed subspace $X_1,X_2$. Let $P:X\\rightarrow X$ be the projection function onto $X_1$. I.e., $P(x_1+x_2)=x_1$ for all $x_1\\in X_1, x_2\\in X_2$. Show that $P$ is continuous."
   },
   {
     "id": "Proof of the Neumann Series Theorem",
@@ -811,7 +917,7 @@
       "Neumann Series"
     ],
     "finished": false,
-    "statement": "Suppose that $A\\in \\mathcal{L}(X)$ is a bounded linear operator on a Banach space $X$ such that $\\norm{A}<1$. Show that \n$$\nB:= \\sum_{n=0}^\\infty A^k\n$$\nis a well defined and bounded linear operator such that $AB=BA=I$."
+    "statement": "Suppose that $A\\in \\mathcal{L}(X)$ is a bounded linear operator on a Banach space $X$ such that $\\norm{A}<1$. Show that \n$$\nB:= \\sum_{n=0}^\\infty A^k\n$$\nis a well defined and bounded linear operator such that $(I-T)B=B(I-T)=I$."
   },
   {
     "id": "Proof of the Open Mapping Theorem Via the Closed Graph Theorem",
@@ -1070,36 +1176,6 @@
     "statement": "For a sequence $\\alpha =(\\alpha_n)_{n=1}^\\infty$ of positive numbers, let $X=\\ell^1(a)$ stand for the Banach space of all sequences $x=(x_n)_{n=1}^\\infty$ (where $x_n\\in \\C$) for which\n$$\n\\norm{x}_X=\\sum_{n=1}^\\infty |x_n|\\alpha_n < \\infty.\n$$\nYou may take for granted that $X$ is a Banach space. Consider the backward shift operator $B$ defined by\n$$\nB((x_n)_{n=1}^\\infty)=(x_{n+1})_{n=1}^\\infty.\n$$\nProve that the following are equivalent:\n(a) $B(x)\\in X$ for all $x\\in X$.\n(b) $B$ is a bounded linear operator from $X$ to $X$.\n(c) $\\displaystyle \\sup_{n\\geq 1} \\frac{a_n}{a_{n+1}}<\\infty$."
   },
   {
-    "id": "The Banach Space Adjoint",
-    "subject": "Functional Analysis",
-    "subjectSlug": "functional-analysis",
-    "instances": [
-      {
-        "term": "Fall 2018",
-        "university": "University of California, Santa Cruz",
-        "writer": "Ehrhardt",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Winter 2016",
-        "university": "University of California, Santa Cruz",
-        "writer": "Lin",
-        "exam": "Preliminary Exam"
-      }
-    ],
-    "difficulty": 3,
-    "concepts": [
-      "Adjoint operator",
-      "Bounded linear operators",
-      "Linear functionals"
-    ],
-    "theorems": [
-      "Hahn-Banach Theorem"
-    ],
-    "finished": true,
-    "statement": "Let $A:X\\rightarrow Y$ be a bounded lienear operator between Banach spaces $X,Y$. \n\n(a) Define the Banach space adjoint operator $A^*$. \n(b) Show that $A^*$ is well defined and bounded, with $\\norm{A^*}=\\norm{A}$."
-  },
-  {
     "id": "The Closed Unit Ball in the Dual Space is Weak*-Compact",
     "subject": "Functional Analysis",
     "subjectSlug": "functional-analysis",
@@ -1118,7 +1194,7 @@
     ],
     "theorems": [],
     "finished": false,
-    "statement": "Suppose $X$ is a Banach space. Show that the unit ball $B^* = \\{\\phi \\in X^* : \\norm{\\phi}\\leq 1\\}$ is closed in the weak*-topology."
+    "statement": "Suppose $X$ is a seperable Banach space. Show that the unit ball $B^* = \\{\\phi \\in X^* : \\norm{\\phi}\\leq 1\\}$ is compact in the weak*-topology."
   },
   {
     "id": "The Closed Unit Ball is Weakly Closed",
@@ -1143,7 +1219,7 @@
       "Banach-Alaoglu theorem"
     ],
     "finished": false,
-    "statement": "Let $X$ be a Banach space, and let $B= \\{x\\in X:\\norm{x}\\leq 1\\}$ be the closed unit ball. \n\n(a) Show that $B$ is closed with respect to the weak topology. \n(b) Is it the case that $B$ is compact with respect to the weak topology? If not, give a counterexample and find (and prove the validity of) a condition on $X$ that makes this statement true."
+    "statement": "Let $X$ be a Banach space, and let $B= \\{x\\in X:\\norm{x}\\leq 1\\}$ be the closed unit ball. \n\n(a) Show that $B$ is closed with respect to the weak topology. \n(b) Is it the case that the unit sphere $S=\\{x\\in X:\\norm{x}=1\\}$ is closed with respect to the weak topology? If not, give a counterexample."
   },
   {
     "id": "The Dual Space of a Normed Space is Banach",
@@ -1331,12 +1407,6 @@
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Spring 2020",
-        "university": "University of California, Santa Cruz",
-        "writer": "Ehrhardt",
-        "exam": "Preliminary Exam"
       }
     ],
     "difficulty": 5,
@@ -1350,6 +1420,28 @@
     ],
     "finished": true,
     "statement": "Let $X$ and $Y$ be normed spaces with $X\\neq \\{0\\}$, and consider the space of bounded linear operators $\\mathcal{L}(X,Y)$ with the standard operator norm. Show that $\\mathcal{L}(X,Y)$ is Banach if and only if $Y$ is Banach."
+  },
+  {
+    "id": "The Space of Operators Between Normed Spaces is Banach if the Codomain is Banach",
+    "subject": "Functional Analysis",
+    "subjectSlug": "functional-analysis",
+    "instances": [
+      {
+        "term": "Spring 2020",
+        "university": "University of California, Santa Cruz",
+        "writer": "Ehrhardt",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 3,
+    "concepts": [
+      "Bounded linear operators",
+      "Banach space",
+      "Normed linear space"
+    ],
+    "theorems": [],
+    "finished": true,
+    "statement": "Let $X$ and $Y$ be normed spaces with $X\\neq \\{0\\}$, and consider the space of bounded linear operators $\\mathcal{L}(X,Y)$ with the standard operator norm. Show that if $Y$ is Banach, then $\\mathcal{L}(X,Y)$ is Banach."
   },
   {
     "id": "The Spectrum of an Operator is Compact and Nonempty",

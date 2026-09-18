@@ -25,40 +25,6 @@
     "statement": "Suppose that $(X,d)$ is a complete metric space. We say that a subset $A\\subseteq X$ is totally bounded if, for every $\\varepsilon>0$, there are finitely many points $\\{x_i\\}_{i=1}^k$ from $A$ such that $A\\subseteq \\bigcup_{i=1}^k B_\\varepsilon(x_i)$, where each $B_\\varepsilon(x_i)$ is the open ball of radius $\\varepsilon$ centered at $x_i$. \n\nProve that a closed subset $A$ of $X$ is compact if and only if it is totally bounded."
   },
   {
-    "id": "A Compact Subset of Euclidean Space Can be Separated From Any Open Set Containing It",
-    "subject": "Basic Analysis and Topology",
-    "subjectSlug": "basic-analysis-topology",
-    "instances": [
-      {
-        "term": "Winter 2019",
-        "university": "University of California, Santa Cruz",
-        "writer": "Lin",
-        "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Spring 2019",
-        "university": "University of California, Santa Cruz",
-        "writer": "Lin",
-        "exam": "Preliminary Exam"
-      }
-    ],
-    "difficulty": 4,
-    "concepts": [
-      "Open Sets",
-      "Closed Sets",
-      "Compactness",
-      "Hausdorff Spaces",
-      "Locally Compact Spaces",
-      "Continuous Functions"
-    ],
-    "theorems": [
-      "Urysohn Lemma",
-      "Heine-Borel Theorem"
-    ],
-    "finished": true,
-    "statement": "Suppose that $U\\subseteq \\R^n$ is open, and $K\\subseteq U$ is compact. Prove that there exists an open set $V\\subseteq \\R$ whose closure is compact such that\n$$\nK\\subseteq V \\subseteq \\overline{V} \\subseteq U.$$"
-  },
-  {
     "id": "A Complete Subset of a Metric Space is Closed",
     "subject": "Basic Analysis and Topology",
     "subjectSlug": "basic-analysis-topology",
@@ -81,7 +47,7 @@
     "statement": "Let $(X,d)$ be a metric space and let $Y$ be a subspace of $X$ such that $(Y,d)$ is a complete metric space. Show that $Y$ is closed in $X$."
   },
   {
-    "id": "A Continuous Bijection from a Compact Space to a Hausdorff Space is a Homeomorphism",
+    "id": "A Continuous Bijection from a Compact Space to a Hausdorff Space is a Homeomorphism 1",
     "subject": "Basic Analysis and Topology",
     "subjectSlug": "basic-analysis-topology",
     "instances": [
@@ -108,7 +74,29 @@
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Hausdorff Spaces",
+      "Continuous Functions",
+      "Homeomorphisms",
+      "Compactness"
+    ],
+    "theorems": [
+      "Compact Subsets of Hausdorff Spaces are Closed",
+      "Closed Subsets of Compact Spaces are Compact",
+      "Continuity Preserves Compactness",
+      "Continuous Bijection from Compact to Hausdorff is a Homeomorphism"
+    ],
+    "finished": true,
+    "statement": "Suppose that $f:X\\rightarrow Y$ is a continuous and bijective map, where $X$ is compact and $Y$ is Hausdorff. Show that $f$ is a homeomorphism."
+  },
+  {
+    "id": "A Continuous Bijection from a Compact Space to a Hausdorff Space is a Homeomorphism 2",
+    "subject": "Basic Analysis and Topology",
+    "subjectSlug": "basic-analysis-topology",
+    "instances": [
       {
         "term": "Winter 2010",
         "university": "University of California, Santa Cruz",
@@ -185,6 +173,12 @@
     "instances": [
       {
         "term": "Spring 2015",
+        "university": "University of California, Santa Cruz",
+        "writer": "Qing",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Spring 2022",
         "university": "University of California, Santa Cruz",
         "writer": "Qing",
         "exam": "Preliminary Exam"
@@ -428,10 +422,10 @@
       "Equivalence of Compactness and Sequential Compactness"
     ],
     "finished": false,
-    "statement": "(a) Show that every compact metric space is sequentially compact. Recall that a topological space $X$ is said to be sequentially compact if every sequence of points in $X$ has a subsequence converging to a point in $X$. \n(b) Show that (a) is not true in a general topological space"
+    "statement": "Show that every compact metric space is sequentially compact. Recall that a topological space $X$ is said to be sequentially compact if every sequence of points in $X$ has a subsequence converging to a point in $X$."
   },
   {
-    "id": "Compact Spaces are Limit Point Compact",
+    "id": "Compact Spaces are Limit Point Compact 1",
     "subject": "Basic Analysis and Topology",
     "subjectSlug": "basic-analysis-topology",
     "instances": [
@@ -440,7 +434,25 @@
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Limit Point Compactness",
+      "Product Topology",
+      "Compactness"
+    ],
+    "theorems": [
+      "Compact Implies Limit Point Compact"
+    ],
+    "finished": true,
+    "statement": "(a) Give the definition of compactness and limit point compactness.\n(b) Show that every compact space is limit point compact.\n(c) Give (and prove the validity of) an example that shows that not every limit point compact space is compact."
+  },
+  {
+    "id": "Compact Spaces are Limit Point Compact 2",
+    "subject": "Basic Analysis and Topology",
+    "subjectSlug": "basic-analysis-topology",
+    "instances": [
       {
         "term": "Fall 2012",
         "university": "University of California, Santa Cruz",
@@ -464,7 +476,7 @@
       "Compact Implies Limit Point Compact"
     ],
     "finished": true,
-    "statement": "(a) Give the definition of compactness and limit point compactness.\n(b) Show that every compact space is limit point compact.\n(c) Give (and prove the validity of) an example that shows that not every limit point compact space is compact."
+    "statement": "(a) Give the definition of compactness and limit point compactness.\n(b) Show that every compact space is limit point compact."
   },
   {
     "id": "Compact Subsets of Hausdorff Spaces are Closed, and a Counterexample if we Only Assume T1",
@@ -499,6 +511,32 @@
     "statement": "(a) Show that every compact subset of a Hausdorff space is closed.\n(b) Give an example where (a) fails if we only assume that the space is $T_1$."
   },
   {
+    "id": "Compactness in the Space of Continuous Functions implies being Bounded and Equicontinuous",
+    "subject": "Basic Analysis and Topology",
+    "subjectSlug": "basic-analysis-topology",
+    "instances": [
+      {
+        "term": "Spring 2014",
+        "university": "University of California, Santa Cruz",
+        "writer": "Qing",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Equicontinuity",
+      "Uniform Convergence",
+      "Continuous Functions",
+      "Compactness",
+      "Metric Spaces"
+    ],
+    "theorems": [
+      "Arzelà-Ascoli Theorem"
+    ],
+    "finished": false,
+    "statement": "Let $(X,d)$ be a compact metric space, and let $C(X)$ denote the space of continuous real-valued functions on $X$ with the supremum norm. Suppose that $K\\subseteq C(X)$ is compact. Show that $K$ is uniformly bounded (in norm) and uniformly equicontinuous."
+  },
+  {
     "id": "Compactness in the Space of Continuous Functions is Equivalent to being Closed, Bounded, and Equicontinuous",
     "subject": "Basic Analysis and Topology",
     "subjectSlug": "basic-analysis-topology",
@@ -522,7 +560,7 @@
       "Arzelà-Ascoli Theorem"
     ],
     "finished": false,
-    "statement": "Let $K$ be a compact metric space and let $A$ be a subset of $C(K)$, the space of continuous real-valued continuous functions defined on $K$ with the supremum norm. Show that $A$ is compact if and only if $A$ is closed, bounded, and equicontinuous."
+    "statement": "Let $K$ be a compact metric space and let $A$ be a subset of $C(K)$, the space of continuous real-valued continuous functions defined on $K$ with the supremum norm. Show that $A\\subseteq C(K)$ is compact if and only if $A$ is closed, bounded, and equicontinuous."
   },
   {
     "id": "Compactness of Uniformly Hölder Continuous Functions",
@@ -662,7 +700,7 @@
     "statement": "Let $\\Z$ have the standard discrete topology. \n\n(a) Show that if $\\R$ is equipped with the standard topology, then every continuous function $f:\\R\\rightarrow \\Z$ is constant.\n(b) Find a necessary and sufficient condition on a topological space $X$ such that every continuous function $f:X\\rightarrow \\Z$ is constant. Be sure to prove that your condition is both necessary and sufficient."
   },
   {
-    "id": "Convergence of Cesàro Means",
+    "id": "Convergence of Cesàro Means 1",
     "subject": "Basic Analysis and Topology",
     "subjectSlug": "basic-analysis-topology",
     "instances": [
@@ -671,7 +709,22 @@
         "university": "University of California, Santa Cruz",
         "writer": "Lin",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 2,
+    "concepts": [
+      "Sequences",
+      "Cauchy Sequences"
+    ],
+    "theorems": [],
+    "finished": true,
+    "statement": "Let $(x_n)$ be a sequence of real numbers. For each $n\\in\\N$, set\n$$\ny_n = \\frac{x_1+\\cdots +x_n}{n}.\n$$\n(a) Show that if $\\lim_{n\\rightarrow \\infty}x_n$ exists, then $\\lim_{n\\rightarrow \\infty} y_n$ exists, and find its limit.\n(b) Is it the case that if $\\lim_{n\\rightarrow \\infty}y_n$ then $\\lim_{n\\rightarrow \\infty} x_n$ exists? Justify your answer."
+  },
+  {
+    "id": "Convergence of Cesàro Means 2",
+    "subject": "Basic Analysis and Topology",
+    "subjectSlug": "basic-analysis-topology",
+    "instances": [
       {
         "term": "Winter 2014",
         "university": "University of California, Santa Cruz",
@@ -686,7 +739,7 @@
     ],
     "theorems": [],
     "finished": true,
-    "statement": "Let $(x_n)$ be a sequence of real numbers. For each $n\\in\\N$, set\n$$\ny_n = \\frac{x_1+\\cdots +x_n}{n}.\n$$\n(a) Show that if $\\lim_{n\\rightarrow \\infty}x_n$ exists, then $\\lim_{n\\rightarrow \\infty} y_n$ exists, and find its limit.\n(b) Is it the case that if $\\lim_{n\\rightarrow \\infty}y_n$ then $\\lim_{n\\rightarrow \\infty} x_n$ exists? Justify your answer."
+    "statement": "Let $(x_n)$ be a sequence of real numbers. For each $n\\in\\N$, set\n$$\ny_n = \\frac{x_1+\\cdots +x_n}{n}.\n$$\nShow that if $\\lim_{n\\rightarrow \\infty}x_n$ exists, then $\\lim_{n\\rightarrow \\infty} y_n$ exists, and find its limit."
   },
   {
     "id": "Countability of Subsets Without Accumulation Points",
@@ -885,7 +938,7 @@
     ],
     "theorems": [],
     "finished": false,
-    "statement": "A subset $A\\subseteq \\R$ is called perfect if every point $x\\in A$ is a limit point of $A$. Prove that every nonempty, perfect subset of $\\R$ is uncountable."
+    "statement": "A subset $A\\subseteq \\R$ is called perfect if every point $x\\in A$ is a limit point of $A$. Prove that every nonempty, closed, perfect subset of $\\R$ is uncountable."
   },
   {
     "id": "Every Open Connected Set of the Plane is Path Connected",
@@ -907,7 +960,7 @@
     ],
     "theorems": [],
     "finished": true,
-    "statement": "(a) Show that every open connected subset $A\\subseteq \\R$ is path connected.\n(b) Show that $X=[0,1]\\times [0,1]$ in the lexicographic order topology is not path connected."
+    "statement": "(a) Show that every open connected subset $A\\subseteq \\R^2$ is path connected.\n(b) Show that $X=[0,1]\\times [0,1]$ in the lexicographic order topology is not path connected."
   },
   {
     "id": "Extension of Uniformly Continuous Maps from Dense Subsets of a Metric Space",
@@ -1066,7 +1119,30 @@
     "statement": "Suppose that $(f_n)_{n=1}^\\infty$ is a sequence of continuous functions from a closed interval $[a,b]$ to $\\R$, where each $f_n(x)$ is monotone increasing. Assume also that $f_n(x)$ converges to a continuous function $f(x)$ pointwise on $[a,b]$. Show that the family of functions $\\{f_n\\}_{n\\in\\N}$ is uniformly equicontinuous on $[a,b]$."
   },
   {
-    "id": "Pointwise Converges of Increasing Functions on a Compact Interval is Actually Uniform Convergence",
+    "id": "Pointwise Converges of Increasing Functions on a Compact Interval is Actually Uniform Convergence 1",
+    "subject": "Basic Analysis and Topology",
+    "subjectSlug": "basic-analysis-topology",
+    "instances": [
+      {
+        "term": "Spring 2020",
+        "university": "University of California, Santa Cruz",
+        "writer": "Qing",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Uniform Convergence",
+      "Uniform Continuity",
+      "Continuous Functions",
+      "Compactness"
+    ],
+    "theorems": [],
+    "finished": true,
+    "statement": "Suppose that $(f_n)_{n=1}^\\infty$ is a sequence of continuous functions from a closed interval $[a,b]$ to $\\R$, where each $f_n(x)$ is monotone increasing. Assume also that $f_n(x)$ converges to a continuous function $f(x)$ pointwise on $[a,b]$. Show that $f_n(x)$ in fact converges uniformly to $f(x)$ on $[a,b]$."
+  },
+  {
+    "id": "Pointwise Converges of Increasing Functions on a Compact Interval is Actually Uniform Convergence 2",
     "subject": "Basic Analysis and Topology",
     "subjectSlug": "basic-analysis-topology",
     "instances": [
@@ -1075,13 +1151,24 @@
         "university": "University of California, Santa Cruz",
         "writer": "Qing",
         "exam": "Preliminary Exam"
-      },
-      {
-        "term": "Spring 2020",
-        "university": "University of California, Santa Cruz",
-        "writer": "Qing",
-        "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 4,
+    "concepts": [
+      "Uniform Convergence",
+      "Uniform Continuity",
+      "Continuous Functions",
+      "Compactness"
+    ],
+    "theorems": [],
+    "finished": true,
+    "statement": "Suppose that $(f_n)_{n=1}^\\infty$ is a sequence of continuous functions from a closed interval $[a,b]$ to $\\R$, where each $f_n(x)$ is monotone increasing. Assume also that $f_n(x)$ converges to a continuous function $f(x)$ pointwise on $[a,b]$. \n(a) Show that, for any given finitely many points $a \\leq x_1<\\cdots < x_k \\leq b$ and $\\varepsilon>0$, there exists $N\\in\\N$ such that for each $i=1,\\cdots, k-1$,\n$$\nf(x_i)-\\varepsilon < f_n(x_i) \\leq f_n(x) \\leq f_n(x_{i+1})<f(x_{i+1})+\\varepsilon\n$$\nfor all $x\\in (x_i, x_{i+1})$ and $n\\geq N$.\n(b) Show that $f_n$ converges uniformly to $f$ on $[a,b]$."
+  },
+  {
+    "id": "Pointwise Converges of Increasing Functions on a Compact Interval is Actually Uniform Convergence 3",
+    "subject": "Basic Analysis and Topology",
+    "subjectSlug": "basic-analysis-topology",
+    "instances": [
       {
         "term": "Winter 2022",
         "university": "University of California, Santa Cruz",
@@ -1176,11 +1263,12 @@
     "difficulty": 3,
     "concepts": [
       "Compactness",
-      "Sequential Compactness",
+      "Metric Spaces",
       "Equicontinuity",
       "Uniform Convergence",
       "Differentiation",
-      "Metric Spaces"
+      "Sequential Compactness",
+      "Closed Sets"
     ],
     "theorems": [
       "Arzelà-Ascoli Theorem",
@@ -1188,7 +1276,7 @@
       "Equivalence of Compactness and Sequential Compactness"
     ],
     "finished": true,
-    "statement": "Let $C([0,1])$ be the space of real-valued continuous functions on $[0,1]$ with the norm\n$$\n\\norm{f}_0 = \\max \\{\\abs{f(x)}:x\\in [0,1]\\},\n$$\nand let $C^1([0,1])$ be the space of real-valued continuously differentiable functions on $[0,1]$ with the norm\n$$\n\\norm{f}_1 := \\norm{f}_0+\\norm{f'}_0\n$$\nShow that a bounded set in $C^1([0,1])$ is precompact in $C([0,1])$."
+    "statement": "Let $C([0,1])$ be the space of real-valued continuous functions on $[0,1]$ with the norm\n$$\n\\norm{f}_0 = \\max \\{\\abs{f(x)}:x\\in [0,1]\\},\n$$\nand let $C^1([0,1])$ be the space of real-valued continuously differentiable functions on $[0,1]$ with the norm\n$$\n\\norm{f}_1 := \\norm{f}_0+\\norm{f'}_0\n$$\n(a) Show that the inclusion map $\\iota: C^1([0,1])\\rightarrow C([0,1])$ is continuous.\n(b) Show that a bounded set in $C^1([0,1])$ is precompact in $C([0,1])$."
   },
   {
     "id": "Proof of the Contraction Mapping Theorem",
@@ -1299,12 +1387,11 @@
     "difficulty": 4,
     "concepts": [
       "Connectedness",
-      "Path Connectedness",
       "Closed Sets"
     ],
     "theorems": [],
     "finished": false,
-    "statement": "Let $S\\subseteq \\R^2$ be the topologist's sine curve\n$$\nS=\\left\\{(x, \\sin\\left(\\frac{1}{x}\\right):x\\in (0,1]\\right\\}.\n$$\n\n(a) Determine $\\overline{S}$.\n(b) Show that $\\overline{S}$ is connected.\n(c) Show that $\\overline{S}$ is not path connected."
+    "statement": "Let $S\\subseteq \\R^2$ be the topologist's sine curve\n$$\nS=\\left\\{(x, \\sin\\left(\\frac{1}{x}\\right):x\\in (0,1]\\right\\}.\n$$\n\n(a) Determine $\\overline{S}$.\n(b) Show that $\\overline{S}$ is connected."
   },
   {
     "id": "The Image of a Connected Space Under a Continuous Map is Connected",
@@ -1330,7 +1417,7 @@
     "statement": "Let $X,Y$ be topological spaces, and let $f:X\\rightarrow Y$ be continuous. Show that if $X$ is connected, then $f(X)$ is connected (with respect to the subspace topology)."
   },
   {
-    "id": "The Product Topology is Metrizable If and Only If it is Indexed by a Countable Set",
+    "id": "The Product Topology is with a Countable Indexing Set is Metrizable",
     "subject": "Basic Analysis and Topology",
     "subjectSlug": "basic-analysis-topology",
     "instances": [
@@ -1339,7 +1426,22 @@
         "university": "University of California, Santa Cruz",
         "writer": "Ehrhardt",
         "exam": "Preliminary Exam"
-      },
+      }
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Product Topology",
+      "Metric Spaces"
+    ],
+    "theorems": [],
+    "finished": true,
+    "statement": "Let $J$ be an indexing set. Show that if $J$ is countable, then  $X=[0,1]^J$ is metrizable."
+  },
+  {
+    "id": "The Product Topology is with an Uncountable Indexing Set is Not Metrizable",
+    "subject": "Basic Analysis and Topology",
+    "subjectSlug": "basic-analysis-topology",
+    "instances": [
       {
         "term": "Winter 2011",
         "university": "University of California, Santa Cruz",
@@ -1354,7 +1456,7 @@
     ],
     "theorems": [],
     "finished": true,
-    "statement": "Let $J$ be an indexing set. Show that the space $X=[0,1]^J$ is metrizable if and only if $J$ is at most countable."
+    "statement": "Let $J$ be an indexing set. Show that if $J$ is uncountable, then $X=[0,1]^J$ is not metrizable."
   },
   {
     "id": "The Rational Numbers is Not the Intersection of Countably Many Open Sets",
@@ -1399,7 +1501,7 @@
     ],
     "theorems": [],
     "finished": true,
-    "statement": "Let $X$ be a topological space and let $A,B\\subseteq X$ be nonempty and connected. \n\n(a) Show that if $A\\cap B \\neq \\varnothing$, then $A\\cup B$ is connected.\n(b) Show that the converse of (a) is also true if we suppose that $A$ and $B$ are closed in $X$."
+    "statement": "Let $X$ be a topological space and let $A,B\\subseteq X$ be nonempty and connected. Show that if $A\\cap B \\neq \\varnothing$, then $A\\cup B$ is connected."
   },
   {
     "id": "The Union of Non-Disjoint Connected Spaces is Connected 2",
@@ -1441,6 +1543,33 @@
     "theorems": [],
     "finished": true,
     "statement": "Let $(X,d)$ be a totally bounded metric space. That is, for all $\\varepsilon>0$, there exists a finite collection of balls of radius $\\varepsilon$ that covers $X$. Suppose that $f:X\\rightarrow Y$ is uniformly continuous, where $(Y,\\rho)$ is another metric space. \n\n(a) Show that $f(X)$ is totally bounded.\n(b) Give an example demonstrating that $f(X)$ need not be totally bounded if $f$ is just continuous, but not uniformly continuous."
+  },
+  {
+    "id": "Urysohn's Lemma for Locally Compact Metric Spaces",
+    "subject": "Basic Analysis and Topology",
+    "subjectSlug": "basic-analysis-topology",
+    "instances": [
+      {
+        "term": "Fall 2019",
+        "university": "University of California, Santa Cruz",
+        "writer": "Lin",
+        "exam": "Preliminary Exam"
+      }
+    ],
+    "difficulty": 5,
+    "concepts": [
+      "Metric Spaces",
+      "Compactness",
+      "Closed Sets",
+      "Continuous Functions",
+      "Uniform Continuity"
+    ],
+    "theorems": [
+      "Urysohn Lemma",
+      "Metric Spaces are Normal"
+    ],
+    "finished": true,
+    "statement": "(a) State Urysohn's Lemma for locally compact Hausdorff spaces.\n(b) Let $(X,d)$ be a metric space. For a nonempty subset $A\\subseteq X$, define\n$$\nd(x,A) := \\inf\\{ d(x,a):a\\in A\\}.\n$$\nShow that $d(x,A)$ is uniformly continuous in $x$.\n(c) Let $A,B$ be two closed disjoint nonempty subsets of $(X,d)$. Construct an explicit continuous function $f:X\\rightarrow [0,1]$ such that $f(a)=0$ for all $a\\in A$ and $f(b)=1$ for all $b\\in B$. \n(d) Use your function from part (c) to prove Urysohn's Lemma for locally compact Hausdorff spaces in the case of a metric space."
   },
   {
     "id": "Urysohn's Lemma for Metric Spaces 1",
@@ -1497,7 +1626,7 @@
       "Metric Spaces are Normal"
     ],
     "finished": true,
-    "statement": "On the Euclidean space $\\R^n$, for a subset $A\\subseteq \\R^n$ and a point $x\\in  \\R^n$, let\n$$\nd(x,A)= \\inf\\{d(x,y):y\\in A\\}.\n$$\n(a) Let $A,B$ be two disjoint closed subsets in $\\R^n$. Show that\n$$\nf(x) = \\frac{d(x,A)}{d(x,A)+d(x,B)}\n$$\nis a continuous function from $X$ to $[0,1]$.\n(b) Use (a) to show that, for a closed subset $A$ and an open subset $U$ such that\n$$\nA\\subseteq U \\subseteq \\R^n,\n$$\nthere always exists an open set $V$ such that\n$$\nA\\subseteq V\\subseteq \\overline{V}\\subseteq U.\n$$"
+    "statement": "Let $(X,d)$ be a metric space. For a subset $A\\subseteq X$ and a point $x\\in  X$, let\n$$\nd(x,A)= \\inf\\{d(x,y):y\\in A\\}.\n$$\n(a) Let $A,B$ be two disjoint closed subsets in $X$. Show that\n$$\nf(x) = \\frac{d(x,A)}{d(x,A)+d(x,B)}\n$$\nis a continuous function from $X$ to $[0,1]$.\n(b) Use (a) to show that, for a closed subset $A$ and an open subset $U$ such that\n$$\nA\\subseteq U \\subseteq X,\n$$\nthere always exists an open set $V$ such that\n$$\nA\\subseteq V\\subseteq \\overline{V}\\subseteq U.\n$$"
   },
   {
     "id": "Urysohn's Lemma for Metric Spaces 3",
@@ -1505,25 +1634,32 @@
     "subjectSlug": "basic-analysis-topology",
     "instances": [
       {
-        "term": "Fall 2019",
+        "term": "Winter 2019",
+        "university": "University of California, Santa Cruz",
+        "writer": "Lin",
+        "exam": "Preliminary Exam"
+      },
+      {
+        "term": "Spring 2019",
         "university": "University of California, Santa Cruz",
         "writer": "Lin",
         "exam": "Preliminary Exam"
       }
     ],
-    "difficulty": 5,
+    "difficulty": 4,
     "concepts": [
-      "Metric Spaces",
-      "Compactness",
+      "Open Sets",
       "Closed Sets",
-      "Continuous Functions",
-      "Uniform Continuity"
+      "Compactness",
+      "Hausdorff Spaces",
+      "Locally Compact Spaces",
+      "Continuous Functions"
     ],
     "theorems": [
       "Urysohn Lemma",
-      "Metric Spaces are Normal"
+      "Heine-Borel Theorem"
     ],
     "finished": true,
-    "statement": "(a) State Urysohn's Lemma for locally compact Hausdorff spaces.\n(b) Let $(X,d)$ be a metric space. For a nonempty subset $A\\subseteq X$, define\n$$\nd(x,A) := \\inf\\{ d(x,a):a\\in A\\}.\n$$\nShow that $d(x,A)$ is uniformly continuous in $x$.\n(c) Let $A,B$ be two closed disjoint nonempty subsets of $(X,d)$. Construct an explicit continuous function $f:X\\rightarrow [0,1]$ such that $f(a)=0$ for all $a\\in A$ and $f(b)=1$ for all $b\\in B$. \n(d) Use your function from part (c) to show that, for every closed subset $A$ and open subset $U$ such that $A\\subseteq U\\subseteq X$, there exists an open set $V$ such that $A\\subseteq V\\subseteq \\overline{V}\\subseteq U$. \n(e) Prove Urysohn's Lemma for locally compact Hausdorff spaces in the case of a metric space."
+    "statement": "Suppose that $U\\subseteq \\R^n$ is open, and $K\\subseteq U$ is compact. Prove that there exists an open set $V\\subseteq \\R$ whose closure is compact such that\n$$\nK\\subseteq V \\subseteq \\overline{V} \\subseteq U.$$"
   }
 ]
